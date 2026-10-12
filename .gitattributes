@@ -1,0 +1,3 @@
+# Keep this verified source snapshot byte-for-byte on Windows and other OSes.
+# In particular, do not normalize the embedded models/data in index.html.
+* -text

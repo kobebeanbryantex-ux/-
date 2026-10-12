@@ -1,0 +1,30 @@
+# Generated desktop applications, archives and build caches are Release assets.
+/桌面版输出/
+/桌面版构建缓存/
+/dist/
+/build/
+*.exe
+*.zip
+*.spec
+*.pkg
+
+# Local backups and test artifacts.
+/备份/
+/scratch/
+/scratch_verify/
+index.before-*.html
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+
+# Machine-local credentials and configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
