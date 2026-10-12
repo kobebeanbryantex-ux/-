@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1024">
+  <image x="0" y="0" width="1536" height="1024" xlink:href="eus_rv_02_needle_cholangiogram_v1.png"/>
+  <path d="M 520 404 L 980 370 C 1030 410 1032 530 980 614 C 933 678 873 703 806 716" fill="none" stroke="#f4f0d8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 520 404 L 980 370 C 1030 410 1032 530 980 614 C 933 678 873 703 806 716" fill="none" stroke="#cc4b79" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="806" cy="716" r="12" fill="#cc4b79" stroke="#fff8ee" stroke-width="5"/>
+</svg>

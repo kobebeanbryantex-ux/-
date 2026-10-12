@@ -1,0 +1,404 @@
+:root {
+  --sm-paper: #fffaf4;
+  --sm-canvas: #f5ede4;
+  --sm-ink: #332a27;
+  --sm-muted: #82736c;
+  --sm-line: #e5d7ca;
+  --sm-coral: #ef7667;
+  --sm-coral-dark: #c85248;
+  --sm-sage: #579b85;
+  --sm-plum: #765d79;
+}
+
+/* First-entry guide */
+#eus-target-guide {
+  position: absolute;
+  z-index: 80;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: min(520px, calc(100% - 40px));
+  padding: 11px 14px;
+  border: 1px solid #f0b0a6;
+  border-radius: 14px;
+  color: var(--sm-ink);
+  background: rgba(255,250,244,.94);
+  box-shadow: 0 12px 34px rgba(91,62,52,.16);
+  backdrop-filter: blur(14px);
+}
+#eus-target-guide > div { display: grid; gap: 2px; flex: 1; }
+#eus-target-guide b { font-size: 13px; }
+#eus-target-guide span:not(.target-guide-pulse) { font-size: 11px; color: var(--sm-muted); line-height: 1.45; }
+#eus-target-guide button { border: 0; background: transparent; color: #9c8980; cursor: pointer; font-size: 18px; }
+.target-guide-pulse { width: 12px; height: 12px; flex: 0 0 12px; border-radius: 50%; background: var(--sm-coral); box-shadow: 0 0 0 0 rgba(239,118,103,.5); animation: targetPulse 1.5s infinite; }
+@keyframes targetPulse { 70% { box-shadow: 0 0 0 11px rgba(239,118,103,0); } 100% { box-shadow: 0 0 0 0 rgba(239,118,103,0); } }
+
+/* A visible, separate entry on every organ specimen card. */
+.specimen-card { position: relative; }
+.organ-motion-entry {
+  position: absolute;
+  z-index: 8;
+  top: 9px;
+  right: 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: 1px solid rgba(200,82,72,.24);
+  border-radius: 999px;
+  background: rgba(255,250,244,.9);
+  color: var(--sm-coral-dark);
+  font-size: 9.5px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(81,53,45,.08);
+  opacity: .88;
+  transition: .18s ease;
+}
+.organ-motion-entry:hover { opacity: 1; transform: translateY(-1px); border-color: var(--sm-coral); background: #fff; }
+
+/* In-workspace instrument-to-organ contact feedback. */
+#workspace-contact-layer { position: absolute; inset: 0; z-index: 72; pointer-events: none; overflow: hidden; }
+.workspace-contact-preview {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 10px auto;
+  column-gap: 7px;
+  align-items: center;
+  min-width: 156px;
+  padding: 7px 10px;
+  transform: translate(12px, -50%);
+  border: 1px solid #ee9d91;
+  border-radius: 10px;
+  color: #604b44;
+  background: rgba(255,250,244,.96);
+  box-shadow: 0 9px 22px rgba(86,55,45,.18);
+  pointer-events: none;
+}
+.workspace-contact-preview.hidden { display: none; }
+.workspace-contact-preview-dot { grid-row: 1 / span 2; width: 10px; height: 10px; border-radius: 50%; background: var(--sm-coral); box-shadow: 0 0 0 6px rgba(239,118,103,.16); }
+.workspace-contact-preview b { font-size: 11px; }
+.workspace-contact-preview small { color: var(--sm-muted); font-size: 10px; }
+.workspace-contact-preview.eus .workspace-contact-preview-dot { background: #4d9e88; box-shadow: 0 0 0 6px rgba(77,158,136,.16); }
+.workspace-contact-preview.wire .workspace-contact-preview-dot { background: #d49330; box-shadow: 0 0 0 6px rgba(212,147,48,.16); }
+.workspace-contact-preview.stent .workspace-contact-preview-dot { background: #7e6686; box-shadow: 0 0 0 6px rgba(126,102,134,.16); }
+.workspace-contact-hint {
+  position: absolute;
+  left: 50%; bottom: 76px;
+  max-width: min(520px, calc(100% - 42px));
+  padding: 10px 14px;
+  transform: translate(-50%, 16px);
+  border: 1px solid #e7cfc1;
+  border-radius: 11px;
+  color: #67554d;
+  background: rgba(255,250,244,.96);
+  box-shadow: 0 10px 24px rgba(78,53,43,.16);
+  font-size: 12px;
+  line-height: 1.45;
+  opacity: 0;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.workspace-contact-hint.active { opacity: 1; transform: translate(-50%, 0); }
+.workspace-contact-hint.warning { color: #9f5c32; border-color: #e7bf9c; background: #fff8ee; }
+.workspace-contact-hint.success { color: #4a7666; border-color: #b9d8ca; background: #f3fbf7; }
+
+.workspace-contact-mark {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  overflow: visible;
+  border: 0;
+  padding: 0;
+  color: var(--sm-ink);
+  background: transparent;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.workspace-contact-mark:focus-visible { outline: 2px solid #2f9d80; outline-offset: 9px; border-radius: 50%; }
+.workspace-contact-mark .mark-label,
+.workspace-contact-mark .mark-action {
+  position: absolute;
+  left: 15px;
+  white-space: nowrap;
+  font-family: inherit;
+  pointer-events: none;
+}
+.workspace-contact-mark .mark-label {
+  top: -38px;
+  padding: 4px 9px;
+  border: 1px solid #e6cdc1;
+  border-radius: 999px;
+  color: #6a5048;
+  background: rgba(255,250,244,.96);
+  box-shadow: 0 5px 14px rgba(83,54,44,.14);
+  font-size: 10px;
+  font-weight: 800;
+}
+.workspace-contact-mark .mark-action {
+  top: 19px;
+  color: #b54f45;
+  font-size: 10px;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Hot AXIOS contact: a small, persistent bloodless incision, not a generic spark. */
+.mark-energy { position: absolute; left: -8px; top: -30px; z-index: 3; font-size: 17px; animation: contactEnergy .65s ease-out 2; }
+.mark-incision { position: absolute; left: -23px; top: -5px; width: 46px; height: 10px; border-radius: 50%; background: radial-gradient(ellipse at center, #4c2020 0 32%, #a44743 37%, #e69b92 51%, transparent 56%); box-shadow: 0 0 0 8px rgba(241,135,123,.15), 0 0 20px rgba(211,76,65,.45); transform: rotate(-24deg); }
+.workspace-contact-mark.incision::after { content: ''; position: absolute; left: -33px; top: -15px; width: 66px; height: 31px; border: 1px solid rgba(239,118,103,.72); border-radius: 50%; animation: incisionPulse 1.35s ease-out infinite; }
+@keyframes contactEnergy { 0% { transform: translateY(9px) scale(.65); opacity: 0; } 45% { opacity: 1; } 100% { transform: translateY(-13px) scale(1.12); opacity: 0; } }
+@keyframes incisionPulse { 0% { transform: scale(.6); opacity: .95; } 100% { transform: scale(1.5); opacity: 0; } }
+
+/* EUS, fluid, wire and stent contact states are deliberately distinct. */
+.mark-eus-wave { position: absolute; left: -21px; top: -21px; width: 42px; height: 42px; border: 2px solid #4d9e88; border-radius: 50%; box-shadow: 0 0 0 9px rgba(77,158,136,.1); animation: eusPulse 1.5s ease-out infinite; }
+.mark-eus-wave::after { content: ''; position: absolute; inset: 7px; border: 1px dashed #4d9e88; border-radius: 50%; }
+@keyframes eusPulse { 0% { transform: scale(.62); opacity: .95; } 100% { transform: scale(1.6); opacity: 0; } }
+.mark-fluid-zone,
+.mark-balloon-zone { position: absolute; left: -26px; top: -17px; width: 52px; height: 34px; border: 2px solid #42a5bb; border-radius: 50%; background: radial-gradient(ellipse, rgba(76,192,215,.45), rgba(76,192,215,.05) 68%, transparent 70%); box-shadow: 0 0 20px rgba(47,161,187,.38); animation: fluidBreath 1.7s ease-in-out infinite; }
+.mark-balloon-zone { border-color: #d66a82; background: radial-gradient(ellipse, rgba(229,120,148,.43), rgba(229,120,148,.05) 68%, transparent 70%); box-shadow: 0 0 20px rgba(206,78,113,.34); }
+@keyframes fluidBreath { 50% { transform: scale(1.16); } }
+.mark-wire-line { position: absolute; left: -5px; top: -3px; width: 92px; height: 9px; border-top: 3px solid #d2932d; border-radius: 50%; filter: drop-shadow(0 2px 2px rgba(109,71,16,.3)); transform: rotate(26deg); }
+.mark-wire-line::after { content: ''; position: absolute; right: -5px; top: -6px; width: 12px; height: 12px; border: 3px solid #d2932d; border-left-color: transparent; border-radius: 50%; }
+.mark-stent-mesh { position: absolute; left: -23px; top: -23px; width: 46px; height: 46px; border: 3px solid #81668a; border-radius: 44% 44% 42% 42%; background: repeating-linear-gradient(45deg, transparent 0 5px, rgba(126,102,134,.64) 6px 7px), repeating-linear-gradient(-45deg, transparent 0 5px, rgba(126,102,134,.55) 6px 7px); box-shadow: 0 0 0 8px rgba(126,102,134,.13), 0 0 18px rgba(99,73,109,.4); animation: stentSet .5s ease-out; }
+@keyframes stentSet { 0% { transform: scale(.25); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+
+/* Surgery studio now belongs to the same warm editorial system as the main UI. */
+.surgery-studio-modal.pip-mode .studio-modal-dialog,
+.surgery-studio-modal.fullscreen-mode .studio-modal-dialog {
+  background: rgba(255,250,244,.98) !important;
+  border: 1px solid rgba(186,159,145,.5) !important;
+  box-shadow: 0 26px 70px rgba(83,58,50,.28), 0 0 0 1px rgba(255,255,255,.7) inset !important;
+}
+.surgery-studio-modal.fullscreen-mode {
+  background: rgba(73,56,50,.32) !important;
+  backdrop-filter: blur(12px) saturate(.85) !important;
+}
+.studio-modal-header {
+  background: linear-gradient(135deg, #fffdf9, #f8eee6) !important;
+  border-bottom-color: var(--sm-line) !important;
+}
+.studio-header-title h3 { color: var(--sm-ink) !important; }
+.studio-header-title p { color: var(--sm-muted) !important; }
+.studio-header-title .st-icon { filter: drop-shadow(0 2px 4px rgba(200,82,72,.18)) !important; }
+.studio-tier-tabs { background: #efe5dc !important; border-color: #dfcec1 !important; }
+.tier-tab { color: #7d6d66 !important; }
+.tier-tab:hover { color: var(--sm-ink) !important; background: rgba(255,255,255,.55) !important; }
+.tier-tab.active {
+  color: #fff !important;
+  background: linear-gradient(135deg, var(--sm-coral), #dd655b) !important;
+  box-shadow: 0 3px 10px rgba(200,82,72,.26) !important;
+}
+.btn-pip-toggle,
+.btn-audience-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 11px;
+  border: 1px solid #d9c8bd !important;
+  border-radius: 999px;
+  color: #6f5d55 !important;
+  background: rgba(255,255,255,.75) !important;
+  font-size: 11px;
+  font-weight: 750;
+  cursor: pointer;
+}
+.btn-pip-toggle:hover,
+.btn-audience-mode:hover { color: var(--sm-coral-dark) !important; border-color: #eca297 !important; box-shadow: 0 4px 12px rgba(200,82,72,.14) !important; transform: translateY(-1px); }
+.btn-close-studio { color: var(--sm-coral-dark) !important; background: #fff4f1 !important; border-color: #f1b8af !important; }
+.studio-screen-wrapper { background: radial-gradient(circle at 50% 42%, #fffdf9 0, #eee3d9 100%) !important; }
+.studio-toolbar-overlay {
+  background: rgba(255,250,244,.92) !important;
+  border-color: rgba(205,181,166,.7) !important;
+  box-shadow: 0 8px 22px rgba(79,55,47,.15) !important;
+}
+.tool-btn { color: #6c5c55 !important; background: rgba(255,255,255,.72) !important; border-color: #e3d4c8 !important; }
+.tool-btn:hover { color: var(--sm-ink) !important; background: #fff !important; }
+.tool-btn.active { color: #fff !important; background: var(--sm-coral) !important; border-color: #d85f55 !important; box-shadow: 0 3px 10px rgba(200,82,72,.24) !important; }
+.tool-sep { background: #decec2 !important; }
+.studio-badge-action { color: var(--sm-ink) !important; background: rgba(255,250,244,.92) !important; border-color: rgba(222,196,183,.8) !important; box-shadow: 0 5px 18px rgba(74,48,40,.13) !important; }
+.studio-zoom-badge { color: var(--sm-coral-dark) !important; background: rgba(255,250,244,.92) !important; border-color: #ecc0b8 !important; }
+.pip-card { background: #fffaf4 !important; border-color: #decfc4 !important; box-shadow: 0 8px 24px rgba(69,47,40,.18) !important; }
+.pip-card:hover { border-color: var(--sm-coral) !important; }
+.pip-header { color: var(--sm-ink) !important; background: #f6ebe2 !important; border-color: #e4d5c9 !important; }
+.pip-caption { color: var(--sm-muted) !important; background: #fffaf4 !important; }
+.studio-steps-header { background: #f7eee7 !important; border-color: var(--sm-line) !important; }
+.studio-step-item { background: rgba(255,255,255,.62) !important; border-color: #e3d4c8 !important; }
+.studio-step-item:hover { background: #fff !important; }
+.studio-step-item.active { background: #fff4f1 !important; border-color: var(--sm-coral) !important; }
+.studio-step-item .st-num { background: #c9b5a9 !important; }
+.studio-step-item.active .st-num { background: var(--sm-coral) !important; }
+.studio-step-item .st-text { color: var(--sm-ink) !important; }
+.studio-step-item .st-range { color: var(--sm-muted) !important; }
+.studio-step-sep { color: #bea99d !important; }
+.studio-controls-panel { background: #fffaf4 !important; border-color: var(--sm-line) !important; }
+.time-readout { color: var(--sm-coral-dark) !important; }
+.timeline-slider-wrap input[type=range] { accent-color: var(--sm-coral) !important; }
+.frame-readout { color: var(--sm-muted) !important; }
+.btn-st-nav,
+.btn-speed { color: #695850 !important; background: #fff !important; border-color: #e1d1c5 !important; }
+.btn-st-nav:hover { color: var(--sm-coral-dark) !important; border-color: #eeaaa0 !important; }
+.btn-st-play { background: linear-gradient(135deg, var(--sm-coral), #d95e54) !important; box-shadow: 0 4px 12px rgba(200,82,72,.25) !important; }
+.btn-speed.active { background: var(--sm-coral) !important; border-color: var(--sm-coral) !important; color: #fff !important; }
+.speed-label { color: var(--sm-muted) !important; }
+.btn-st-pip-toggle { color: #477f6e !important; background: #eff8f4 !important; border-color: #afd3c7 !important; }
+.studio-step-card { color: var(--sm-ink) !important; background: #f8eee7 !important; border-color: #e6d5ca !important; }
+.st-card-badge { color: var(--sm-coral-dark) !important; background: #fff4f1 !important; border-color: #efb8b0 !important; }
+.st-card-inst { color: #6e5e57 !important; }
+.st-card-target { color: #3f826e !important; }
+.studio-step-card h4 { color: var(--sm-ink) !important; }
+.studio-step-card p { color: #6e5e57 !important; }
+
+/* Instrument structure viewer: same warm visual language, but clearly a reference view. */
+.inst-2d-modal {
+  background: rgba(73,56,50,.3) !important;
+  backdrop-filter: blur(12px) saturate(.88) !important;
+}
+.inst-2d-dialog {
+  color: var(--sm-ink) !important;
+  background: var(--sm-paper) !important;
+  border-color: rgba(196,170,156,.65) !important;
+  box-shadow: 0 30px 80px rgba(73,50,42,.3), 0 0 0 1px rgba(255,255,255,.7) inset !important;
+}
+.inst-2d-header {
+  background: linear-gradient(135deg, #fffdf9, #f7ece4) !important;
+  border-bottom-color: var(--sm-line) !important;
+}
+.inst-2d-icon { filter: drop-shadow(0 2px 5px rgba(200,82,72,.18)) !important; }
+.inst-2d-title h3 { color: var(--sm-ink) !important; }
+.inst-2d-title p { color: var(--sm-muted) !important; }
+#inst-2d-play-status-pill {
+  color: #477f6e !important;
+  background: #eef8f4 !important;
+  border-color: #afd3c7 !important;
+}
+.btn-close-inst-2d {
+  color: var(--sm-coral-dark) !important;
+  background: #fff3f0 !important;
+  border-color: #efb4ab !important;
+}
+.btn-close-inst-2d:hover { color: #fff !important; background: var(--sm-coral) !important; box-shadow: 0 4px 13px rgba(200,82,72,.24) !important; }
+.inst-2d-angles-bar {
+  background: #f7eee7 !important;
+  border-bottom-color: var(--sm-line) !important;
+}
+.inst-angle-pill {
+  color: #6d5c54 !important;
+  background: rgba(255,255,255,.72) !important;
+  border-color: #e2d2c6 !important;
+}
+.inst-angle-pill:hover { color: var(--sm-coral-dark) !important; background: #fff !important; border-color: #eca69c !important; }
+.inst-angle-pill.active {
+  color: #fff !important;
+  background: linear-gradient(135deg, var(--sm-coral), #d95e54) !important;
+  border-color: var(--sm-coral-dark) !important;
+  box-shadow: 0 4px 12px rgba(200,82,72,.22) !important;
+}
+.inst-2d-screen-wrap { background: radial-gradient(circle at 50% 45%, #fff 0, #f2e8df 72%, #e9ddd2 100%) !important; }
+.inst-2d-img { object-fit: contain !important; }
+.inst-2d-badge-angle {
+  color: var(--sm-coral-dark) !important;
+  background: rgba(255,250,244,.92) !important;
+  border-color: #e7c9bd !important;
+  box-shadow: 0 5px 16px rgba(75,51,43,.12) !important;
+}
+.inst-2d-controls {
+  background: #fffaf4 !important;
+  border-top-color: var(--sm-line) !important;
+}
+.inst-2d-slider-wrap input[type=range] { accent-color: var(--sm-coral) !important; }
+.inst-2d-specs-grid {
+  background: #f8eee7 !important;
+  border-color: #e6d5ca !important;
+}
+.inst-spec-key { color: var(--sm-muted) !important; }
+.inst-spec-val { color: var(--sm-ink) !important; }
+.clip-focus-banner {
+  color: var(--sm-ink) !important;
+  background: linear-gradient(135deg, #fff3ef, #f7e7df) !important;
+  border-color: #edb3a8 !important;
+}
+.clip-focus-banner span { color: var(--sm-coral-dark) !important; }
+.btn-switch-full { color: #6d5b53 !important; background: #fff !important; border-color: #dfcec2 !important; }
+.btn-switch-full:hover { color: var(--sm-coral-dark) !important; border-color: #eca69c !important; background: #fff !important; }
+
+/* Separate organ image-frame studio */
+.organ-stopmotion-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100100;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  background: rgba(73,56,50,.28);
+  backdrop-filter: blur(10px) saturate(.9);
+}
+.organ-stopmotion-modal.hidden { display: none !important; }
+.organ-motion-dialog {
+  width: min(920px, 94vw);
+  height: min(680px, 90vh);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: var(--sm-ink);
+  background: var(--sm-paper);
+  border: 1px solid rgba(196,170,156,.65);
+  border-radius: 22px;
+  box-shadow: 0 28px 80px rgba(73,50,42,.3), 0 0 0 1px rgba(255,255,255,.75) inset;
+}
+.organ-stopmotion-modal.fullscreen { padding: 12px; }
+.organ-stopmotion-modal.fullscreen .organ-motion-dialog { width: 98vw; height: 96vh; }
+.organ-motion-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 13px 17px; background: linear-gradient(135deg,#fffdf9,#f6ebe3); border-bottom: 1px solid var(--sm-line); }
+.organ-motion-heading { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.organ-motion-heading > span { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px; background: #fff0ec; font-size: 20px; }
+.organ-motion-heading h3 { margin: 0; color: var(--sm-ink); font-size: 15px; }
+.organ-motion-heading p { margin: 3px 0 0; color: var(--sm-muted); font-size: 11px; }
+.organ-motion-header-actions { display: flex; gap: 7px; }
+.organ-motion-header button,
+.organ-motion-toolbar button,
+.organ-motion-timeline button { padding: 6px 11px; border: 1px solid #dfcec2; border-radius: 8px; color: #6c5a52; background: #fff; font-size: 11px; font-weight: 750; cursor: pointer; }
+.organ-motion-header button:hover,
+.organ-motion-toolbar button:hover,
+.organ-motion-timeline button:hover { color: var(--sm-coral-dark); border-color: #eca69c; }
+#organ-motion-close { color: var(--sm-coral-dark); background: #fff3f0; border-color: #efb4ab; }
+.organ-motion-stage { position: relative; flex: 1; min-height: 0; overflow: hidden; cursor: default; background: radial-gradient(circle at 50% 44%, #fff 0, #f3eae1 68%, #eadfd4 100%); }
+.organ-motion-transform { position: absolute; inset: 0; display: grid; place-items: center; transform-origin: center; transition: transform .14s ease-out; }
+#organ-motion-image { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 18px 24px rgba(76,44,34,.18)); }
+#organ-motion-image.hidden { display: none; }
+.organ-motion-loading { position: absolute; inset: 0; z-index: 3; display: grid; place-content: center; justify-items: center; gap: 12px; color: var(--sm-muted); font-size: 12px; }
+.organ-motion-loading.hidden { display: none; }
+.organ-motion-loading span { width: 34px; height: 34px; border: 3px solid #ead8cb; border-top-color: var(--sm-coral); border-radius: 50%; animation: smSpin .8s linear infinite; }
+@keyframes smSpin { to { transform: rotate(360deg); } }
+.organ-motion-toolbar { position: absolute; z-index: 6; top: 12px; left: 12px; display: flex; gap: 5px; padding: 5px; border: 1px solid rgba(211,190,177,.75); border-radius: 11px; background: rgba(255,250,244,.9); box-shadow: 0 7px 20px rgba(77,54,46,.12); }
+.organ-motion-toolbar button { padding: 5px 8px; }
+.organ-motion-toolbar button.active { color: #fff; background: var(--sm-coral); border-color: var(--sm-coral-dark); }
+.organ-motion-caption { position: absolute; z-index: 6; left: 50%; bottom: 12px; transform: translateX(-50%); max-width: calc(100% - 36px); padding: 6px 13px; border: 1px solid rgba(221,199,185,.8); border-radius: 999px; color: #69574f; background: rgba(255,250,244,.9); font-size: 11px; font-weight: 700; white-space: nowrap; box-shadow: 0 5px 16px rgba(72,49,41,.11); }
+#organ-motion-pins { position: absolute; inset: 0; pointer-events: none; }
+.organ-motion-pin { position: absolute; display: grid; place-items: center; width: 24px; height: 24px; transform: translate(-50%,-50%); border: 2px solid #fff; border-radius: 50% 50% 50% 0; color: #fff; background: var(--sm-coral); box-shadow: 0 5px 13px rgba(126,54,47,.3); font-size: 10px; font-weight: 900; }
+.organ-motion-footer { display: grid; gap: 9px; padding: 11px 17px 14px; border-top: 1px solid var(--sm-line); background: #fffaf4; }
+.organ-motion-focus { display: flex; align-items: center; gap: 9px; padding: 7px 10px; border: 1px solid #ead8cc; border-radius: 10px; background: #f9efe8; }
+.organ-motion-focus b { color: var(--sm-coral-dark); font-size: 10px; padding: 3px 7px; border-radius: 999px; background: #fff; }
+.organ-motion-focus span { color: #6e5e57; font-size: 11px; }
+.organ-motion-timeline { display: flex; align-items: center; gap: 9px; }
+.organ-motion-timeline input { flex: 1; accent-color: var(--sm-coral); }
+#organ-motion-play { color: #fff; background: var(--sm-coral); border-color: var(--sm-coral-dark); min-width: 72px; }
+#organ-motion-count { min-width: 48px; color: var(--sm-muted); font-family: ui-monospace, Consolas, monospace; font-size: 11px; }
+
+@media (max-width: 980px) {
+  .surgery-studio-modal.pip-mode { right: 16px !important; left: 16px !important; }
+  .surgery-studio-modal.pip-mode .studio-modal-dialog { width: calc(100vw - 32px) !important; max-width: none !important; }
+  .btn-audience-mode { display: none; }
+}
+@media (max-width: 680px) {
+  .organ-stopmotion-modal { padding: 8px; }
+  .organ-motion-dialog { width: 100%; height: 94vh; border-radius: 16px; }
+  .organ-motion-heading p, #organ-motion-full { display: none; }
+  .organ-motion-toolbar { flex-wrap: wrap; max-width: calc(100% - 24px); }
+  .organ-motion-caption { white-space: normal; text-align: center; }
+  .organ-motion-timeline { flex-wrap: wrap; }
+  .organ-motion-timeline input { min-width: 160px; order: 5; flex-basis: 100%; }
+}

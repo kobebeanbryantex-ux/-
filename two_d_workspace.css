@@ -1,0 +1,347 @@
+/* Pure 2D workspace: a clinical image is the only anatomical scene. */
+.two-d-stage { overflow: hidden; background: #f8f0e9 !important; }
+#two-d-workspace { position: absolute; inset: 0; z-index: 90; color: #482e29; font-family: inherit; }
+.two-d-active #two-d-workspace { display: block; }
+#twod-three-d-guide { position: absolute; z-index: 75; left: 18px; top: 18px; width: min(520px, calc(100% - 36px)); display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 12px 14px; border: 1px solid rgba(150,93,76,.22); border-radius: 13px; background: rgba(255,252,248,.96); box-shadow: 0 10px 26px rgba(74,44,35,.14); pointer-events: none; }
+#twod-three-d-guide > div { display: grid; gap: 3px; }.twod-guide-step { color: #b35e4e; font-size: 10px; font-weight: 900; letter-spacing: .07em; }.twod-guide-step + b { font-size: 12px; }.twod-guide-step ~ small { color: #8b746b; font-size: 10px; }
+#twod-enter-point { pointer-events: auto; border: 1px solid #dcc8bc; border-radius: 9px; padding: 8px 10px; background: #f6eeea; color: #9a8177; cursor: pointer; font: 800 11px inherit; white-space: nowrap; transition: .2s ease; }
+#twod-enter-point.ready { color: #fff; border-color: #c86656; background: #c86656; box-shadow: 0 5px 13px rgba(174,79,62,.22); }.needs-organs { animation: guideNudge .35s ease 2; border-color: #e0a064 !important; }
+#hotspot-overlay { display: none !important; }
+#eus-target-guide { display: none !important; }
+.bar-3d-controls .highlight-surg { display: none !important; }
+.twod-point-marker { position: absolute; z-index: 76; display: grid; place-items: center; width: max(20px, calc(var(--dot-size, 9px) + 8px)); height: max(20px, calc(var(--dot-size, 9px) + 8px)); padding: 0; border: 0; border-radius: 50%; background: transparent; cursor: pointer; transform: translate(-50%,-50%); touch-action: manipulation; }
+.twod-point-dot { box-sizing: border-box; display: block; width: var(--dot-size, 9px); height: var(--dot-size, 9px); border: 1.5px solid #fff8ee; border-radius: 50%; background: var(--point-color, #c86656); box-shadow: 0 1px 4px rgba(43,26,21,.5); }
+.twod-point-marker.active { z-index: 77; }.twod-point-marker.active .twod-point-dot,.twod-point-marker:hover .twod-point-dot,.twod-point-marker:focus-visible .twod-point-dot { box-shadow: 0 0 0 3px rgba(255,250,243,.8), 0 0 0 5px var(--point-color), 0 2px 6px rgba(43,26,21,.4); }
+.twod-point-marker:focus-visible { outline: none; }
+.twod-anatomy-view-actions { display: flex !important; gap: 5px !important; flex: none; pointer-events: auto; }.twod-anatomy-view-actions button { padding: 6px 8px; border: 1px solid #ddc5b9; border-radius: 7px; background: #fffaf7; color: #9a5447; font: 800 11px inherit; cursor: pointer; }.twod-anatomy-view-actions button:hover { background: #f9e5db; }
+.twod-toolbar { position: absolute; z-index: 5; inset: 16px 18px auto; display: flex; align-items: center; justify-content: space-between; pointer-events: none; }
+.twod-toolbar > div:first-child { display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 10px; background: rgba(255,253,250,.92); border: 1px solid rgba(125,78,65,.16); box-shadow: 0 6px 16px rgba(73,45,38,.1); }
+.twod-toolbar b { font-size: 12px; letter-spacing: .02em; }
+.twod-mode-pill { color: #a04e41; font-size: 10px; font-weight: 800; letter-spacing: .06em; padding-right: 8px; border-right: 1px solid #ead8ce; }
+.twod-toolbar-actions { display: flex; align-items: center; gap: 7px; pointer-events: auto; }
+.twod-review-ledger-button { border: 1px solid #9eaec4; background: rgba(248,251,255,.96); color: #4c6385; border-radius: 9px; padding: 7px 10px; cursor: pointer; font: 800 11px inherit; box-shadow: 0 5px 13px rgba(59,73,99,.1); }
+.twod-review-ledger-button:hover { border-color: #7088ad; background: #fff; }
+.twod-compare-toggle { border: 1px solid #c98b7d; background: rgba(255,250,246,.96); color: #9f4f42; border-radius: 9px; padding: 7px 10px; cursor: pointer; font: 800 11px inherit; box-shadow: 0 5px 13px rgba(73,45,38,.1); }
+.twod-reset { pointer-events: auto; border: 1px solid #d6a797; background: rgba(255,253,250,.94); color: #914639; border-radius: 9px; padding: 7px 10px; cursor: pointer; font: 700 11px inherit; box-shadow: 0 5px 13px rgba(73,45,38,.1); }
+.twod-reset.hidden, .hidden { display: none !important; }
+.twod-canvas { position: absolute; inset: 0; overflow: hidden; background: linear-gradient(145deg,#fffaf5,#f6e8df); transition: box-shadow .2s ease; }
+.twod-canvas.is-targeting { box-shadow: inset 0 0 0 3px #db7765, inset 0 0 56px rgba(219,119,101,.23); }
+#two-d-anatomy-image { position: relative; z-index: 1; width: 100%; height: 100%; display: block; object-fit: cover; opacity: 0; transform: scale(.98); transition: opacity .35s ease, transform .35s ease; background: #2c1c1b; }
+#two-d-anatomy-image.is-visible { opacity: 1; transform: scale(1); }
+.twod-transition-image { position: absolute; z-index: 2; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; clip-path: inset(0 100% 0 0); pointer-events: none; }
+.twod-transition-image.is-playing { opacity: 1; animation: clinicalFrameReveal 1.75s steps(7,end) forwards; }
+.twod-canvas.is-processing .twod-target-zone { opacity: 0; }
+.twod-canvas.has-result .twod-target-zone { width: 38px; opacity: .62; }
+.twod-process { position: absolute; z-index: 8; right: 18px; bottom: 18px; min-width: 330px; padding: 10px 12px; border: 1px solid #dfc3b6; border-radius: 11px; background: rgba(255,253,250,.96); box-shadow: 0 8px 22px rgba(68,38,30,.18); }
+.twod-process strong { display: block; margin-bottom: 7px; color: #7f443b; font-size: 11px; }.twod-process > div { display: flex; gap: 5px; }.twod-process span { flex: 1; padding: 5px 6px; border-radius: 6px; background: #f3e9e4; color: #a18b82; font-size: 9px; font-weight: 800; text-align: center; transition: .25s ease; }.twod-process span.active { color: #fff; background: #ce6b59; box-shadow: 0 3px 8px rgba(180,76,58,.22); }.twod-process.complete span { background: #4c9b7f; color: #fff; }
+.twod-compare-view { position: absolute; z-index: 12; inset: 0; display: flex; flex-direction: column; padding: 68px 18px 18px; background: #f7eee8; }
+.twod-compare-head { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 10px; padding: 10px 12px; border: 1px solid #e3cfc4; border-radius: 10px; background: #fffaf7; }.twod-compare-head > div { display: grid; gap: 2px; }.twod-compare-head b { font-size: 13px; color: #6e3f37; }.twod-compare-head span { font-size: 10px; color: #8d756c; }.twod-compare-head button { border: 1px solid #d5aa9e; background: #fff; color: #9b4e42; border-radius: 8px; padding: 7px 9px; cursor: pointer; font: 800 10px inherit; }
+.twod-compare-summary { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; margin: 0 2px 10px; text-align: center; font-size: 10px; font-weight: 900; }.twod-compare-summary span { padding: 7px 10px; border-radius: 999px; }.twod-compare-summary .blocked { color: #a13f3d; background: #fde7e3; border: 1px solid #edb2aa; }.twod-compare-summary .restored { color: #27735a; background: #e0f4e9; border: 1px solid #9bcdb8; }.twod-compare-summary i { color: #8c756c; font-style: normal; white-space: nowrap; }
+.twod-compare-grid { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }.twod-compare-grid figure { min-width: 0; margin: 0; display: flex; flex-direction: column; overflow: hidden; border: 2px solid #dfc7bc; border-radius: 13px; background: #fff; box-shadow: 0 8px 22px rgba(73,44,34,.1); }.twod-compare-grid figure.is-preop { border-color: #dfa49b; }.twod-compare-grid figure.is-postop { border-color: #78b99e; }.twod-compare-image { position: relative; flex: 1; min-height: 0; overflow: hidden; background: #f7f4f1; }.twod-compare-image img { width: 100%; height: 100%; object-fit: cover; }.twod-compare-grid figcaption { display: grid; gap: 3px; padding: 10px 12px; }.twod-compare-grid figcaption b { color: #82473d; font-size: 12px; }.twod-compare-grid .is-postop figcaption b { color: #2d755e; }.twod-compare-grid figcaption span { color: #836e66; font-size: 10px; }
+.twod-state-chip { position: absolute; top: 10px; left: 10px; padding: 6px 9px; border-radius: 999px; color: #fff; background: rgba(155,55,54,.9); box-shadow: 0 4px 12px rgba(70,35,30,.2); font-size: 10px; font-style: normal; font-weight: 900; letter-spacing: .03em; }.is-postop .twod-state-chip { background: rgba(42,126,94,.92); }
+.twod-welcome { position: absolute; z-index: 3; left: 50%; top: 50%; transform: translate(-50%,-50%); width: min(382px, calc(100% - 50px)); text-align: center; padding: 28px; border: 1px solid #ead4c9; border-radius: 18px; background: rgba(255,253,250,.94); box-shadow: 0 16px 42px rgba(83,47,37,.16); }
+.twod-welcome > span { display: block; font-size: 30px; color: #d87865; margin-bottom: 4px; }
+.twod-welcome h3 { margin: 0 0 8px; font-size: 17px; }
+.twod-welcome p { margin: 0 auto 17px; color: #79645d; font-size: 12px; line-height: 1.7; }
+.twod-welcome button { border: 0; background: #c86656; color: #fff; border-radius: 10px; padding: 10px 14px; cursor: pointer; font: 800 12px inherit; box-shadow: 0 7px 16px rgba(174,79,62,.23); }
+.twod-target-zone { position: absolute; z-index: 3; left: 50%; top: 66%; width: 14%; aspect-ratio: 1; transform: translate(-50%,-50%); border: 2px solid #ffe1a4; border-radius: 50%; background: rgba(239,169,63,.12); box-shadow: 0 0 0 8px rgba(239,169,63,.12), 0 0 30px rgba(255,188,67,.6); cursor: pointer; animation: targetPulse 1.55s ease-in-out infinite; }
+.twod-target-zone span { position: absolute; left: 50%; top: 50%; width: 14px; height: 14px; transform: translate(-50%,-50%); border: 3px solid #fff7d8; border-radius: 50%; background: #e09b34; box-shadow: 0 0 13px #ffcb6b; }
+.twod-target-zone b, .twod-target-zone small { position: absolute; left: 50%; white-space: nowrap; transform: translateX(-50%); color: #fff7df; text-shadow: 0 1px 5px #311a17; font-weight: 800; }
+.twod-target-zone b { top: calc(100% + 10px); font-size: 11px; }
+.twod-target-zone small { top: calc(100% + 25px); font-size: 10px; font-weight: 600; }
+.twod-target-zone.confirmed { border-color: #82d4bd; background: rgba(70,170,143,.1); box-shadow: 0 0 0 8px rgba(67,162,135,.12), 0 0 28px rgba(72,169,139,.55); animation: none; pointer-events: auto; }
+.twod-target-zone.confirmed span { background: #429f83; box-shadow: 0 0 13px #86dfc7; }
+.twod-lesion-label { position: absolute; z-index: 4; left: 22%; top: 43%; display: grid; gap: 1px; padding-left: 12px; color: #8f3142; text-shadow: 0 1px 3px rgba(255,255,255,.78); pointer-events: none; }
+.twod-lesion-label i { position: absolute; left: -17px; top: 7px; width: 22px; border-top: 2px solid #bb4859; transform: rotate(159deg); transform-origin: right; }.twod-lesion-label b { font-size: 11px; }.twod-lesion-label span { color: #9b5961; font-size: 10px; }
+.twod-effect-layer { position: absolute; z-index: 4; inset: 0; pointer-events: none; }
+.twod-effect { position: absolute; width: 0; height: 0; }
+.twod-effect b { position: absolute; z-index: 4; left: 16px; top: -38px; padding: 4px 8px; border-radius: 6px; white-space: nowrap; background: rgba(255,253,250,.94); border: 1px solid #e5c9bc; color: #8c473c; font-size: 10px; box-shadow: 0 4px 12px rgba(57,29,24,.18); }
+.effect-ring { position: absolute; border-radius: 50%; border: 2px solid #6bd2bd; transform: translate(-50%,-50%); animation: ringPulse 1.4s ease-out infinite; }
+.ring-one { width: 64px; height: 64px; }.ring-two { width: 105px; height: 105px; animation-delay: .45s; }
+.effect-fluid { position: absolute; width: 100px; height: 68px; transform: translate(-50%,-50%) rotate(-17deg); border-radius: 46% 54% 55% 45%; background: radial-gradient(ellipse at center, rgba(104,191,228,.62),rgba(104,191,228,.1) 62%,transparent 68%); border: 1px solid rgba(181,235,247,.75); animation: fluidPulse 1.4s ease-in-out infinite; }
+.effect-catheter-line { position: absolute; width: 118px; left: -124px; top: -3px; border-top: 4px solid #54bdd9; border-radius: 50%; filter: drop-shadow(0 0 3px rgba(100,210,239,.8)); transform-origin: right center; animation: instrumentApproach .55s ease-out both; }
+.effect-balloon { position: absolute; width: 53px; height: 34px; transform: translate(-50%,-50%) rotate(-24deg); border: 2px solid #f4ba63; background: rgba(255,224,142,.22); border-radius: 48%; box-shadow: 0 0 15px rgba(252,194,74,.5); animation: balloonInflate .9s cubic-bezier(.2,.9,.3,1) both; }
+.effect-balloon-shaft { position: absolute; left: -112px; top: -1px; width: 115px; border-top: 3px solid #de6380; transform-origin: right center; animation: instrumentApproach .55s ease-out both; }
+.balloon-one { margin-left: -22px; }.balloon-two { margin-left: 22px; }
+.effect-incision { position: absolute; width: 54px; height: 10px; transform: translate(-50%,-50%) rotate(-23deg); border-radius: 50%; background: radial-gradient(ellipse, #5d2524 0 25%,#a74a45 38%,#ef9d93 52%,transparent 61%); box-shadow: 0 0 0 7px rgba(239,123,106,.15), 0 0 18px rgba(170,65,55,.6); }
+.effect-energy { position: absolute; left: -8px; top: -31px; color: #ffcb67; font-size: 19px; text-shadow: 0 0 12px #ff992f; animation: energyFlash .7s ease-out 2; }
+.effect-wire { position: absolute; left: -8px; top: -74px; width: 15px; height: 120px; transform: rotate(-39deg); transform-origin: bottom center; border-left: 3px solid #e5bf3d; border-right: 3px solid #2c2926; border-radius: 50%; filter: drop-shadow(0 0 4px rgba(255,226,92,.8)); }
+.effect-stent { position: absolute; width: 88px; height: 45px; transform: translate(-50%,-50%) rotate(-27deg); border: 3px solid #bcd3d5; border-radius: 23px; background: repeating-linear-gradient(56deg, transparent 0 7px, rgba(236,249,249,.72) 8px 10px, transparent 11px 17px), repeating-linear-gradient(-56deg, transparent 0 7px, rgba(236,249,249,.72) 8px 10px, transparent 11px 17px); box-shadow: 0 0 18px rgba(211,241,238,.75); animation: stentOpen .48s ease-out both; }
+.twod-caption { position: absolute; left: 18px; bottom: 17px; z-index: 5; max-width: 310px; padding: 10px 12px; border-left: 3px solid #d0715f; border-radius: 0 9px 9px 0; background: rgba(255,253,250,.94); box-shadow: 0 5px 16px rgba(55,29,24,.18); }
+.twod-caption b { display: block; font-size: 12px; }.twod-caption span { display: block; margin-top: 3px; color: #7e675e; font-size: 10px; line-height: 1.35; }
+.twod-message { position: absolute; z-index: 8; top: 67px; left: 50%; transform: translateX(-50%); max-width: min(500px, calc(100% - 42px)); padding: 8px 12px; border-radius: 8px; background: rgba(255,253,250,.96); border: 1px solid #e6cbbc; color: #704b42; box-shadow: 0 5px 15px rgba(55,29,24,.14); font-size: 11px; text-align: center; }
+.twod-message.warning { color: #995b28; border-color: #edcb9b; background: #fff8ef; }.twod-message.success { color: #39745f; border-color: #b9ddcf; background: #f4fbf8; }
+.visual-inst-card.twod-selected { outline: 2px solid #d27160; outline-offset: 2px; box-shadow: 0 0 0 5px rgba(210,113,96,.12) !important; }
+
+/* Procedure-led progressive disclosure: related organs first, instruments second. */
+#twod-esd-instruments { display:none!important; flex:1; min-height:0; flex-direction:column; overflow:hidden; }
+#twod-esd-drag-ghost { position:fixed; z-index:1200; display:flex; align-items:center; gap:6px; pointer-events:none; padding:8px 10px; border:1px solid #c27a62; border-radius:10px; background:#fffaf5f2; color:#7f4c3e; box-shadow:0 8px 22px rgba(88,50,38,.22); font-size:11px; transform:translateZ(0); }.twod-tool-dragging { opacity:.55; outline:2px dashed #c26f54; outline-offset:3px; }
+#sidebar-instruments.twod-esd-mode > .inst-shelf-header,#sidebar-instruments.twod-esd-mode > #inst-shelf-list { display:none!important; }
+#sidebar-instruments.twod-esd-mode > #twod-esd-instruments { display:flex!important; }
+#sidebar-instruments.twod-preop-hidden { display: none !important; }
+#sidebar-instruments.twod-organ-mode > .inst-shelf-header,
+#sidebar-instruments.twod-organ-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-instrument-mode > #twod-context-panel { display: none !important; }
+#twod-pd-instruments,#twod-hgs-instruments,#twod-cds-instruments,#twod-pfc-instruments,#twod-rv-instruments,#twod-ag-instruments,#twod-gbd-instruments,#twod-ercp-instruments,#twod-poem-instruments,#twod-edat-instruments,#twod-biliary-biopsy-instruments,#twod-fnb-instruments,#twod-cpn-instruments { display: none !important; }
+#sidebar-instruments.twod-pd-mode > .inst-shelf-header,
+#sidebar-instruments.twod-pd-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-pd-mode > #twod-pd-instruments { display: flex !important; }
+#sidebar-instruments.twod-hgs-mode > .inst-shelf-header,
+#sidebar-instruments.twod-hgs-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-hgs-mode > #twod-hgs-instruments { display: flex !important; }
+#sidebar-instruments.twod-cds-mode > .inst-shelf-header,
+#sidebar-instruments.twod-cds-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-cds-mode > #twod-cds-instruments { display: flex !important; }
+#sidebar-instruments.twod-pfc-mode > .inst-shelf-header,
+#sidebar-instruments.twod-pfc-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-pfc-mode > #twod-pfc-instruments { display: flex !important; }
+#sidebar-instruments.twod-rv-mode > .inst-shelf-header,#sidebar-instruments.twod-rv-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-rv-mode > #twod-rv-instruments { display: flex !important; }
+#sidebar-instruments.twod-ag-mode > .inst-shelf-header,#sidebar-instruments.twod-ag-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-ag-mode > #twod-ag-instruments { display: flex !important; }
+#sidebar-instruments.twod-gbd-mode > .inst-shelf-header,#sidebar-instruments.twod-gbd-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-gbd-mode > #twod-gbd-instruments { display: flex !important; }
+#sidebar-instruments.twod-ercp-mode > .inst-shelf-header,#sidebar-instruments.twod-ercp-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-ercp-mode > #twod-ercp-instruments { display: flex !important; }
+#sidebar-instruments.twod-poem-mode > .inst-shelf-header,#sidebar-instruments.twod-poem-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-poem-mode > #twod-poem-instruments { display: flex !important; }
+#sidebar-instruments.twod-edat-mode > .inst-shelf-header,#sidebar-instruments.twod-edat-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-edat-mode > #twod-edat-instruments { display: flex !important; }
+#sidebar-instruments.twod-biliary-biopsy-mode > .inst-shelf-header,#sidebar-instruments.twod-biliary-biopsy-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-biliary-biopsy-mode > #twod-biliary-biopsy-instruments { display: flex !important; }
+#sidebar-instruments.twod-fnb-mode > .inst-shelf-header,#sidebar-instruments.twod-fnb-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-fnb-mode > #twod-fnb-instruments { display: flex !important; }
+#sidebar-instruments.twod-cpn-mode > .inst-shelf-header,#sidebar-instruments.twod-cpn-mode > #inst-shelf-list { display: none !important; }
+#sidebar-instruments.twod-cpn-mode > #twod-cpn-instruments { display: flex !important; }
+#sidebar-instruments.twod-procedure-list-mode > .inst-shelf-header,#sidebar-instruments.twod-procedure-list-mode > #inst-shelf-list,#sidebar-instruments.twod-procedure-list-mode > #twod-pd-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-hgs-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-cds-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-pfc-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-rv-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-ag-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-gbd-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-ercp-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-poem-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-edat-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-biliary-biopsy-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-fnb-instruments,#sidebar-instruments.twod-procedure-list-mode > #twod-cpn-instruments { display: none !important; }
+#sidebar-instruments.twod-organ-mode { width: 300px !important; background: rgba(255,251,247,.98) !important; border-color: #e7d3c8 !important; }
+#twod-context-panel { display: flex; flex: 1; min-height: 0; flex-direction: column; overflow-y: auto; color: #543b34; scrollbar-width: thin; scrollbar-color: #d9b9aa transparent; }
+.twod-path-header { display: grid; gap: 3px; padding: 17px 17px 13px; border-bottom: 1px solid #eddcd3; background: linear-gradient(145deg,#fffaf6,#f8ede6); }
+.twod-path-header > span,.twod-section-kicker { color: #bb6757; font-size: 10px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+.twod-path-header > b { font-size: 14px; color: #543931; }.twod-path-header > small { color: #927b72; font-size: 10px; }
+.twod-review-entry { display: flex; align-items: center; justify-content: space-between; gap: 9px; margin: 11px 14px 0; padding: 9px 10px; border: 1px solid #cdd8e6; border-radius: 10px; background: linear-gradient(135deg,#f7fbff,#eef5fb); color: #4b5e77; }
+.twod-review-entry > div { display: grid; gap: 2px; min-width: 0; }.twod-review-entry b { font-size: 10px; }.twod-review-entry small { color: #76889d; font-size: 8px; font-weight: 800; }.twod-review-entry button { flex: none; border: 1px solid #afc0d5; border-radius: 7px; padding: 5px 7px; background: #fff; color: #4f6687; font: 800 9px inherit; cursor: pointer; white-space: nowrap; }.twod-review-entry button:hover { border-color: #7089ac; background: #fdfefe; }
+.twod-procedure-grid { display: grid; grid-template-columns: 1fr; gap: 8px; padding: 12px 14px; }
+.twod-procedure-button { position: relative; display: grid; grid-template-columns: 25px minmax(0,1fr); align-items: start; gap: 8px; min-height: 66px; padding: 11px; border: 1px solid #e4d3ca; border-radius: 12px; background: #fffdfb; color: #68514a; cursor: pointer; text-align: left; transition: border-color .18s ease, box-shadow .18s ease, opacity .18s ease; }
+.twod-procedure-button:hover { transform: translateY(-1px); border-color: #d99b8d; box-shadow: 0 7px 17px rgba(103,62,50,.09); }
+.twod-procedure-button.active { border-color: #cf7462; background: #fff4ef; box-shadow: 0 0 0 2px rgba(207,116,98,.11); }
+.twod-procedure-button.is-ready { border-color: var(--point-color); background: var(--point-color); color: #fff; box-shadow: 0 3px 10px rgba(81,49,36,.12); }.twod-procedure-button.is-ready.active { box-shadow: 0 0 0 3px #fff7ef, 0 0 0 5px var(--point-color); }.twod-procedure-button.is-unavailable { opacity: .62; }
+.twod-procedure-button .twod-procedure-copy { display: grid; gap: 4px; min-width: 0; }.twod-procedure-button .twod-procedure-copy b { color: #633d34; font-size: 14px; font-weight: 800; line-height: 1.3; white-space: normal; }.twod-procedure-button .twod-procedure-copy small { color: #9a8178; font-size: 11px; line-height: 1.4; white-space: normal; }.twod-procedure-button .twod-procedure-copy span { color: #b06b59; font-size: 10px; font-weight: 700; }
+.twod-procedure-button.is-ready .twod-procedure-copy b { color: #fff; }.twod-procedure-button.is-ready .twod-procedure-copy small,.twod-procedure-button.is-ready .twod-procedure-copy span { color: #fff0e6; }
+.twod-procedure-button > i { position: static; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 8px; background: #f2e6e0; color: #9a6254; box-shadow: none; font: 900 9px inherit; }.twod-procedure-button.is-ready > i { background: rgba(255,255,255,.2); color: #fff; }
+.twod-procedure-button > em { display: none; }
+#sidebar-instruments.twod-procedure-list-mode { width: 310px; min-width: 280px; }#sidebar-instruments.twod-procedure-list-mode .twod-path-header { padding-right: 42px; }
+.twod-case-card { display: grid; gap: 5px; margin: 0 14px 14px; padding: 12px; border: 1px solid #e6d4ca; border-radius: 13px; background: linear-gradient(145deg,#fff,#fbf2ed); box-shadow: 0 7px 17px rgba(92,56,46,.07); }
+.twod-case-card > b { color: #6f3d33; font-size: 12px; }.twod-case-card > p { margin: 0; color: #795f57; font-size: 10px; line-height: 1.45; }
+.twod-case-variant { display: block; padding: 7px 8px; border-radius: 8px; background: #f7ebe4; color: #9a594c; font-size: 8px; line-height: 1.45; font-weight: 700; }
+.twod-medical-disclaimer { display: block; margin-top: 3px; color: #8a736a; font-size: 8px; font-weight: 650; letter-spacing: .02em; }
+.twod-case-card > div { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 5px; padding-top: 5px; border-top: 1px solid #efe0d8; }
+#twod-case-path { color: #a35d50; font-size: 9px; font-weight: 800; }
+#twod-case-status { padding: 3px 6px; border-radius: 999px; background: #f0e7e2; color: #8c756c; font-size: 8px; font-style: normal; font-weight: 800; }
+#twod-case-status.ready { color: #2e795f; background: #e4f4ed; }
+#twod-case-status.review-pending { color: #9b5e2b; background: #fff2df; box-shadow: inset 0 0 0 1px #f1cfaa; }
+.twod-required-head { display: flex; align-items: end; justify-content: space-between; gap: 8px; padding: 0 15px 9px; }
+.twod-required-head > div { display: grid; gap: 2px; }.twod-required-head b { color: #574038; font-size: 12px; }.twod-required-head > small { color: #9c8278; font-size: 9px; line-height: 1.35; text-align: right; }
+#twod-required-organ-list { display: grid; gap: 9px; padding: 0 14px 12px; }
+.twod-organ-card { display: grid; grid-template-columns: 42px 1fr auto; align-items: center; gap: 10px; width: 100%; min-height: 67px; padding: 9px 10px; border: 1px solid #e3d0c5; border-radius: 13px; background: #fff; color: #654b43; cursor: grab; text-align: left; box-shadow: 0 5px 14px rgba(86,51,42,.06); transition: transform .18s ease, border-color .18s ease, background .18s ease; }
+.twod-organ-card:hover { transform: translateY(-2px); border-color: #d89384; }.twod-organ-card:active { cursor: grabbing; }
+.twod-organ-card.active { border-color: #59aa8c; background: #f2fbf7; box-shadow: 0 0 0 3px rgba(89,170,140,.1); }
+.twod-organ-icon { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(145deg,#f7d8cd,#f0bbaa); color: #8d493d; font-size: 16px; font-weight: 900; box-shadow: inset 0 0 0 1px rgba(159,78,61,.11); }
+.twod-organ-icon img { width: 100%; height: 100%; display: block; border-radius: inherit; object-fit: contain; mix-blend-mode: multiply; }
+.twod-organ-card.active .twod-organ-icon { background: linear-gradient(145deg,#cdeadd,#a9d9c6); color: #2d735a; }
+.twod-organ-copy { display: grid; gap: 2px; min-width: 0; }.twod-organ-copy b { font-size: 12px; }.twod-organ-copy small { overflow: hidden; color: #927a71; font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
+.twod-organ-card > em { padding: 4px 7px; border-radius: 999px; background: #f5e9e3; color: #a26053; font-size: 9px; font-style: normal; font-weight: 900; white-space: nowrap; }
+.twod-organ-card.active > em { background: #dff3ea; color: #30765e; }
+.twod-procedure-notice { display: grid; gap: 4px; margin: 0 14px 12px; padding: 10px 11px; border: 1px solid #dfb085; border-radius: 11px; background: #fff7ec; color: #865725; }
+.twod-procedure-notice b { font-size: 10px; }.twod-procedure-notice span { font-size: 9px; line-height: 1.45; }
+.twod-path-foot { display: flex; align-items: center; justify-content: center; gap: 5px; margin-top: auto; padding: 11px 8px 14px; border-top: 1px solid #edddd5; color: #927c73; font-size: 8px; font-weight: 800; }
+.twod-path-foot span { display: grid; place-items: center; width: 17px; height: 17px; border-radius: 50%; background: #d37a68; color: #fff; font-size: 8px; }.twod-path-foot i { width: 10px; border-top: 1px solid #d8beb3; }
+.twod-pd-tool-header { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 16px 10px; border-bottom: 1px solid #ead8cf; background: linear-gradient(145deg,#fff9f5,#f8ebe4); }
+#twod-pd-instruments,#twod-hgs-instruments,#twod-cds-instruments,#twod-pfc-instruments,#twod-rv-instruments,#twod-ag-instruments,#twod-gbd-instruments,#twod-ercp-instruments,#twod-poem-instruments,#twod-edat-instruments,#twod-biliary-biopsy-instruments,#twod-fnb-instruments,#twod-cpn-instruments { flex: 1; min-height: 0; flex-direction: column; overflow: hidden; }
+.twod-pd-tool-header h2 { font-size: 12px; font-weight: 700; letter-spacing: .04em; color: #6b554d; }
+.twod-pd-tool-hint { margin: 11px 13px 7px; padding: 9px 10px; border-left: 3px solid #cf7462; border-radius: 0 9px 9px 0; background: #fff4ef; color: #80655c; font-size: 9px; line-height: 1.5; }
+.visual-inst-header { flex-wrap: wrap; }
+.twod-recommended-step { order: 2; display: inline-flex; align-items: center; min-height: 18px; margin: 2px 0 0; padding: 2px 6px; border: 1px solid #cfd9ee; border-radius: 999px; background: #f3f6ff; color: #526a93; font-size: 8px; font-weight: 900; line-height: 1.1; white-space: nowrap; }
+.twod-recommended-step::before { content: '↳ '; color: #7386ad; }.twod-recommended-step.optional { border-color: #e0ccb1; background: #fff8ed; color: #946a2e; }.twod-recommended-step.optional::before { content: '◇ '; color: #a77c35; }
+.visual-inst-drag-hint { order: 3; margin-left: auto; }
+#twod-ge-branch-selector { margin: 10px 12px 7px; padding: 10px; border: 1px solid #b9d4e4; border-radius: 11px; background: linear-gradient(145deg,#f5fbff,#edf6fb); color: #406377; }
+#twod-ge-branch-selector > span { display: block; margin-bottom: 5px; color: #236b90; font-size: 10px; font-weight: 900; }
+#twod-ge-branch-selector > p { margin: 0 0 7px; color: #5b7988; font-size: 8px; line-height: 1.45; }
+#twod-ge-branch-selector > div { display: flex; gap: 6px; }
+#twod-ge-branch-selector button { flex: 1; padding: 6px 4px; border: 1px solid #b8d5e3; border-radius: 7px; background: #fff; color: #33677e; font-size: 9px; font-weight: 800; cursor: pointer; }
+#twod-ge-branch-selector button em { display: block; margin-top: 2px; font-size: 7px; font-style: normal; opacity: .72; }
+#twod-ge-branch-selector button.active { border-color: #1684b2; background: #1684b2; color: #fff; box-shadow: 0 2px 7px rgba(22,132,178,.2); }
+#twod-ge-branch-selector small { display: block; margin-top: 6px; color: #557888; font-size: 8px; line-height: 1.42; }
+.twod-ge-branch-flow { flex-wrap: wrap; align-items: center; gap: 3px; margin-top: 7px; }
+.twod-ge-branch-flow span { padding: 3px 5px; border-radius: 5px; background: #fff; color: #31708c; font-size: 7px; font-weight: 800; white-space: nowrap; }
+.twod-ge-branch-flow i { color: #5397b3; font-size: 8px; font-style: normal; }
+#inst-shelf-list:not(.ge-filling-mode) [data-tool="dilation_catheter"],#inst-shelf-list.ge-filling-mode [data-tool="epass"] { display: none !important; }
+.twod-image-source { position: absolute; left: 7px; bottom: 7px; z-index: 3; padding: 3px 6px; border: 1px solid rgba(120,82,72,.2); border-radius: 999px; background: rgba(255,250,246,.9); color: #765d55; font-size: 7px; font-weight: 800; letter-spacing: .02em; backdrop-filter: blur(4px); }
+.twod-pd-tool-list { display: flex; flex: 1; flex-direction: column; gap: 12px; min-height: 0; padding: 7px 14px 45px; overflow-y: auto; overflow-x: hidden; }
+.twod-pd-tool-card,.twod-hgs-tool-card,.twod-cds-tool-card,.twod-pfc-tool-card,.twod-rv-tool-card,.twod-ag-tool-card,.twod-gbd-tool-card,.twod-ercp-tool-card,.twod-poem-tool-card,.twod-edat-tool-card,.twod-biliary-biopsy-tool-card,.twod-fnb-tool-card,.twod-cpn-tool-card { flex: none; }
+.twod-pd-tool-card.twod-selected { border-color: #c96554; box-shadow: 0 0 0 3px rgba(201,101,84,.12); }
+.twod-hgs-tool-card.twod-selected { border-color: #7b8f4b; box-shadow: 0 0 0 3px rgba(123,143,75,.14); }
+.twod-cds-tool-card.twod-selected { border-color: #c87738; box-shadow: 0 0 0 3px rgba(200,119,56,.14); }
+.twod-pfc-tool-card.twod-selected { border-color: #c46235; box-shadow: 0 0 0 3px rgba(196,98,53,.14); }
+#twod-pfc-branch-selector,#twod-gbd-branch-selector { margin: 5px 13px 9px; padding: 9px 10px; border: 1px solid #f0c8b7; border-radius: 10px; background: linear-gradient(145deg,#fff8f3,#fff2e8); color: #805848; }
+#twod-pfc-branch-selector > span,#twod-gbd-branch-selector > span { display: block; margin-bottom: 6px; font-size: 10px; font-weight: 800; }
+#twod-pfc-branch-selector > div,#twod-gbd-branch-selector > div { display: flex; gap: 6px; }
+#twod-pfc-branch-selector button,#twod-gbd-branch-selector button { flex: 1; padding: 6px 4px; border: 1px solid #efc2af; border-radius: 7px; background: #fff; color: #916250; font-size: 9px; font-weight: 700; cursor: pointer; }
+#twod-pfc-branch-selector button em { display: block; margin-top: 2px; color: inherit; font-size: 7px; font-style: normal; font-weight: 700; opacity: .72; }
+#twod-pfc-branch-selector button.active,#twod-gbd-branch-selector button.active { border-color: #c46235; background: #c46235; color: #fff; box-shadow: 0 2px 6px rgba(196,98,53,.22); }
+#twod-pfc-branch-selector small,#twod-gbd-branch-selector small { display: block; margin-top: 6px; color: #9b786c; font-size: 8px; line-height: 1.4; }
+.twod-pfc-branch-flow { display: flex; flex-wrap: wrap; align-items: center; gap: 3px; margin-top: 7px; }
+.twod-pfc-branch-flow span { padding: 3px 5px; border-radius: 5px; background: #fff; color: #9a583f; font-size: 7px; font-weight: 800; white-space: nowrap; }
+.twod-pfc-branch-flow i { color: #c47a58; font-size: 8px; font-style: normal; }
+.twod-pfc-branch-status { display: block; margin-top: 7px; padding-top: 7px; border-top: 1px dashed #e8bfaa; color: #9a4d34; font-size: 8px; line-height: 1.35; }.twod-pfc-branch-status.complete { color: #2b7a61; }
+.twod-pfc-tool-card { transition: opacity .18s ease, border-color .18s ease, box-shadow .18s ease; }.twod-pfc-tool-card.twod-step-next { border-color: #c46235; box-shadow: 0 0 0 2px rgba(196,98,53,.13); }.twod-pfc-tool-card.twod-step-locked { opacity: .62; }.twod-pfc-tool-card.twod-step-complete { border-color: #78a994; }.twod-pfc-tool-card.twod-step-complete .twod-tool-step-state { color: #2b7a61; background: #e8f6ef; border-color: #b5dfca; }
+.twod-tool-step-state { display: inline-flex; align-self: flex-start; margin: 2px 0 8px; padding: 3px 6px; border: 1px solid #edcfbe; border-radius: 999px; background: #fff8f3; color: #995f49; font-size: 8px; font-weight: 800; }
+#twod-pfc-instruments.pfc-direct-mode [data-tool="pfc_needle"],#twod-pfc-instruments.pfc-direct-mode [data-tool="pfc_guidewire"] { display: none !important; }
+#twod-gbd-instruments.gbd-direct-mode [data-tool="gbd_needle"],#twod-gbd-instruments.gbd-direct-mode [data-tool="gbd_guidewire"] { display: none !important; }
+#twod-gbd-branch-selector { border-color: #a9d4ca; background: linear-gradient(145deg,#f4fbf8,#eaf7f2); color: #245f59; }
+#twod-gbd-branch-selector > span { color: #176a62; }#twod-gbd-branch-selector > p { margin: 0 0 7px; color: #5d827c; font-size: 8px; line-height: 1.45; }
+#twod-gbd-branch-selector button { border-color: #b9dcd5; color: #236f68; background: #fcfffd; }#twod-gbd-branch-selector button em { display: block; margin-top: 2px; color: inherit; font-size: 7px; font-style: normal; opacity: .72; }
+#twod-gbd-branch-selector button.active { border-color: #16756f; background: #16756f; color: #fff; box-shadow: 0 2px 6px rgba(22,117,111,.22); }
+#twod-gbd-branch-selector small { color: #4c766f; }.twod-gbd-branch-flow { display: flex; flex-wrap: wrap; align-items: center; gap: 3px; margin-top: 7px; }.twod-gbd-branch-flow span { padding: 3px 5px; border-radius: 5px; background: #fafffd; color: #24766e; font-size: 7px; font-weight: 800; white-space: nowrap; }.twod-gbd-branch-flow i { color: #3f9488; font-size: 8px; font-style: normal; }
+.twod-gbd-path-status { display: block; margin-top: 7px; padding-top: 7px; border-top: 1px dashed #add6cd; color: #176a62; font-size: 8px; line-height: 1.35; }.twod-gbd-path-status.complete { color: #27774e; }
+.twod-gbd-tool-card { transition: opacity .18s ease, border-color .18s ease, box-shadow .18s ease; }.twod-gbd-tool-card.twod-gbd-step-next { border-color: #16756f; box-shadow: 0 0 0 2px rgba(22,117,111,.14); }.twod-gbd-tool-card.twod-gbd-step-locked { opacity: .62; }.twod-gbd-tool-card.twod-gbd-step-complete { border-color: #76a987; }.twod-gbd-tool-card.twod-gbd-step-complete .twod-gbd-step-state { color: #27774e; background: #eaf7ed; border-color: #b8ddc2; }
+.twod-gbd-step-state { display: inline-flex; align-self: flex-start; margin: 2px 0 8px; padding: 3px 6px; border: 1px solid #badad4; border-radius: 999px; background: #f4fbf8; color: #286f68; font-size: 8px; font-weight: 800; }
+.twod-procedure-pd #two-d-anatomy-image,.twod-procedure-pd .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f3ee; }
+.twod-procedure-pd .twod-compare-image img { object-fit: contain; background: #f7f3ee; }
+.twod-procedure-pd .twod-lesion-label { color: #8f3142; }
+.twod-procedure-esd .twod-canvas.has-result .twod-target-zone { opacity: .24; }
+.twod-procedure-esd .twod-canvas.has-result .twod-target-zone b,.twod-procedure-esd .twod-canvas.has-result .twod-target-zone small,.twod-procedure-esd .twod-canvas.has-result .twod-lesion-label { display: none; }
+.twod-procedure-hgs #two-d-anatomy-image,.twod-procedure-hgs .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f4ef; }
+.twod-procedure-hgs .twod-compare-image img { object-fit: contain; background: #f7f4ef; }
+.twod-procedure-hgs .twod-lesion-label { color: #7b4d20; }
+.twod-procedure-cds #two-d-anatomy-image,.twod-procedure-cds .twod-transition-image { object-fit: contain; object-position: center center; background: #f6f2eb; }
+.twod-procedure-cds .twod-compare-image img { object-fit: contain; background: #f6f2eb; }
+.twod-procedure-cds .twod-lesion-label { color: #8b4b25; }
+.twod-procedure-pfc #two-d-anatomy-image,.twod-procedure-pfc .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f3ee; }
+.twod-procedure-pfc .twod-compare-image img { object-fit: contain; background: #f7f3ee; }
+.twod-procedure-pfc .twod-lesion-label { color: #9b5035; }
+.twod-procedure-pfc .twod-canvas.has-result .twod-target-zone { opacity: .22; }.twod-procedure-pfc .twod-canvas.has-result .twod-target-zone b,.twod-procedure-pfc .twod-canvas.has-result .twod-target-zone small,.twod-procedure-pfc .twod-canvas.has-result .twod-lesion-label { display: none; }
+.twod-procedure-rv #two-d-anatomy-image,.twod-procedure-rv .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f3ee; }
+.twod-procedure-rv .twod-compare-image img { object-fit: contain; background: #f7f3ee; }
+.twod-procedure-rv .twod-lesion-label { color: #8b5b28; }
+.twod-procedure-ag #two-d-anatomy-image,.twod-procedure-ag .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f4ef; }
+.twod-procedure-ag .twod-compare-image img { object-fit: contain; background: #f7f4ef; }
+.twod-procedure-ag .twod-lesion-label { color: #8a4d28; }
+.twod-ag-tool-card.twod-selected { border-color: #287c76; box-shadow: 0 0 0 3px rgba(40,124,118,.14); }
+.twod-procedure-gbd #two-d-anatomy-image,.twod-procedure-gbd .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f4ef; }
+.twod-procedure-gbd .twod-compare-image img { object-fit: contain; background: #f7f4ef; }
+.twod-procedure-gbd .twod-lesion-label { color: #9a483b; }
+.twod-procedure-gbd .twod-canvas.has-result .twod-target-zone { opacity: .22; }.twod-procedure-gbd .twod-canvas.has-result .twod-target-zone b,.twod-procedure-gbd .twod-canvas.has-result .twod-target-zone small,.twod-procedure-gbd .twod-canvas.has-result .twod-lesion-label { display: none; }
+.twod-gbd-tool-card.twod-selected { border-color: #2e7d69; box-shadow: 0 0 0 3px rgba(46,125,105,.14); }
+.twod-procedure-ercp #two-d-anatomy-image,.twod-procedure-ercp .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f5f0; }
+.twod-procedure-ercp .twod-compare-image img { object-fit: contain; background: #f7f5f0; }
+.twod-procedure-ercp .twod-lesion-label { color: #8a5e29; }
+.twod-procedure-ercp .twod-canvas.has-result .twod-target-zone { opacity: .22; }.twod-procedure-ercp .twod-canvas.has-result .twod-target-zone b,.twod-procedure-ercp .twod-canvas.has-result .twod-target-zone small,.twod-procedure-ercp .twod-canvas.has-result .twod-lesion-label { display: none; }
+.twod-ercp-tool-card.twod-selected { border-color: #355c7d; box-shadow: 0 0 0 3px rgba(53,92,125,.14); }
+.twod-procedure-poem #two-d-anatomy-image,.twod-procedure-poem .twod-transition-image { object-fit: contain; object-position: center center; background: #fbf8f2; }
+.twod-procedure-poem .twod-compare-image img { object-fit: contain; background: #fbf8f2; }
+.twod-procedure-poem .twod-lesion-label { color: #815366; }
+.twod-procedure-poem .twod-canvas.has-result .twod-target-zone { opacity: .22; }.twod-procedure-poem .twod-canvas.has-result .twod-target-zone b,.twod-procedure-poem .twod-canvas.has-result .twod-target-zone small,.twod-procedure-poem .twod-canvas.has-result .twod-lesion-label { display: none; }
+
+.twod-procedure-edat #two-d-anatomy-image,.twod-procedure-edat .twod-transition-image { object-fit: contain; object-position: center center; background: #faf8f2; }
+.twod-procedure-edat .twod-compare-image img { object-fit: contain; background: #faf8f2; }
+.twod-procedure-edat .twod-lesion-label { color: #a34d43; }
+.twod-procedure-edat .twod-canvas.has-result .twod-target-zone { opacity: .22; }
+.twod-procedure-edat .twod-canvas.has-result .twod-target-zone b,.twod-procedure-edat .twod-canvas.has-result .twod-target-zone small,.twod-procedure-edat .twod-canvas.has-result .twod-lesion-label { display: none; }
+
+.twod-procedure-biliary-biopsy #two-d-anatomy-image,.twod-procedure-biliary-biopsy .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f5ef; }
+.twod-procedure-biliary-biopsy .twod-compare-image img { object-fit: contain; background: #f7f5ef; }
+.twod-procedure-biliary-biopsy .twod-lesion-label { color: #795b45; }
+.twod-procedure-biliary-biopsy .twod-canvas.has-result .twod-target-zone { opacity: .22; }
+.twod-procedure-biliary-biopsy .twod-canvas.has-result .twod-target-zone b,.twod-procedure-biliary-biopsy .twod-canvas.has-result .twod-target-zone small,.twod-procedure-biliary-biopsy .twod-canvas.has-result .twod-lesion-label { display: none; }
+.twod-poem-tool-card.twod-selected { border-color: #7b536d; box-shadow: 0 0 0 3px rgba(123,83,109,.14); }
+.twod-edat-tool-card.twod-selected { border-color: #b4664e; box-shadow: 0 0 0 3px rgba(180,102,78,.15); }
+.twod-biliary-biopsy-tool-card.twod-selected { border-color: #4c8d89; box-shadow: 0 0 0 3px rgba(76,141,137,.15); }
+.twod-procedure-fnb #two-d-anatomy-image,.twod-procedure-fnb .twod-transition-image { object-fit: contain; object-position: center center; background: #f7f4ef; }
+.twod-procedure-fnb .twod-compare-image img { object-fit: contain; background: #f7f4ef; }
+.twod-procedure-fnb .twod-lesion-label { color: #854969; }
+.twod-fnb-tool-card.twod-selected { border-color: #76537a; box-shadow: 0 0 0 3px rgba(118,83,122,.14); }
+.twod-cpn-tool-card.twod-selected { border-color: #a5543c; box-shadow: 0 0 0 3px rgba(165,84,60,.14); }
+.twod-fnb-specimen-status { display: grid; gap: 4px; margin-top: 4px; padding: 11px; border: 1px dashed #d8c7d0; border-radius: 10px; background: #faf7f9; color: #786572; }
+.twod-fnb-specimen-status > span { color: #94748a; font-size: 8px; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
+.twod-fnb-specimen-status > b { color: #65485c; font-size: 10px; }.twod-fnb-specimen-status > p { margin: 0; font-size: 8px; line-height: 1.45; }
+.twod-fnb-specimen-status.complete { border-style: solid; border-color: #8fc2ae; background: #f2faf6; color: #42735f; }
+.twod-fnb-specimen-status.complete > span,.twod-fnb-specimen-status.complete > b { color: #2f7158; }
+.effect-pd-needle { position: absolute; left: -62px; top: -5px; width: 68px; height: 4px; border-radius: 4px; background: linear-gradient(90deg,#66747a,#f2f7f7 55%,#7f8c90); box-shadow: 0 0 5px rgba(233,247,247,.9); transform: rotate(-35deg); transform-origin: right center; animation: instrumentApproach .55s ease-out both; }
+.effect-pd-needle::after { content: ''; position: absolute; right: -8px; top: -2px; border-left: 10px solid #e5eeee; border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.effect-pd-dilator { position: absolute; left: -73px; top: -8px; width: 82px; height: 13px; border-radius: 9px 3px 3px 9px; background: linear-gradient(180deg,#66c0c1,#257a80); border: 2px solid rgba(232,255,253,.8); transform: rotate(-34deg); transform-origin: right center; animation: instrumentApproach .6s ease-out both; }
+.effect-pd-stent { position: absolute; left: -20px; top: -48px; width: 39px; height: 78px; border: 5px solid #74c8de; border-top-color: transparent; border-bottom-color: transparent; border-radius: 45% 55% 45% 55%; transform: rotate(-18deg); box-shadow: 0 0 12px rgba(73,183,211,.45); animation: stentOpen .55s ease-out both; }
+.effect-hgs-contrast { position: absolute; width: 58px; height: 58px; transform: translate(-50%,-50%); border-radius: 50%; background: radial-gradient(circle,rgba(207,190,71,.5),rgba(136,129,43,.15) 58%,transparent 68%); box-shadow: 0 0 18px rgba(189,166,58,.42); animation: fluidPulse 1.2s ease-in-out infinite; }
+.effect-hgs-stent { width: 72px; height: 38px; border-color: #d8ddc5; background-color: rgba(248,245,220,.3); transform: translate(-50%,-50%) rotate(-58deg); }
+.effect-hgs-flow { position: absolute; left: 6px; top: 10px; width: 10px; height: 62px; transform: rotate(31deg); border-left: 5px solid rgba(186,158,55,.82); border-radius: 55%; filter: drop-shadow(0 0 5px rgba(188,157,46,.58)); animation: bileFlow 1.05s ease-in-out infinite; }
+.effect-cds-contrast { position: absolute; width: 62px; height: 82px; transform: translate(-50%,-50%) rotate(-3deg); border-radius: 45%; background: radial-gradient(ellipse,rgba(207,179,67,.55),rgba(137,116,31,.12) 60%,transparent 70%); box-shadow: 0 0 18px rgba(189,151,45,.38); animation: fluidPulse 1.2s ease-in-out infinite; }
+.effect-cds-stent { width: 82px; height: 42px; border-color: #d9dfd7; background-color: rgba(244,241,213,.34); transform: translate(-50%,-50%) rotate(-9deg); }
+.effect-cds-flow { position: absolute; left: -20px; top: 12px; width: 45px; height: 54px; transform: rotate(37deg); border-left: 6px solid rgba(198,149,35,.86); border-bottom: 5px solid rgba(198,149,35,.68); border-radius: 50%; filter: drop-shadow(0 0 5px rgba(188,141,35,.56)); animation: cdsBileFlow 1.05s ease-in-out infinite; }
+@keyframes targetPulse { 0%,100% { transform: translate(-50%,-50%) scale(.94); opacity: .86; } 50% { transform: translate(-50%,-50%) scale(1.05); opacity: 1; } }
+@keyframes ringPulse { 0% { opacity: .9; transform: translate(-50%,-50%) scale(.45); } 100% { opacity: 0; transform: translate(-50%,-50%) scale(1.3); } }
+@keyframes fluidPulse { 50% { transform: translate(-50%,-50%) rotate(-17deg) scale(1.1); opacity: .8; } }
+@keyframes energyFlash { 0% { opacity: 0; transform: translateY(9px) scale(.7); } 50% { opacity: 1; } 100% { opacity: 0; transform: translateY(-11px) scale(1.15); } }
+@keyframes stentOpen { from { opacity: 0; transform: translate(-50%,-50%) rotate(-27deg) scale(.35); } to { opacity: 1; transform: translate(-50%,-50%) rotate(-27deg) scale(1); } }
+@keyframes balloonInflate { 0% { opacity: 0; transform: translate(-50%,-50%) rotate(-24deg) scale(.25); } 72% { opacity: 1; transform: translate(-50%,-50%) rotate(-24deg) scale(1.14); } 100% { transform: translate(-50%,-50%) rotate(-24deg) scale(1); } }
+@keyframes instrumentApproach { from { opacity: 0; transform: translateX(-54px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes bileFlow { 0%,100% { opacity: .38; transform: translateY(-8px) rotate(31deg); } 50% { opacity: 1; transform: translateY(9px) rotate(31deg); } }
+@keyframes cdsBileFlow { 0%,100% { opacity: .38; transform: translate(-4px,-8px) rotate(37deg); } 50% { opacity: 1; transform: translate(7px,8px) rotate(37deg); } }
+@keyframes guideNudge { 50% { transform: translateY(-4px); } }
+@keyframes pointMarkerPulse { 50% { box-shadow: 0 0 0 12px rgba(200,102,86,.06), 0 8px 20px rgba(157,66,51,.22); } }
+@keyframes clinicalFrameReveal { 0% { opacity: .25; clip-path: inset(0 100% 0 0); filter: saturate(.75); } 100% { opacity: 1; clip-path: inset(0 0 0 0); filter: saturate(1); } }
+@keyframes compareFocus { 50% { transform: scale(1.08); } }
+@media (max-width: 900px) { .twod-toolbar { inset: 11px 12px auto; }.twod-caption { left: 12px; bottom: 11px; }.twod-target-zone b, .twod-target-zone small { display: none; } }
+
+/* Persistent left/right sidebar folding controls.  They remain available in both 3D and 2D modes. */
+#sidebar-organs,#sidebar-instruments { position: relative; transition: width .3s cubic-bezier(.4,0,.2,1), min-width .3s cubic-bezier(.4,0,.2,1); }
+.twod-sidebar-toggle { position: absolute; z-index: 80; top: 11px; right: 9px; display: grid; place-items: center; width: 28px; height: 28px; padding: 0; border: 1px solid rgba(117,91,70,.22); border-radius: 9px; background: rgba(255,253,250,.94); box-shadow: 0 3px 10px rgba(75,48,39,.12); color: #7b5349; font: 800 22px/1 system-ui,sans-serif; cursor: pointer; transition: .18s ease; }
+.twod-sidebar-toggle:hover { border-color: #ce7462; background: #fff; color: #b75545; transform: translateY(-1px); }
+#btn-toggle-inst-shelf { display: none !important; }
+#sidebar-organs.twod-sidebar-collapsed { width: 54px !important; min-width: 54px !important; }
+#sidebar-organs.twod-sidebar-collapsed .shelf-list { display: none !important; }
+#sidebar-organs.twod-sidebar-collapsed .shelf-header { min-height: 50px; padding: 11px 6px; border-bottom: 0; }
+#sidebar-organs.twod-sidebar-collapsed .shelf-header h2,#sidebar-organs.twod-sidebar-collapsed #active-organ-count { display: none !important; }
+#sidebar-organs.twod-sidebar-collapsed .twod-sidebar-toggle { right: 50%; transform: translateX(50%); }
+#sidebar-organs.twod-sidebar-collapsed .twod-sidebar-toggle:hover { transform: translateX(50%) translateY(-1px); }
+#sidebar-instruments.twod-sidebar-collapsed { width: 54px !important; min-width: 54px !important; }
+#sidebar-instruments.twod-sidebar-collapsed > :not(#twod-toggle-instrument-sidebar) { display: none !important; }
+#sidebar-instruments.twod-sidebar-collapsed .twod-sidebar-toggle { right: 50%; transform: translateX(50%); }
+#sidebar-instruments.twod-sidebar-collapsed .twod-sidebar-toggle:hover { transform: translateX(50%) translateY(-1px); }
+
+/* Configurable instrument catalogue: local additions/removals never alter the clinical process template itself. */
+.twod-tool-head-actions { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+.twod-manage-tools { flex: none; border: 1px solid #d9bcae; border-radius: 7px; padding: 4px 6px; background: #fffaf7; color: #8d5145; font: 800 9px inherit; cursor: pointer; white-space: nowrap; }
+.twod-manage-tools:hover { border-color: #c96b59; background: #fff2ec; }
+#sidebar-instruments > .inst-shelf-header .twod-manage-tools { margin-left: auto; }
+.twod-tool-image-placeholder { display: grid; place-items: center; align-content: center; gap: 5px; width: 100%; height: 100%; min-height: 110px; color: #8a665b; background: linear-gradient(145deg,#fffaf7,#f1e5de); }
+.twod-tool-image-placeholder span { font-size: 30px; }.twod-tool-image-placeholder small { font-size: 8px; font-weight: 800; }
+.twod-custom-tool-card { border-style: dashed !important; }.twod-custom-tool-card .visual-inst-title::after { content: '自定义'; margin-left: 5px; padding: 2px 4px; border-radius: 4px; background: #f4e5dc; color: #9b594b; font-size: 7px; font-weight: 900; vertical-align: middle; }
+.twod-empty-tool-list { margin: 14px; padding: 15px 12px; border: 1px dashed #d8b9ac; border-radius: 11px; color: #90776d; background: #fffaf7; font-size: 10px; line-height: 1.5; text-align: center; }
+.twod-instrument-manager { position: fixed; z-index: 1000; inset: 0; display: grid; place-items: center; padding: 22px; background: rgba(54,36,31,.34); backdrop-filter: blur(5px); }
+.twod-instrument-manager.hidden { display: none !important; }
+.twod-tool-manager-dialog { width: min(650px, calc(100vw - 32px)); max-height: min(760px, calc(100vh - 36px)); overflow: hidden; border: 1px solid #dfc4b8; border-radius: 16px; background: #fffaf7; box-shadow: 0 20px 60px rgba(54,33,26,.3); color: #5d4038; display: flex; flex-direction: column; }
+.twod-tool-manager-head { display: flex; align-items: start; justify-content: space-between; gap: 18px; padding: 16px 18px 13px; border-bottom: 1px solid #ead7cf; background: linear-gradient(145deg,#fffdfb,#f8ede7); }
+.twod-tool-manager-head span { display: block; color: #ba6655; font-size: 9px; font-weight: 900; letter-spacing: .08em; }.twod-tool-manager-head h2 { margin: 4px 0 0; color: #634238; font-size: 16px; }.twod-tool-manager-close { display: grid; place-items: center; width: 29px; height: 29px; padding: 0; border: 1px solid #ddc1b5; border-radius: 8px; background: #fff; color: #955447; font: 500 22px/1 Arial,sans-serif; cursor: pointer; }
+.twod-tool-manager-body { overflow-y: auto; padding: 14px 18px 18px; }
+.twod-manager-field { display: grid; gap: 5px; color: #75584f; font-size: 10px; font-weight: 800; }.twod-manager-field input,.twod-manager-field select { box-sizing: border-box; width: 100%; min-height: 33px; padding: 7px 8px; border: 1px solid #dec7bc; border-radius: 8px; outline: none; background: #fff; color: #604840; font: 500 11px inherit; }.twod-manager-field input:focus,.twod-manager-field select:focus { border-color: #cf7564; box-shadow: 0 0 0 3px rgba(207,117,100,.11); }
+.twod-manager-field input[type="color"] { min-width: 54px; padding: 3px; cursor: pointer; }.twod-manager-procedure { margin-bottom: 10px; }.twod-manager-note { margin: 0 0 12px; padding: 9px 10px; border-left: 3px solid #cc745f; background: #fff2ed; color: #89685f; font-size: 9px; line-height: 1.55; }
+.twod-tool-manager-form { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 13px; border: 1px solid #e4cec3; border-radius: 12px; background: #fffdfb; }.twod-tool-manager-form h3,.twod-tool-manager-form > .twod-manager-field:nth-of-type(1),.twod-tool-manager-form > .twod-manager-field:nth-of-type(2),.twod-tool-manager-form > .twod-manager-field:nth-of-type(4),.twod-tool-manager-form > .twod-manager-field:nth-of-type(5),.twod-manager-add { grid-column: 1 / -1; }.twod-tool-manager-form h3,.twod-tool-manager-list-head h3 { margin: 0; color: #71483d; font-size: 12px; }.twod-manager-inline { display: contents; }.twod-manager-add { min-height: 34px; border: 0; border-radius: 8px; background: linear-gradient(135deg,#cf7462,#a95343); color: #fff; font: 800 11px inherit; cursor: pointer; box-shadow: 0 5px 12px rgba(166,78,62,.18); }
+.twod-tool-manager-list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; }.twod-tool-manager-list-head button { border: 1px solid #d9b9ac; border-radius: 7px; padding: 5px 7px; background: #fff; color: #8d574b; font: 800 9px inherit; cursor: pointer; }
+.twod-tool-manager-list { display: grid; gap: 7px; margin: 9px 0 0; padding: 0; list-style: none; }.twod-tool-manager-row { display: grid; grid-template-columns: 10px minmax(0,1fr) auto; align-items: center; gap: 8px; padding: 9px 10px; border: 1px solid #ead7cf; border-radius: 9px; background: #fff; }.twod-tool-manager-row.is-hidden { opacity: .55; background: #f6f0ed; }.twod-tool-manager-dot { width: 8px; height: 8px; border-radius: 50%; }.twod-tool-manager-row div { display: grid; gap: 2px; min-width: 0; }.twod-tool-manager-row b { overflow: hidden; color: #67463d; font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }.twod-tool-manager-row small { overflow: hidden; color: #977c71; font-size: 8px; text-overflow: ellipsis; white-space: nowrap; }.twod-tool-manager-row button { border: 1px solid #dfb6aa; border-radius: 6px; padding: 4px 6px; background: #fff9f6; color: #9a5447; font: 800 8px inherit; cursor: pointer; }.twod-tool-manager-empty { padding: 13px; border: 1px dashed #d8b9ac; border-radius: 9px; color: #947970; font-size: 10px; text-align: center; }
+.twod-tool-manager-footer { display: flex; align-items: center; gap: 8px; padding: 11px 18px; border-top: 1px solid #ead8d0; background: #fbf4f0; }.twod-tool-manager-footer > button,.twod-import-tool-config { border: 1px solid #d7b9ad; border-radius: 7px; padding: 6px 8px; background: #fff; color: #805348; font: 800 9px inherit; cursor: pointer; }.twod-import-tool-config input { display: none; }.twod-tool-manager-footer small { margin-left: auto; max-width: 230px; color: #927a70; font-size: 8px; line-height: 1.35; text-align: right; }
+@media (max-width: 620px) { .twod-instrument-manager { padding: 10px; }.twod-tool-manager-dialog { width: calc(100vw - 20px); max-height: calc(100vh - 20px); }.twod-tool-manager-body { padding: 12px; }.twod-tool-manager-form { grid-template-columns: 1fr; }.twod-tool-manager-form > * { grid-column: 1 / -1 !important; }.twod-tool-manager-footer small { display: none; } }
+
+/* Versioned evidence and browser-local review record.  The visual language is
+   deliberately quiet so it reads as governance metadata, not another clinical
+   control in the operation workspace. */
+.twod-medical-review-ledger { position: fixed; z-index: 1100; inset: 0; display: grid; place-items: center; padding: 22px; background: rgba(43,51,66,.42); backdrop-filter: blur(5px); }
+.twod-medical-review-ledger.hidden { display: none !important; }
+.twod-review-dialog { width: min(920px, calc(100vw - 32px)); max-height: min(790px, calc(100vh - 36px)); overflow: hidden; border: 1px solid #cad5e0; border-radius: 16px; background: #fbfdff; box-shadow: 0 22px 62px rgba(30,40,53,.33); color: #425165; display: flex; flex-direction: column; }
+.twod-review-head { display: flex; align-items: start; justify-content: space-between; gap: 18px; padding: 16px 18px 13px; border-bottom: 1px solid #dde5ec; background: linear-gradient(145deg,#fafdff,#edf4f9); }.twod-review-head > div { min-width: 0; }.twod-review-head span { display: block; color: #63809e; font-size: 9px; font-weight: 900; letter-spacing: .08em; }.twod-review-head h2 { margin: 4px 0 3px; color: #3e5068; font-size: 17px; }.twod-review-head p { margin: 0; color: #728397; font-size: 9px; line-height: 1.45; }
+.twod-review-body { overflow-y: auto; padding: 14px 18px 18px; }.twod-review-picker { display: grid; grid-template-columns: minmax(210px,.78fr) 1.22fr; align-items: end; gap: 13px; padding: 11px; border: 1px solid #d8e2eb; border-radius: 11px; background: #fff; }.twod-review-picker label,.twod-review-form label { display: grid; gap: 5px; color: #60758c; font-size: 9px; font-weight: 900; }.twod-review-picker select,.twod-review-form input,.twod-review-form select,.twod-review-form textarea { box-sizing: border-box; width: 100%; min-height: 34px; padding: 7px 8px; border: 1px solid #cdd9e4; border-radius: 8px; outline: none; background: #fff; color: #43566d; font: 500 11px inherit; }.twod-review-picker select:focus,.twod-review-form input:focus,.twod-review-form select:focus,.twod-review-form textarea:focus { border-color: #7696b7; box-shadow: 0 0 0 3px rgba(100,139,177,.12); }.twod-review-picker > div { display: grid; gap: 3px; align-self: center; }.twod-review-picker b { color: #435873; font-size: 12px; }.twod-review-picker small { color: #8191a4; font-size: 9px; font-weight: 800; }
+.twod-review-scope { margin-top: 11px; padding: 11px 12px; border-left: 3px solid #6e91b5; border-radius: 0 10px 10px 0; background: #f1f7fb; }.twod-review-scope span { display: block; color: #527393; font-size: 9px; font-weight: 900; letter-spacing: .04em; }.twod-review-scope p { margin: 4px 0 0; color: #54697e; font-size: 10px; line-height: 1.55; }
+.twod-review-columns { display: grid; grid-template-columns: 1.2fr .8fr; gap: 12px; margin-top: 12px; }.twod-review-columns > section { min-width: 0; padding: 12px; border: 1px solid #dce4eb; border-radius: 11px; background: #fff; }.twod-review-columns h3,.twod-review-record h3 { margin: 0 0 9px; color: #485c74; font-size: 12px; }.twod-review-columns h3 small { margin-left: 4px; color: #7f95ab; font-size: 8px; font-weight: 800; }
+.twod-review-sources,.twod-review-focus { display: grid; gap: 7px; margin: 0; padding: 0; list-style: none; }.twod-review-sources li { display: grid; grid-template-columns: auto minmax(0,1fr) auto; align-items: start; gap: 7px; padding-bottom: 7px; border-bottom: 1px solid #edf1f4; }.twod-review-sources li:last-child { padding-bottom: 0; border-bottom: 0; }.twod-review-sources li > span { padding: 3px 5px; border-radius: 5px; background: #edf3f8; color: #617d9a; font-size: 7px; font-weight: 900; white-space: nowrap; }.twod-review-sources li > div { display: grid; gap: 2px; min-width: 0; }.twod-review-sources b { color: #52677e; font-size: 9px; line-height: 1.35; }.twod-review-sources small { color: #8795a4; font-size: 8px; line-height: 1.35; }.twod-review-sources a,.twod-review-source-static { margin-top: 1px; color: #47789f; font-size: 8px; font-weight: 900; white-space: nowrap; text-decoration: none; }.twod-review-sources a:hover { text-decoration: underline; }.twod-review-source-static { color: #8d9baa; }.twod-review-focus { list-style: disc; padding-left: 16px; color: #61758b; }.twod-review-focus li { padding-left: 1px; font-size: 9px; line-height: 1.5; }.twod-review-empty { padding: 8px; border: 1px dashed #cdd8e2; border-radius: 7px; color: #8492a0; font-size: 9px; text-align: center; }
+.twod-review-record { display: grid; gap: 10px; margin-top: 12px; padding: 13px; border: 1px solid #bfcfdd; border-radius: 12px; background: linear-gradient(145deg,#fff,#f5f9fc); }.twod-review-record > div:first-child { display: grid; gap: 3px; }.twod-review-record h3 { margin: 0; }.twod-review-record p { margin: 0; color: #788b9e; font-size: 9px; line-height: 1.48; }.twod-review-form { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }.twod-review-note { grid-column: 1 / -1; }.twod-review-note textarea { min-height: 70px; resize: vertical; line-height: 1.45; }.twod-review-record-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-top: 8px; border-top: 1px solid #dde6ed; color: #56718d; font-size: 9px; font-weight: 900; }.twod-review-record-meta small { color: #8595a6; font-size: 8px; font-weight: 700; }
+.twod-review-footer { display: flex; align-items: center; gap: 8px; padding: 11px 18px; border-top: 1px solid #dce5ec; background: #f4f8fb; }.twod-review-footer button { border: 1px solid #b7c7d7; border-radius: 8px; padding: 7px 9px; background: #fff; color: #4f6d8c; font: 800 9px inherit; cursor: pointer; }.twod-review-footer button:first-child { border-color: #628bb2; background: #628bb2; color: #fff; box-shadow: 0 4px 10px rgba(70,112,151,.17); }.twod-review-footer small { margin-left: auto; max-width: 285px; color: #8494a4; font-size: 8px; line-height: 1.35; text-align: right; }
+@media (max-width: 720px) { .twod-medical-review-ledger { padding: 10px; }.twod-review-dialog { width: calc(100vw - 20px); max-height: calc(100vh - 20px); }.twod-review-body { padding: 12px; }.twod-review-picker,.twod-review-columns,.twod-review-form { grid-template-columns: 1fr; }.twod-review-footer small { display: none; } }
