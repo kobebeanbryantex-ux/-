@@ -1,0 +1,5177 @@
+[
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/01_hot_axios_angle1_full.jpg",
+    "bytes": 372723,
+    "sha256": "170230C45EAC70F7F95B332CE7B387BB5C96471B1B5A2A68BD803D520E234878"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/01_hot_axios_angle2_tip.jpg",
+    "bytes": 385280,
+    "sha256": "0C411FDD69C4AA74523FF6729BE370EBF2EA164E59D1057BF95E09D996CCC394"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/01_hot_axios_angle3_handle.jpg",
+    "bytes": 490884,
+    "sha256": "B1A0A35BB1ED3D31FA3D296BA95FCE4152A62120176CCD88DD932583D5885574"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/01_Hot_AXIOS枪式电切手柄与输送系统超清棚拍.jpg",
+    "bytes": 427103,
+    "sha256": "54CC85DEFAA3A2B8F27D491CF192D5AA395549C7F858A7B74FE048ABB0516E8B"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/02_eus_scope_angle1_full.jpg",
+    "bytes": 435661,
+    "sha256": "281C9BED415A342691F208535047406B51CBF0DDBFA36B3DE412C78679763FAB"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/02_eus_scope_angle2_transducer.jpg",
+    "bytes": 573976,
+    "sha256": "6EDCA18B57311D5C67FA5717282227F5D2D4BE7FBC7D2928D19C0ECAF220B8F2"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/02_Olympus_GIF_UCT180凸阵超声胃镜探头与操作部.jpg",
+    "bytes": 465859,
+    "sha256": "BF4E5021A0854D2D373D0F0CC7623CCACF152E51F6F5BB33343ACAA14D083DD4"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/03_AXIOS_LAMS双法兰鞍状支架对夹胃肠双壁微距.jpg",
+    "bytes": 668275,
+    "sha256": "239865C11CEB64D8986455DEBFB6C0BAE2FE1E533F48E64A93FF9DE3EFDCC1EE"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/03_zebra_guidewire_full.jpg",
+    "bytes": 643983,
+    "sha256": "5E0AE548C614B45B50489273AEB8F19368101A009E63A9A1E90D5F26EC39ED17"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/04_lams_stent_macro_axial.jpg",
+    "bytes": 538626,
+    "sha256": "567C9CCDCFB4B5D57F18A8F9050E4286CE2A6F48D1DF2A015A60411E4BAD48BF"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/04_lams_stent_macro_side.jpg",
+    "bytes": 561376,
+    "sha256": "6250FBFE6A256D2AEA21E6271171852B355DDA5A426A536661B7AD4FA01B5938"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/05_contrast_catheter_macro.jpg",
+    "bytes": 422196,
+    "sha256": "3A3B48E47641940C0700E79F0FE05E4B5730A8549FAAF79B8BBDF669A74F43EB"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/01_器械顶级产品写真/06_epass_double_balloon_macro.jpg",
+    "bytes": 359786,
+    "sha256": "C6701DD713A04D06C96026AB733F7C4898D4E03E8AB2E202E9A063EC9F42013D"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/02_手术推演全局解剖剖面/01_EUS_GE手术全局解剖解说剖面图(超声束+破壁+支架展开).jpg",
+    "bytes": 717753,
+    "sha256": "0FC94FBDC354B9E853DC8350E8A5CC221C821AB70433C571EB6F7B09DFB5E791"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/03_内镜直视光学视野(真正临床第一视角)/01_胃镜下直视_电切头顶压胃后壁高频通电破壁瞬间(发白与微汽化).jpg",
+    "bytes": 762907,
+    "sha256": "04952504A364754B3AF8CFB397AF8144B65A5180E4D54C9EFFE1C64BAFC3183E"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/03_内镜直视光学视野(真正临床第一视角)/02_胃镜下直视_LAMS近端法兰胃内如花瓣贴壁展开(腔道通畅).jpg",
+    "bytes": 816026,
+    "sha256": "2330F8E28DCD2046E15DEB6DB15155D207B016E060A44FA3F80799D0C694C9DA"
+  },
+  {
+    "path": "00_AI自主生成顶级医学照片库/04_EUS超声多普勒声像图(彩超避障第一视角)/01_EUS线阵超声声像图_彩超多普勒血流避障与胃肠无血管区穿刺.jpg",
+    "bytes": 708934,
+    "sha256": "F5284D77E49AFA1D25C8F3E6B3E50336F444F1C800F38A998D2BA429CEC3FC2A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/00_官方实物单反原照.png",
+    "bytes": 533631,
+    "sha256": "EEE8D6E558AEE8ED15AD244360DBA514127016D5AD178D3510958BEF156C906E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_001.jpg",
+    "bytes": 112544,
+    "sha256": "F942DF8E97EAE9946CBD8AA1C6650025C83690127CE67769333ED264A455B338"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_002.jpg",
+    "bytes": 116694,
+    "sha256": "FB0362F6967FE979A460010189D4ABA8639AD6D96168CE39D6C77D382692C0C8"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_003.jpg",
+    "bytes": 123723,
+    "sha256": "F3979B48A39B910EC2A3DE1069DC0AF6FC1737F1CDCBCEAEF35B334F06C4970A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_004.jpg",
+    "bytes": 122311,
+    "sha256": "DAB25B22EE1C192E0EB6D6906EA1F30BCFF679C090973A6598306B2BC8923F6F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_005.jpg",
+    "bytes": 141214,
+    "sha256": "AB17AAEE0552126D7F721B9B27014C411B342B2B8B267C1AF20AAC4CEB22421B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_006.jpg",
+    "bytes": 139427,
+    "sha256": "45D92F1EFEEA2AE5319AA791EA78BE675504ACFB0BFBA2097A417F2C572338A9"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_007.jpg",
+    "bytes": 142653,
+    "sha256": "63F5F1629570DE81DD5221CEA8BCCDFC402CF39FA2726ABE487486FB96927F34"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_008.jpg",
+    "bytes": 139389,
+    "sha256": "2F631C9045B94FCCD67FB879CFBAF2B377D84EE23BD69B4D7E2E0A3FA5F2F5BB"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_009.jpg",
+    "bytes": 143237,
+    "sha256": "E4356481D44C16762DD03EEBAD1BD79AB45904B04F7829D9AC992B4749A03A50"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_010.jpg",
+    "bytes": 139516,
+    "sha256": "57C963D65201A2727BE0BB442D6DD0CB5747EF0D43D8A2C3DC36F81FAB557FFF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_011.jpg",
+    "bytes": 142837,
+    "sha256": "EE793BC97809AA7CCC6B08F7F4BA6D3C8C37BA09F7F4A1FA82E396551C3EABD3"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_012.jpg",
+    "bytes": 139862,
+    "sha256": "0D4CDB0703D56F2581BD8130828E12552AA31963ABC62C456C3D0A24A1E86FCF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_013.jpg",
+    "bytes": 143031,
+    "sha256": "DA74087396DA0457858AF4B2B2365C14B46E66E6B4449A241AB41C5A49566803"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_014.jpg",
+    "bytes": 138844,
+    "sha256": "73B68CEFE77A4F8C0EAD72B50CA32F3817AE2F688FB47BA5EB4DD466303DF1E5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_015.jpg",
+    "bytes": 142752,
+    "sha256": "9F60EBC8C8B76FBFCBE9499EA994BC62C936DAF3AA3321CED66B0D2F150FAEF7"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_016.jpg",
+    "bytes": 140028,
+    "sha256": "BC0187C8EBA2CB77A3C1386F1514389628A59F32F930F0264031D3B91963B694"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_017.jpg",
+    "bytes": 142609,
+    "sha256": "A172EC28FEDB4830112521E821C2D35151B674B797A99DCC6167150B9E690F5B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_018.jpg",
+    "bytes": 136959,
+    "sha256": "34EE1FE8BF8855CA24A1E69D4E6B629F558F0726BE2EA92ADDFF27DCD97AA231"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_019.jpg",
+    "bytes": 139753,
+    "sha256": "372204CE1CFCDF1C6057CB4AB8FC824EE1D9CE0C28EFFF43DF19FA201939FF9A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_020.jpg",
+    "bytes": 139929,
+    "sha256": "4839CD62847119FFFAB0DD295470A8F226AA78AB0D17A6A8F36F4BB67D9015FD"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_021.jpg",
+    "bytes": 140354,
+    "sha256": "A5A9C08A44FC310995667B6484F270747274AC2882B99C47EC05A5E5620B1682"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_022.jpg",
+    "bytes": 139438,
+    "sha256": "EC306A6C49D8C5B09BF4761378A6ACBE9F79F4DE8411E77EFE1B28C26069FCD5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_023.jpg",
+    "bytes": 139404,
+    "sha256": "E86B6D966CC20AF25C2F6F4E4C98898E27AA1C34062347979791CEB91183D7F5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_024.jpg",
+    "bytes": 139384,
+    "sha256": "5EB4C3EC33BA395E1C3F7AFFC298D5A9EB88277CC2AB8A9BDAA7F798542C94FA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_025.jpg",
+    "bytes": 138905,
+    "sha256": "71BC67E6CFF305FF16F3AB7A63EC716D2396D0B4AA567CA537B3F231D44C1F80"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_026.jpg",
+    "bytes": 138192,
+    "sha256": "EFD0F7B04B1CC30716869B871886E7BAE01F171973AFB21DAC7AB35C29BC791A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_027.jpg",
+    "bytes": 139481,
+    "sha256": "A28800415F562FED6709B7D57845523DFC90E16CF1BE2FE87EA66B279AD7408B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_028.jpg",
+    "bytes": 134837,
+    "sha256": "1880FD9012BE9DC365C267FD7834AEC89B95A465057579450E44B5086FCC7C8A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_029.jpg",
+    "bytes": 138421,
+    "sha256": "561D29FAAFDEAC5CFEC8340EEB75A7F3B81A6B2F6591A1182D18CFF67DBE5B85"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_030.jpg",
+    "bytes": 139572,
+    "sha256": "EB8192F33AE628197D061CFA08F0FEAD0232DCEC79582D7146BD72669A9B55B1"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_031.jpg",
+    "bytes": 137772,
+    "sha256": "BD5E84BD1B58478874724D4620C6E3259C26730F9F570EBCAB13E476AAFADFA6"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_032.jpg",
+    "bytes": 138838,
+    "sha256": "4FEA6BB2E08C2FCD6EA295233C451BA15772643BC4A87E2A4620DA31A7F9EAA4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_033.jpg",
+    "bytes": 140387,
+    "sha256": "ACC5941148E341665D8D8A7EE0C6DC83E0635C838217AF3DF706008CF7DFD893"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_034.jpg",
+    "bytes": 139500,
+    "sha256": "3736EEE4B9413FC1E69A4F3063089DEC4FD3250E4E31B1DAAA229A89F2E22F7F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_035.jpg",
+    "bytes": 141031,
+    "sha256": "5FA182FD13FA3C77F40542CABF552F2B540F44ED5691EC484D62CECFF17B0AE6"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_036.jpg",
+    "bytes": 140832,
+    "sha256": "919F122384ACAD877A7CA680BE1BB944078A21E8465D095864FFC845ADEF0307"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_037.jpg",
+    "bytes": 143112,
+    "sha256": "D020F83286546C7ABA8BD73DAB8AD3B42410DD8A158952C49D61231A55C0B40F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_038.jpg",
+    "bytes": 142920,
+    "sha256": "37534F9C5DDE4541CF3011D675CD05EE569C45112BBAF747FD43406DFF920A5C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_039.jpg",
+    "bytes": 143216,
+    "sha256": "649D9FB750A318D076A1B85B9647860F72A639B0436B413FF6073F64D3D7489C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_040.jpg",
+    "bytes": 143325,
+    "sha256": "500C53C7E16BB7BD0AE9D4CD6CE3E16B17ABEC1BFCF9ACEDEE076261FC8A23CE"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_041.jpg",
+    "bytes": 144631,
+    "sha256": "EF4EBA3F5A3506809B03589A622A2BB17A81499EFB15CF13CA84AD45C878A3EA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_042.jpg",
+    "bytes": 142484,
+    "sha256": "586933FA2157699EB02499479C3D5E94D9C02212276897C5615C79CFA9FD1C79"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_043.jpg",
+    "bytes": 125381,
+    "sha256": "75A08199AADB62F5468E8A788668561EEA7548DB7871EAD95F2E3D5C5B27A1DF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_044.jpg",
+    "bytes": 128010,
+    "sha256": "602E2DB4DD64BD71028E456E2E9E88E3EE3ADC624A7878ACF2409607802EF81F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_045.jpg",
+    "bytes": 127645,
+    "sha256": "3C2016BCBF27241E868D8B85170E1372356C4CE3A4BFB0A07A801AAB79CD9163"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_046.jpg",
+    "bytes": 105407,
+    "sha256": "BBAFC1738CBAE502D1993CA7473A7697547E48F4BD76C13AF3E63359E30DC859"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_047.jpg",
+    "bytes": 106204,
+    "sha256": "E1C6C7B6405EC3E84FF4AD8284E2809629803DA06A3B1027A21759B4D007AD39"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_048.jpg",
+    "bytes": 107547,
+    "sha256": "DD549BC3452114B61A2181FEA8C7BFF2DC697BA8543A775F83EA32B8BF821EC2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_049.jpg",
+    "bytes": 109043,
+    "sha256": "83456BD354E3F8CE99B70B98BF2AFFE3CC72985774E96C867363F6E22A1E4B95"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_050.jpg",
+    "bytes": 125539,
+    "sha256": "E27CFA7989B99AB98819600F2F94F003C83EB0CCDA0372216C7D44EC24144C42"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_051.jpg",
+    "bytes": 124779,
+    "sha256": "C524EFE4E508769DBF397862834B8ACE0A56ADD0CAF8C16F625E48C6B7F93867"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_052.jpg",
+    "bytes": 125452,
+    "sha256": "562DEAE91C2A5EC459916B9298069117502976098B8276F76B8F367EE81C479D"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_053.jpg",
+    "bytes": 125952,
+    "sha256": "FF7A0F64E0DCE5EB0F5E5E430BA164F9AA12832019C77DB8F9BDF24698BD3BFD"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_054.jpg",
+    "bytes": 126718,
+    "sha256": "6350453A9C882F0F65FAD01C21600B6EF36EE7C67495AB539480ECDC23C7B9C3"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_055.jpg",
+    "bytes": 127552,
+    "sha256": "0F886EB9B1A9AB8B063EDEB2FEA6EDACB4112F8410D5AB990A97FAF122E8E3BE"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_056.jpg",
+    "bytes": 127713,
+    "sha256": "29BB8BD65701B73DEBF2468BC42A0356F932C9DCFAF8FAC9587D110695A162DB"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_057.jpg",
+    "bytes": 128429,
+    "sha256": "4899553A1DE7461A49941E6207D3CE806B13D558D1862A25748A145EF22E818B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_058.jpg",
+    "bytes": 127730,
+    "sha256": "EA94FD085FAEC101C3BAA00D0EDB5004CF9D68C646D03CF97FB5C8D5540FB758"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_059.jpg",
+    "bytes": 129178,
+    "sha256": "D8E286F855E4E0C76356C606020FDE878B227250739BEFEF1E967FAC714C9F7F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_060.jpg",
+    "bytes": 130812,
+    "sha256": "54E5D00AA1DD6F960841AF88723EB3B534D4C8A213CB7F97AF680DB5981A4000"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_061.jpg",
+    "bytes": 128310,
+    "sha256": "1B756F2E7A0A954CCEDC66BA3BBDE0C8435A0C371F94BB5B4A33FA125B5402B5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_062.jpg",
+    "bytes": 130087,
+    "sha256": "7B96D993174D35F53A1D09E48B0A4D3316C2E7A95C51DA2D8C39E9FF76A376B7"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_063.jpg",
+    "bytes": 130234,
+    "sha256": "B7F5FD8F8643C4F0DEC0ACBCF76B46E62565E5BD63BBC9765B3668AFCAFD9CBB"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_064.jpg",
+    "bytes": 130889,
+    "sha256": "5DA27230BD3DEC934E9F8ACB008A42E07626730CF23A655DE2E02AD0CB5AF7EA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_065.jpg",
+    "bytes": 130873,
+    "sha256": "A3BCBCA8EDA01F03D0BC0600CD4FCD86DEF906D13ADAED13BD705A7A934D66DA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_066.jpg",
+    "bytes": 131547,
+    "sha256": "AE10D113CB94267658B4C35DC73BF1E1A649026854A4ECCD4F63B7C83C20D990"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_067.jpg",
+    "bytes": 132152,
+    "sha256": "95CEDF0EEFED1437BA049BDEB1AD187DFA60251F9E38494D05A5E33309D27776"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_068.jpg",
+    "bytes": 131468,
+    "sha256": "58A0572805B33C47CAE52C3AAD0C507C90ED756B98C7BC7873ACE0D2B92DD827"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_069.jpg",
+    "bytes": 132315,
+    "sha256": "76E44D5A7E4DFBA746D0DF4CB67B053365CFB985D4C61E319E46D474F90DDFC0"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_070.jpg",
+    "bytes": 132310,
+    "sha256": "2C07152C7B82D588B336A7319F3D9791A8CB881F40D2C74FFCDA4CBDDA955140"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_071.jpg",
+    "bytes": 130914,
+    "sha256": "D355C9093822C125455C8D16529A7040E81D72640280F6C8CE057317E4D3582C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_072.jpg",
+    "bytes": 131177,
+    "sha256": "B92F54B4869876DD6A3C5F9D5A4C80F3F9B2562A5AACB46DF313225C80B7901B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_073.jpg",
+    "bytes": 131051,
+    "sha256": "C3B1781D5D61E521AC5BA2C7FE6DCD7E0D13CFD5CC9DE946EC26DB7F0DC0F68E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_074.jpg",
+    "bytes": 130257,
+    "sha256": "9B56C19F67E33613531ED558A55177B299FCB215A3A72BA91CAED3D7B994B456"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_075.jpg",
+    "bytes": 130663,
+    "sha256": "C3812322D0097EB3DEB5272CB959E92BC98A5379E7C05BDD52991CF55C5CAD40"
+  },
+  {
+    "path": "01_器械360度高清图片帧/01_Olympus凸阵超声胃镜_360度/frame_076.jpg",
+    "bytes": 129228,
+    "sha256": "74E29525109BC372441C7B1BD9AF75D194BE1E5570BDDE88E29BBDCBEBCC6AC7"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/00_官方实物单反原照.png",
+    "bytes": 432207,
+    "sha256": "0A244CD66C1FE6BDBC718777D1FD8385CAA6E0A2971AEBE43FEFF8268A2A53F0"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_001.jpg",
+    "bytes": 124854,
+    "sha256": "30346BCE7A2D2A97092956F4C85596C33142EF684708FDE15C097EB87A406E70"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_002.jpg",
+    "bytes": 127267,
+    "sha256": "C26C7C1ABFB9FC1E2E3DF7D3C5B10AFFF2224722987D50261A779E9152139521"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_003.jpg",
+    "bytes": 130578,
+    "sha256": "1374A6C5CA0EE9572E074021008236E146DEA411485E9D2B711E1FA82CF8C68A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_004.jpg",
+    "bytes": 130576,
+    "sha256": "AEB41B2D83EA9B812E26E7FA6E446E8C1058FC0F825C286B630536DFC6F2CDC4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_005.jpg",
+    "bytes": 130445,
+    "sha256": "510327C669CD9A41C24083360FE2C39ED22962C9667D01F7E10096880DD2A4EB"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_006.jpg",
+    "bytes": 131090,
+    "sha256": "992E6C4AC159BA4853F729286861DFC04ABD685EEC8B5EB5809F71350ADAE4A7"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_007.jpg",
+    "bytes": 131576,
+    "sha256": "00CB1FD97D54331EC29B10F1B8DE52D50E19F8BDCD37BF55DFC7BCA1D82249A1"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_008.jpg",
+    "bytes": 130708,
+    "sha256": "BE1D52D27DE1B0A5BBBDA4B7BD26E676FE946DF752DD17317667B83693CE76CC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_009.jpg",
+    "bytes": 131394,
+    "sha256": "5F3B3388BA0A5C1118AD95409C14CB51A077C3D53F5BDAF3A7F185D300724A8F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_010.jpg",
+    "bytes": 132496,
+    "sha256": "983871D315ECAAD547F478B276B28F3B6B5622A7DEFADD5A32183F011B8D2778"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_011.jpg",
+    "bytes": 133547,
+    "sha256": "CF710AD2352B4D0A11571229357562CE0358EB15DB9F1D6A59BF79C7580BA02D"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_012.jpg",
+    "bytes": 132689,
+    "sha256": "6B553A8A0FD5C4FDA99FF2D3AEBFEF129C6532E0DE6267EE69FF323F5E836ABC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_013.jpg",
+    "bytes": 132876,
+    "sha256": "50EFF7E396B7C45044BEB8FD5FEDFD48B697F609CF9FD102F509B13C5874B843"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_014.jpg",
+    "bytes": 132995,
+    "sha256": "C5F8641994BA164C566AB18CC4222670D643DBDC2536A2A4E2DD65E201B211D2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_015.jpg",
+    "bytes": 134476,
+    "sha256": "9BE9708165F6A1FF69F1132AAC5ED92C11972BF6386F01C2CF6083F439D15F9F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_016.jpg",
+    "bytes": 132920,
+    "sha256": "5582C8A20156049CE63AD9C1B8C564CF9906523FB9968B7C6B8D70AE1A52A738"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_017.jpg",
+    "bytes": 132893,
+    "sha256": "657B80195EBBB5BE3A84AB1240B47664D38B5216362FC7CB95A80EDC7B18F4D3"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_018.jpg",
+    "bytes": 133539,
+    "sha256": "C066DB32E2A43B26E0E52B2ED6F96EDA7D18A136FA990CA217714ADFCFBD9E2D"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_019.jpg",
+    "bytes": 134964,
+    "sha256": "0390BE66A0C9039EF14DBA4A1B933AF891DF6727E80D37AC30CA75A33B7DA8CF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_020.jpg",
+    "bytes": 137360,
+    "sha256": "64B7A68453C91229E54E9E11AEF1A0357358A8D5918B8996F86F617E3510E484"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_021.jpg",
+    "bytes": 137458,
+    "sha256": "806FC53C31DA83981C90755F85AFA58C144DB7E3B901FC5409F14BABBF265AF9"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_022.jpg",
+    "bytes": 137977,
+    "sha256": "875AC8B0CBEA3C427D6F2BD7FE3F7B81A4DD2F414A3C463C7D4B8093DDA906C5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_023.jpg",
+    "bytes": 138841,
+    "sha256": "B69B1EE39C8BC532173167EEBF4D181FD350F94F807995E3C495E6CDD8E86AD1"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_024.jpg",
+    "bytes": 136814,
+    "sha256": "FC47FB2BEAD27C14854FF66196A49668CB525DE1B0F984B7B0F1E1636A86E95E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_025.jpg",
+    "bytes": 118530,
+    "sha256": "F3133FF172E4733B8B3D2C0B7360000685A9939BEBB5BA4CC93C109ADB5D30EB"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_026.jpg",
+    "bytes": 119070,
+    "sha256": "523BFF4C4ECBBD984E80533C6C040CE2B47374F11AA221306A564CDEB71B8886"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_027.jpg",
+    "bytes": 119992,
+    "sha256": "CB84D2925897F1AFB3335B70EAE1E2C02E9DB90A357DFC46D6C04EEEAFFE7109"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_028.jpg",
+    "bytes": 117987,
+    "sha256": "C4292C0A8FB1DFC809C845A7D521017473577258ABF281D49259A0F090C217BE"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_029.jpg",
+    "bytes": 118428,
+    "sha256": "F9D170E1CCBAAA8CBAE98B08B16A049BF88C81F9C38DF72B07D4896C95051D32"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_030.jpg",
+    "bytes": 119446,
+    "sha256": "0B02CB2E22DEC73178738789AAD6AE243D0F88241A5B1AAD0B2B1BD12871310C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_031.jpg",
+    "bytes": 121065,
+    "sha256": "7D19AFEC6F9FAD57BA7772BA21EFE084F2912A7CDB97DFD4CF229C04D87E92D4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_032.jpg",
+    "bytes": 120219,
+    "sha256": "AA7806B085A30C76623BA287021F3BEBF91E16203014134644B3D8D3AFB10D1B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_033.jpg",
+    "bytes": 120197,
+    "sha256": "91F83E4FC8CB5249F624C61E4C487A7E5C2517274AB57C8B08FF6EBB090FFF47"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_034.jpg",
+    "bytes": 120618,
+    "sha256": "ED48830F854034ADCC1441873FEDB656CA8C2C35C17B4733DFE092E11D791949"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_035.jpg",
+    "bytes": 121706,
+    "sha256": "BC6C8D06A71ACAA152F9E5F2B45D12BBE1BDFC9C561E28FE65A13FF9A9D641D8"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_036.jpg",
+    "bytes": 119286,
+    "sha256": "A774DAC68B6B1E9323CA9EF753FEDA412020A622509604F4E271A558C845BF84"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_037.jpg",
+    "bytes": 118929,
+    "sha256": "0901745654CE6721A5DA0D40BA07FBCD60DDE7278389A7EA72E6315BCF87E606"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_038.jpg",
+    "bytes": 118827,
+    "sha256": "AD66E563A31205ED38191F18C9E3CA8BC48F1D01AC9A4A2914F1E976E5AB84A4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_039.jpg",
+    "bytes": 122444,
+    "sha256": "4D7C1685C7B3F454638F78E6D017B6506D53529ABED538DF93C4D42C6CD3E3C1"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_040.jpg",
+    "bytes": 122183,
+    "sha256": "BB08607C444B2F83A57FEFEB2FDD7ED33447905D1E95BA7A35433A293036F48E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_041.jpg",
+    "bytes": 122494,
+    "sha256": "4D18179CBD855E97167878D09A7FBDDB2290CE437D9BCA375A8B6CBF65F5D462"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_042.jpg",
+    "bytes": 106658,
+    "sha256": "12E647CEA73F03925B83C511DCD2F871A6F75D20E453EC3FCA168FDDAAD16E64"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_043.jpg",
+    "bytes": 110990,
+    "sha256": "6FF8399BB1995A63B7E7663BB72F255930A0D030F139FEB92E381AD186436BAD"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_044.jpg",
+    "bytes": 111417,
+    "sha256": "D55F884189EAE07CD68EF831DA3AD167C5CCCB0991239E1FD0C13C4A24527E23"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_045.jpg",
+    "bytes": 112146,
+    "sha256": "CB3185DBEF4362D6E1C3833AF6D5F39DE9041A0B96C32E2AB97918D1418F1820"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_046.jpg",
+    "bytes": 115757,
+    "sha256": "16EBAA5F721C98C6AB2C918FC0C408273ACB81F1A2AD5C9DEE27B6994E99A2F6"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_047.jpg",
+    "bytes": 115451,
+    "sha256": "7C93C01FDA00BF9980BED35CE9E7BBE382F9ED136BE35BAFE184C5B5D3E9F449"
+  },
+  {
+    "path": "01_器械360度高清图片帧/02_Hot_AXIOS枪式电切推进器_360度/frame_048.jpg",
+    "bytes": 116110,
+    "sha256": "5EC12E33EAD936B46559F1A8F204E35A4038229A4FDEC26CB00B0949C5F5D524"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/00_官方实物单反原照.png",
+    "bytes": 506869,
+    "sha256": "8EC9CC91C465FF7E9F3FF91C4DFC4F9D1FF957A1AB59E6C9B3DC84603E4075CB"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_001.jpg",
+    "bytes": 109857,
+    "sha256": "21A3577627E812F2084FED395717FDCEDE91A88328AF52A8128C5DB4BCB4FD78"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_002.jpg",
+    "bytes": 113447,
+    "sha256": "3DA709CC311709B084BF44CCB789E868FEC111CFA6DA5E9C909648485A289FA2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_003.jpg",
+    "bytes": 113969,
+    "sha256": "C3A54AD0320AAC7C2708A15846CB836C58D5D3EE8B4DB39AE784DE62E943DA2E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_004.jpg",
+    "bytes": 114643,
+    "sha256": "29ABAC602FB8EC7C334F39817EAA9C41486E477381C2A4DC77547ADE21FA7AE4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_005.jpg",
+    "bytes": 117855,
+    "sha256": "6747B4041D515041F933201E70E7B7A3181F0EF22074AFB8EDE333613796A5E3"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_006.jpg",
+    "bytes": 117672,
+    "sha256": "7D84D029DE2BD6E231B6F0E4956B8FE38D5D7B8DA941045AF9B9A55FE6D8B775"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_007.jpg",
+    "bytes": 118064,
+    "sha256": "62EC21CEF27A19E73A61E0B728BA51C4B2DA89EB1ECA83EB29C3CF1EC770D198"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_008.jpg",
+    "bytes": 118578,
+    "sha256": "1B0E0EA88C1D7212B0773A44EB0B880EBAE3F6A0E35A0F88D69393E504B1D2BC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_009.jpg",
+    "bytes": 119552,
+    "sha256": "7A2095B2ADD4907F00F7643C83C26F249A54B940E9B0BD8D836E112399C1AD1E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_010.jpg",
+    "bytes": 118107,
+    "sha256": "DBFE477F43A6F4DED55BB7911E76B44BDAB5CA07FAF40C33630F28ED4EFCE298"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_011.jpg",
+    "bytes": 119391,
+    "sha256": "8FEFD3F831C83CC80890368918F0AB11A05C57BDA4C9AB136F1EE47DEF7C0D3D"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_012.jpg",
+    "bytes": 120338,
+    "sha256": "B7538ABCB95F15892C8FAB0ED6EFF6E143014A7C0D5F594334EBDE596FBA0F33"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_013.jpg",
+    "bytes": 121270,
+    "sha256": "9A6004A2948C936608971168079BAE4AAE503010960EDD9B843C46A33BE086CC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_014.jpg",
+    "bytes": 120432,
+    "sha256": "372A97E27F7B9B6BD09A649A336B4F9346163885DB847B27DA49F4E33E5D3C14"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_015.jpg",
+    "bytes": 119983,
+    "sha256": "1DF2CE1004908CEC3D4EB583FE5BE5C02477FBF3C145881F1B2F8135710D0E3A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_016.jpg",
+    "bytes": 120057,
+    "sha256": "3BA16527337FDF26449EC857505B23B4FFC3449E91FCEB0CD54108E695A0567B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_017.jpg",
+    "bytes": 122224,
+    "sha256": "7C33499CB19F4C268C3347228D8B33F1081450EA42815F10AE389190F3A4AD15"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_018.jpg",
+    "bytes": 120913,
+    "sha256": "14574AAEBF33C75CBF8576470442219026DDB587E6CD02B05C8D9F2C2D9BBA96"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_019.jpg",
+    "bytes": 134597,
+    "sha256": "33F7CC514F275E612F70C3193CB084C071634C9675DDD177458FEC4A1FEBCF74"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_020.jpg",
+    "bytes": 135828,
+    "sha256": "E5AF92D4F7C3E944D0D849346FE23607DE4937F3D26D68D29595459A4099AADA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_021.jpg",
+    "bytes": 137487,
+    "sha256": "292B18FBA5038AAABEEB4922560EAD2F84AC7771CB140AB77F82827BF051DD09"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_022.jpg",
+    "bytes": 135792,
+    "sha256": "2CBB778639B07BD05134972A034E9926143BAC2B7986F0FFE6FC107D6ED68568"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_023.jpg",
+    "bytes": 135614,
+    "sha256": "51C3DA240E6387E85ADF557630746307D116AF03717A1D57A4D4B7BB4C5270C6"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_024.jpg",
+    "bytes": 134649,
+    "sha256": "7E3F6056C91F676CCB47DB8BA254067BDF71476B6094B6B5492D1C38653C4E9D"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_025.jpg",
+    "bytes": 137410,
+    "sha256": "8B6F1B02364C3E04D44A06D2E1C369F2827D73DBFC0CC5F1CBC440B6550BD70A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_026.jpg",
+    "bytes": 135644,
+    "sha256": "421C5FF5175889B86B72933AC69A523F37F2682EDDC0F1DA3AE84BCE4459F3AC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_027.jpg",
+    "bytes": 129031,
+    "sha256": "7B08B373994110C8DC0143F89C976118E7CBB3BAB5C0FB563DEC76E85A5A437B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_028.jpg",
+    "bytes": 128563,
+    "sha256": "BB7988192E6FF2D1CB634D3B0CFE4016FA90FD2B4AD338BBCDF03C19FDFA10A2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_029.jpg",
+    "bytes": 128373,
+    "sha256": "DD3CCE8C52AC1C78B90D46FE5D455BB514834F15256BD02D65DAC44C6B1B1FD0"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_030.jpg",
+    "bytes": 131803,
+    "sha256": "C7822135094816382C39AFACE3876B9A8CEB6E35E6951D7123854484BE874A39"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_031.jpg",
+    "bytes": 131417,
+    "sha256": "1B0CAB569877EB9D6B5D1B6B4A61C3A4593494BEE1F485F7DC494BE488A349DC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_032.jpg",
+    "bytes": 133127,
+    "sha256": "CC89BF7EDC0CFACE5821168E58625DB359B298BB98AD88EB3AB54A4131D13BAD"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_033.jpg",
+    "bytes": 134017,
+    "sha256": "181B8C66BD19A328F2D13F71A40E34D1ED3695009C99193038734C7C6E148DF8"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_034.jpg",
+    "bytes": 133588,
+    "sha256": "2162F948E8C3EEACA2135D85F650E4E6092FA2E685D59C791FB4B54583AFC4C7"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_035.jpg",
+    "bytes": 134058,
+    "sha256": "0F83029309736F63545F89A76D3E751B2A38F31BE59A16A0EB5B8E29178AEBA5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_036.jpg",
+    "bytes": 134510,
+    "sha256": "5E6B08CAF412233FC63334A683BF4951D0234729E0B16506384825FC6A41C32E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_037.jpg",
+    "bytes": 136146,
+    "sha256": "1D69A9023BD56BCEA082C4DF78FA99FAD0AF1144CE61743B2D96E6E9493B0D16"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_038.jpg",
+    "bytes": 135571,
+    "sha256": "8726AACE4E185FACFCEFFD78E097FD864D78939CF8D9FC6048F00D8410C055F5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_039.jpg",
+    "bytes": 135291,
+    "sha256": "0186CC2C5252603CC413FB48E56916F2AA04950DDC769CBEA2CBF2D9A0D8095B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_040.jpg",
+    "bytes": 135656,
+    "sha256": "391BB1E4665D4AD66CCC15D1DB8763BAC6A3A248E52D610F760DCE65D920B29A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_041.jpg",
+    "bytes": 137584,
+    "sha256": "CD1BA385EAF5760ADCB8E437680655ECC8F43BAC921721F4AAE22AC845135D80"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_042.jpg",
+    "bytes": 136537,
+    "sha256": "F80382CB020D51FA1F37D3411C3CCE3A5D3AFC8BA968F70FAED5330C804711C5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_043.jpg",
+    "bytes": 136359,
+    "sha256": "E70A87CF50BD164BEAC832D53D49D5634F75874A3DE3E9CF545EEA1E0240FA46"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_044.jpg",
+    "bytes": 136319,
+    "sha256": "B622F9DE1946418A4190BA4F56336ADB391D191FFAD51AAA0283FCBBC4167E42"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_045.jpg",
+    "bytes": 138843,
+    "sha256": "65D54BF16C7F19367E83B9E6EB059B7752934E56AA41FBF2F943ED25FBB6BAD2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_046.jpg",
+    "bytes": 138336,
+    "sha256": "5949A8D91615B082D9A66897A1375E5457F16C605718C0A94AB80A71AC7AA49C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_047.jpg",
+    "bytes": 138113,
+    "sha256": "66991E92928E24A2626149706C998D1715B903559638A87F065134B8B003CA19"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_048.jpg",
+    "bytes": 137358,
+    "sha256": "77DF17149EDBD4DF0D9298958427EFCB4574BF1BCEEE9D8C6E20988318B9F85A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_049.jpg",
+    "bytes": 139349,
+    "sha256": "7BE76A852DCA0FA65544A85A9F0AC571ACCD41091D801851D18C030A22566CDC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_050.jpg",
+    "bytes": 138653,
+    "sha256": "9380C2B5DEBA23F428110D6196E79BE66D80FB8C27850AE9D118761B3A399BFB"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_051.jpg",
+    "bytes": 138659,
+    "sha256": "784CC3CA5D050E2518AFA2106670862BCEF47692D20072734D7BDDB1AB250EAF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_052.jpg",
+    "bytes": 139019,
+    "sha256": "EADB38A2A11D37E398CA9CE7C26D3B05CD427C712CB0388DACDA001B315CD434"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_053.jpg",
+    "bytes": 140000,
+    "sha256": "0C32B93505FFA7E181E5CED1AACF198AD423DEF73D92852B10D920774103491A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_054.jpg",
+    "bytes": 138639,
+    "sha256": "A89E8976FC0D631706CEAD91D969AD32EE2499469CDEC5B5B817F9138C081D68"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_055.jpg",
+    "bytes": 138481,
+    "sha256": "A90C9AECC8877F36218F7C2186F18589D850F3046D0ABE12C19EEE634D793A92"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_056.jpg",
+    "bytes": 138464,
+    "sha256": "02DD1829DAD3CB547F28DD8778C6722FEA805892148D291D3E9C6120F6F397B5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_057.jpg",
+    "bytes": 140096,
+    "sha256": "F95C19F444C5FBB6E588762D41FC2DC3B0454CFF5F541B2DEC451F77F779E90C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_058.jpg",
+    "bytes": 138585,
+    "sha256": "01D13F0C4E154D97F132D46DB73AF1BCFDAE2654901A110763226030C2A8D792"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_059.jpg",
+    "bytes": 138793,
+    "sha256": "F26584CDF8553B3822DC121E0AABF155F024A0146B1D282A67950DE640DCEFEC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/03_螺旋金属超滑导丝_360度/frame_060.jpg",
+    "bytes": 140049,
+    "sha256": "0FF2B74EEA086C100E130999BFAA6C1E44527B828DBB15CC320131CECD2BD31F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/00_官方实物单反原照.png",
+    "bytes": 488668,
+    "sha256": "02DA6A24FECDB47B2D876687FD2E502FF12AD4364115ECC487FCA4FA230F68EF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_001.jpg",
+    "bytes": 117854,
+    "sha256": "146AC5ED5285903B70EE950B9CA73239F391DDCFF37AB7B61E3CA7C3E34AC8A2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_002.jpg",
+    "bytes": 119744,
+    "sha256": "CD9C8275E5562513DCAF4E76ACBBA3C34B557D59ACC2CD4FA87EDBE86904F4FD"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_003.jpg",
+    "bytes": 119964,
+    "sha256": "5E033264EF048AFD05EDAC74794B91219AF6235CDAC18BEE1B018030729AA8D4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_004.jpg",
+    "bytes": 121568,
+    "sha256": "D483A585D80C86B25C5FAD45951438A06D8D8FB318D92F94F153A8B1785B5547"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_005.jpg",
+    "bytes": 123411,
+    "sha256": "4598395A413E89CD6649D040082DAD26D932E0B00215C9AD30A4A98D920F65A7"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_006.jpg",
+    "bytes": 123944,
+    "sha256": "02CF108D8CEAD50AB57CE931EEF89A4D93DF97C85E0B329811AF6EBE8700BADA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_007.jpg",
+    "bytes": 123890,
+    "sha256": "6E6A507D4718F7046B1A75321943E3EEB913AC5D5DD80FDFA2129FD40358C03E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_008.jpg",
+    "bytes": 124287,
+    "sha256": "641196DCB024D144DE0170B05A69D0E1ADD82863FB0E2C7ED767DB2F292D3F47"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_009.jpg",
+    "bytes": 126601,
+    "sha256": "CB13CB043E6A3B2F7AA946CDDE04792B2751E4CAB471A11AFE0E0145780CCF0A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_010.jpg",
+    "bytes": 126450,
+    "sha256": "5023BDFA6E4D35BEAEA2BDAC27FE9E02BE072095DB3BDBCDD2C70C853EC6CB59"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_011.jpg",
+    "bytes": 126886,
+    "sha256": "4F83B48FAEC7C7096D8DB77EC3831D5191D8C2ADE928B829478B5142A925B8FC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_012.jpg",
+    "bytes": 127217,
+    "sha256": "23B388C03E0ABAF361E808690C8F8863122AC1CE106CD92FD8C7A11543C400E9"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_013.jpg",
+    "bytes": 127908,
+    "sha256": "9DD50F1B5DA4976F6B860F483834B31F4BA95C0122E6D6551409618FEB9F91F6"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_014.jpg",
+    "bytes": 127451,
+    "sha256": "87D9CA66DD3F6BAB75C2B2602862B1D216B18531DEE4A8DED3CF882261F7DF09"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_015.jpg",
+    "bytes": 127587,
+    "sha256": "44877F1F71920CED2FA42D235011AFFACC74A6350C9224B003390C08E2EB8D28"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_016.jpg",
+    "bytes": 128985,
+    "sha256": "CA8F9E24AB2551793D643A89055392E7605196BF504BB2CA4DFA29815047007B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_017.jpg",
+    "bytes": 129811,
+    "sha256": "ED390498BAB0894A6FF632F4E2758ACD587BA51DF3B6D24207DE7003D62F8ABE"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_018.jpg",
+    "bytes": 128586,
+    "sha256": "C310410BCAF29560C8E792398150B86859532BF9500E04775F384A52547AEB4B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_019.jpg",
+    "bytes": 128603,
+    "sha256": "900CD4F19562702110AEA4C7997174FDE62C533E42F0F7417BD5F13F411A3440"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_020.jpg",
+    "bytes": 128768,
+    "sha256": "184B4BD959C4935A8765B57F27E5B554FA0382108B53FE020F0796512819ED43"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_021.jpg",
+    "bytes": 132747,
+    "sha256": "9ABBB9E435D5A572B2A598E6DA168501AD1C1FD1D4A86A22E2B8FE0DF9B5573F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_022.jpg",
+    "bytes": 130000,
+    "sha256": "8220CE073951D48FC161402CC3B2B7EE554DBCED38E66076AA44F024D3BBC372"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_023.jpg",
+    "bytes": 130036,
+    "sha256": "587C8B7253C31B8F2ADAC84F81170678DFCE81F0685C75CCF5DDBAA308021895"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_024.jpg",
+    "bytes": 130548,
+    "sha256": "53CA8052FF1781090EDF1C7663B18E2DBD99C7E2543DDCC53789D5208B4F3018"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_025.jpg",
+    "bytes": 132095,
+    "sha256": "C01171644F127636C4E157B40B2542DC2E96A945322753C1A2BC34833640BD8A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_026.jpg",
+    "bytes": 131605,
+    "sha256": "FE2431B587B1045FDF36375DA7F7A87F010ECE2C01387D14791BBAD077922FF0"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_027.jpg",
+    "bytes": 131529,
+    "sha256": "706DEFD931B25A1EEBACE2CA20A6E2F0F1B5CD33EC954CA9CC7CDAACF143DC50"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_028.jpg",
+    "bytes": 117821,
+    "sha256": "BA13A88D26229036D2FFFA732875A0851F3F1DF27C6F3414E90DA5FF0E658338"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_029.jpg",
+    "bytes": 118536,
+    "sha256": "89A9DD7C806291CF8187641B8543C00F3577E694C8D4AA21FCC26A05567DD0C5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_030.jpg",
+    "bytes": 118253,
+    "sha256": "F744E21EB6D09D825C9A28F32BFE01FF8E0A69639173C0E433D88A33620854EE"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_031.jpg",
+    "bytes": 117678,
+    "sha256": "B1FEDE6F83DFC12D88883047F126BCFA77799F5C96787D672A5CE11A2EEE54FA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_032.jpg",
+    "bytes": 118370,
+    "sha256": "E53246C3E611C587086473DE57A52A4D98D083E146B234C5CA21D86A239CC74D"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_033.jpg",
+    "bytes": 118923,
+    "sha256": "8C645392B02C3C64D1A3DEA9FD5BC765C37554EFD1715EBBAF8CB678D2AFD9DD"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_034.jpg",
+    "bytes": 117551,
+    "sha256": "0CAC398955FE67A905F9A352C7B2B0308F79EC0008DEBA07517F9B8D34DFF95A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_035.jpg",
+    "bytes": 117132,
+    "sha256": "D6EA8C45B1B8B6033FA95EC609128AB53CB74EA2D42E767F8A7AA30595B69B6B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_036.jpg",
+    "bytes": 118204,
+    "sha256": "004558C4521D94B2C1D3F523824DEB9C5EFFD1C59E817E196DE0ECE3C607F0F1"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_037.jpg",
+    "bytes": 119376,
+    "sha256": "809594C9B56E805EDA4E654018A851D33675FF9EEE38EC83A5DAA43EB43FFAD8"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_038.jpg",
+    "bytes": 118419,
+    "sha256": "1553A8F3AAAAC81D433ADC2D23B56A9E44367950D18073AACB2A07B868EA9F60"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_039.jpg",
+    "bytes": 118725,
+    "sha256": "37E72DD916270BDBBF272B50FCFC03AF13ECB2CB370594A06610FB9381B445B3"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_040.jpg",
+    "bytes": 119008,
+    "sha256": "D272A89BF1CC329B8C28E4D55FCCC8C0FD5FE14016CB3A690CA16714DD043011"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_041.jpg",
+    "bytes": 119850,
+    "sha256": "D4D8F3871211EB2B06AD7CF424EE3D3AC278361A8B98887D953BB47633983A24"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_042.jpg",
+    "bytes": 118608,
+    "sha256": "2E8BEF1DDC058FBE460CFD74CBD933FB0B50574350464C88DEC6A2FDBC5B6930"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_043.jpg",
+    "bytes": 118370,
+    "sha256": "894E1846DE032646EA07231DE2751D502EF6B2BD15E3F204970A31670C078770"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_044.jpg",
+    "bytes": 118037,
+    "sha256": "F557D581FB45F025923D74ED5BF0F9435F32CB9DB27489E693026B8168CA52B9"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_045.jpg",
+    "bytes": 120494,
+    "sha256": "776CA8D937AD6832E1F5F88601D6EA926FBA1FF17FCA5AC12558BC45C7A5A19A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_046.jpg",
+    "bytes": 119552,
+    "sha256": "47E180C31E9B12F17A45CD9058E28FF894A20F8894221A21C271B9078B999BFD"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_047.jpg",
+    "bytes": 120604,
+    "sha256": "EF185C0C3B79514B98C67A99128A41C61758FB5FEDE9321F068EB2A029BAA855"
+  },
+  {
+    "path": "01_器械360度高清图片帧/04_医用刻度造影冲洗导管_360度/frame_048.jpg",
+    "bytes": 91334,
+    "sha256": "567D4A5C7E3EF6A8C31EFA44A4EF294DCFFBF60649387956A6855B8432D6A94C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/00_官方实物单反原照.png",
+    "bytes": 451833,
+    "sha256": "6415CB1F9F32ACF04448B4A6972FAD5C1878EF51AF562D8B11DD676A02506376"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_001.jpg",
+    "bytes": 92756,
+    "sha256": "53B22F18E30F09CDE9B8358DD0D99C03A99FC540C51D18AE10A8C80BC49A2A92"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_002.jpg",
+    "bytes": 93571,
+    "sha256": "210AD5D63C7416509A90E29DFAC755194623D02D5DFF51D61CEE127580C1B8DF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_003.jpg",
+    "bytes": 99398,
+    "sha256": "A0F6F0A1C982B61979C72AC7BAC87C34C30F95E8CBAAF4ECC30AAB755744C3E2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_004.jpg",
+    "bytes": 100994,
+    "sha256": "5C102ECE8B99524192155C5581CD39DBD6AB01724BEDA14B704359905B74E6C5"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_005.jpg",
+    "bytes": 101438,
+    "sha256": "5E51556EB6E5991AB83E012CB6F96D7C8EA2A4332EE51F57EF718F803A1B7973"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_006.jpg",
+    "bytes": 101402,
+    "sha256": "2DFE076AD099FBCCA55B18C0DCF150DEE93745E678BE93ECF7D188C17E1D39F2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_007.jpg",
+    "bytes": 101442,
+    "sha256": "1F751A667399BCF00D748B5110FDD88B862F3C3B40EB2EC197090FEF230F1F90"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_008.jpg",
+    "bytes": 102870,
+    "sha256": "BFDC9696A9DA58C9B1BEF8AE4F0ADD7FC52E76FF4F4729687D033E5191BB15B2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_009.jpg",
+    "bytes": 103584,
+    "sha256": "400980D775941658BB8986C107142CF4A02B506ECB6FBE1C221BAAB8EA0A0CC2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_010.jpg",
+    "bytes": 103842,
+    "sha256": "53AE66A73F4DFB23BE7CDD384F988EC7E7BCDB385255EB7D7BCE5C830A85A784"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_011.jpg",
+    "bytes": 104563,
+    "sha256": "42B35CA6EDD660B6236D07BF1B8A1DF391AE1B172BA92156EF5D0C3534B46BE2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_012.jpg",
+    "bytes": 104952,
+    "sha256": "D652B641C00377A364AA17A19C448F8065ABDB4DE57B064532DFE3CF02138687"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_013.jpg",
+    "bytes": 106065,
+    "sha256": "C64D41F609907983EB5318360A2F4EC6E6203F134F69BECA17F6C829FA8704CA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_014.jpg",
+    "bytes": 105571,
+    "sha256": "6C5D7E1156F1E140643E0CEEF992558CDB81229241048FCBB389958F0B155E78"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_015.jpg",
+    "bytes": 105315,
+    "sha256": "7DB628EA7A03E89B5A3FD3D5F1508A2D68F9F588A96197653BCE6371EA027610"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_016.jpg",
+    "bytes": 120871,
+    "sha256": "DD11F4C053F228906A5472173B8BC737B2AD72736E2E1685E1142F0CC7BBC17F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_017.jpg",
+    "bytes": 121676,
+    "sha256": "13D795C61FC92AAB22094277E3EF15E507E6F11A52991E56E87D11D2887F6801"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_018.jpg",
+    "bytes": 121020,
+    "sha256": "03419671816C01C1ABC46D1A42F3886D61B767ECF002552269C67C7C596020F0"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_019.jpg",
+    "bytes": 121025,
+    "sha256": "63242623D613536221F79160DC87917BF4ACFA5393B69A7B2598D93059A2734B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_020.jpg",
+    "bytes": 121040,
+    "sha256": "352B80EF35039CDF956944F388BE96AC8E31075D11C2CE4C178F7ACB2B615489"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_021.jpg",
+    "bytes": 122752,
+    "sha256": "3630070208714E8A73625B01DCF76CA7F30897EF9F29FDA4DFD0B725ABF4204B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_022.jpg",
+    "bytes": 122397,
+    "sha256": "CB136993DE900BAAFF51ED94E6765CAE1430F4DC4CF150FA170F2151A2BDC026"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_023.jpg",
+    "bytes": 122129,
+    "sha256": "E66345AB9A9E129093676E00291E048972E1C5F5D11AD99F62E6D9205D87276F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_024.jpg",
+    "bytes": 122419,
+    "sha256": "56D2E2D947BE0C697DA043750B996B01AED83F870A037687B5D1159FC9D32CD4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_025.jpg",
+    "bytes": 123120,
+    "sha256": "86F7AB32DD8D0AE7FC1929AB8321B5A88D65E75E49B993AE013E4389444E2F12"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_026.jpg",
+    "bytes": 122176,
+    "sha256": "4E93EA01D16D5C656D02009CB6925C3986DA2E91DD85BF9052AEA1210DB127CC"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_027.jpg",
+    "bytes": 122537,
+    "sha256": "478081122E2F67AABA71C27E416A8EC71F0F106AA59934BDCE75133036D84927"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_028.jpg",
+    "bytes": 122655,
+    "sha256": "1E905FCBAD8719E0597AED282D951A2AB815DB80382E9252911BB6B29FA5E98A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_029.jpg",
+    "bytes": 123444,
+    "sha256": "0C50915CE54ED0EDDBDEB029BBA0C8E6A00084973B06B61D6F4201E6A8C02729"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_030.jpg",
+    "bytes": 119419,
+    "sha256": "BDF3B6C3E377FABDAB4C6E318442A32190509170396CAD5DD2B15EEA577F285B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_031.jpg",
+    "bytes": 120688,
+    "sha256": "AF95948F4BB1B6EBCE2009BCE7E0C13B76DE5DCCB9D8AC97968454E7AAA2C95F"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_032.jpg",
+    "bytes": 121341,
+    "sha256": "940742ACF84F96CECDC371AF1584DF78F5919CEFBBED3D164D8EFC00918144EF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_033.jpg",
+    "bytes": 124004,
+    "sha256": "D0E248ABAE010F8F24C0B8A5CB85FC50325303F0150C1B3D662A0DF3EFBC6546"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_034.jpg",
+    "bytes": 121465,
+    "sha256": "C804DDCC51DE168E07FAB699A21C289ACD6BE49DFD7C5A0FCFD151F5810EF979"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_035.jpg",
+    "bytes": 120749,
+    "sha256": "17E32C2DA820B1D35A56AA33FDE188906B5D63EA6A98D3415ED5D1BC0450DEE6"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_036.jpg",
+    "bytes": 120915,
+    "sha256": "D41AC0652085F5E312C4478E11D2111E8121A673AEC63BE3F33BED238D53A0B4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_037.jpg",
+    "bytes": 144590,
+    "sha256": "50481D1C8BFF297B09E63FBEB6F6FD620180A9A733FEC8A71977471D092496DA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_038.jpg",
+    "bytes": 148003,
+    "sha256": "6D4EFB0FC31DBD25D117CCE3E963D86968F872F0298DFF915A5595514098DAD2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_039.jpg",
+    "bytes": 148370,
+    "sha256": "7FE7F3C2BB3DD9F4174442740200725C2D6C2077A5F4CC3EC10114E2A152108D"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_040.jpg",
+    "bytes": 149182,
+    "sha256": "0B01ED8C02A5ADAA296440A3ECB98CED4D7C3C6C0AA8907BA6493A7C3C8452C9"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_041.jpg",
+    "bytes": 152052,
+    "sha256": "6FF769F37E8196D8694C09212EC73B2C23F0B7264C4A0B094C3362B86E195160"
+  },
+  {
+    "path": "01_器械360度高清图片帧/05_EPASS双气囊充盈导管_360度/frame_042.jpg",
+    "bytes": 152221,
+    "sha256": "A20D08C929D18AF6B525237A93655B51DE40DD98AC36D2CE61451263618CA75C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/00_官方实物单反原照.png",
+    "bytes": 432207,
+    "sha256": "0A244CD66C1FE6BDBC718777D1FD8385CAA6E0A2971AEBE43FEFF8268A2A53F0"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_001.jpg",
+    "bytes": 149529,
+    "sha256": "A4186F7C0BFEE0190D7F1C54878D920E7C44723B10404C858966DD1C349CFA4A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_002.jpg",
+    "bytes": 151221,
+    "sha256": "DC509F752675B13B0AF8222BD55E8CC959060B65879C32B837D49F930C088E55"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_003.jpg",
+    "bytes": 151799,
+    "sha256": "08FC7DA88AB5708236708EC26A52EEAFFAB1D8953512D2BF506378B0783BB1C6"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_004.jpg",
+    "bytes": 152909,
+    "sha256": "9221D1AF449953FF5634F2B1F055CE4CCB25BAD2115EFCFC892F9F01B593202A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_005.jpg",
+    "bytes": 157241,
+    "sha256": "32F19A40D2047A5FDF15572C1FD3F253B914EB3A20C6CB52FDEC100903FDDA93"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_006.jpg",
+    "bytes": 157666,
+    "sha256": "F22A13B76BB0268EE6F7B397A4B1D585412AD8D91FCD33F848D20F213CF36172"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_007.jpg",
+    "bytes": 157925,
+    "sha256": "2F1512EABD41B55CD06C31D73DE1ABB016AD30C30D107AC891725FD4E67A813A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_008.jpg",
+    "bytes": 158733,
+    "sha256": "A7F50863DB870B49EA9DE861C43F895D1940B7031CF741AA9800C3E459DE8908"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_009.jpg",
+    "bytes": 161080,
+    "sha256": "C0C09565F38CBA3CAB6D73EB15629CE6E24587628F96F72C4E4401E2D332187A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_010.jpg",
+    "bytes": 160550,
+    "sha256": "7E6234A5E2BBA485BD51EACAB4A86D78638C4D72C34083FA62B18710D5E90339"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_011.jpg",
+    "bytes": 160222,
+    "sha256": "70222CCC2E07B4743E696101D07449322BB0B52AF0DEE3C1F681F3787377A5D7"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_012.jpg",
+    "bytes": 163861,
+    "sha256": "0ADD9ADE4A1F3C488C58672995C0BDED921881EAD05034AD40D6A1579361000A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_013.jpg",
+    "bytes": 163607,
+    "sha256": "C6030E8B9CDF3D85713B75402C19F202A9451B14A84B5D0F9C18DA61C88C1D34"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_014.jpg",
+    "bytes": 164653,
+    "sha256": "9CA6BF807F88D07ABB7597F0FA13163955931AA8B1FE1A6A0B8557A432F78CF9"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_015.jpg",
+    "bytes": 163552,
+    "sha256": "18B3F6E37FD4C802CE86DF43E058E5C1BB55236BA88F7E1A4290FB4735DF5F24"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_016.jpg",
+    "bytes": 165106,
+    "sha256": "BB9B84B0E2813A5C496A72F2D3D42F49052294E2B83CF398622882F83EC72AFA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_017.jpg",
+    "bytes": 165553,
+    "sha256": "40E05028B1EADF54D258371B69414AAE07481560E871902EAC47ECED587AD5B3"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_018.jpg",
+    "bytes": 166570,
+    "sha256": "90DDD90FF7EDC9F7A3FF05C7C2CBA02A3446F1C9ED279267440FD6A96F64BC49"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_019.jpg",
+    "bytes": 164544,
+    "sha256": "A29868F0FDD6275B9AF39E3F0777B01B5549F7A38C0B275F1D20D01B8E0AA9B3"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_020.jpg",
+    "bytes": 164536,
+    "sha256": "8DAB39D60B71AD5654B0A748D0F55EDFE33DE51C3A3EFC7FA1216201DFD5DA87"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_021.jpg",
+    "bytes": 163942,
+    "sha256": "BD1B4BFABC5E0E577FC2BDDAC6019BFAA2336300865FB22435A6D15DE9E6371C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_022.jpg",
+    "bytes": 168258,
+    "sha256": "CDA2007D6F8CF449A6B64BD82D2E773B325FE60DA769903D726CA504179566FA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_023.jpg",
+    "bytes": 168073,
+    "sha256": "9A88F8F318DE53841C03CB9FFC9F2495FBF60CC2BA66A78EE843BB038B27134E"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_024.jpg",
+    "bytes": 168743,
+    "sha256": "A5EED4E2239C934D14BA87557D4958A329107FF22DBA9E5F6C923F85DCA5B2F7"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_025.jpg",
+    "bytes": 167778,
+    "sha256": "1E03CC38114839DD96455966200EDC8FB24FE3FE5758C106BCFD16CCEEFC328C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_026.jpg",
+    "bytes": 168587,
+    "sha256": "E8E67B0CFF5A017E709A9C636B400C645FED2C4787F02BF74230964B88272559"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_027.jpg",
+    "bytes": 167739,
+    "sha256": "D150A412D57A6718E423D5DD701926B4DC6C245FF953ED8A87D030859A357478"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_028.jpg",
+    "bytes": 168315,
+    "sha256": "5BF38FAD9089FE04FE9F871C9EF55CD8ACFBECFBE49CCE49CAED235BB8E673A8"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_029.jpg",
+    "bytes": 168743,
+    "sha256": "98BB94FF85C77981B450C28DB6EE3BD5D45055BF49DC45B86FDA97E0709BD5F4"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_030.jpg",
+    "bytes": 169535,
+    "sha256": "13CB056A918E8C9CE4A06AA5B91CEF4761CF9ACABFE01EDCD565F95711EF0F5C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_031.jpg",
+    "bytes": 167610,
+    "sha256": "4BDE5ECE1BEA5549F2B22E1E13C7046C9A20292A7B577B5DDE8F12F885937E3C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_032.jpg",
+    "bytes": 169805,
+    "sha256": "1BF174A46F37F700A49D10F148E25970DF3F1F53388D0EC837EB20F012F355A2"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_033.jpg",
+    "bytes": 169002,
+    "sha256": "E8E5D95A20524C8AA6D1584494EA8F21222096DA14C4ACC9C44EEBF8C930CCD1"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_034.jpg",
+    "bytes": 170137,
+    "sha256": "560A6FE1DC3AF6ABCE4E165C427751131A2AA1F718474AD51D7A4312ED621891"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_035.jpg",
+    "bytes": 169534,
+    "sha256": "407505A60352827BF93C22A7336DDABD1BE814DB8504941400F209F1FDEE0B47"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_036.jpg",
+    "bytes": 171049,
+    "sha256": "F0229C5449B8CA43D01120675CA1576C52500BD09289910FEBF4C4D0665B1818"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_037.jpg",
+    "bytes": 169749,
+    "sha256": "637767B0E466A26C6E3C7C08162D0FC0CB41AA5C79544369D3E55C32B255947C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_038.jpg",
+    "bytes": 168794,
+    "sha256": "0117345661EADB84BEDD39DF530B26FD40C4233E7B03016C15BBFA4F07BF9571"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_039.jpg",
+    "bytes": 169643,
+    "sha256": "F24131DE1A4C546CF6915FDE475F268850CE4A06CB41A6F362F067BB0FD74C60"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_040.jpg",
+    "bytes": 171123,
+    "sha256": "E9F34297FFB025B73E79BA7B92CB01FCECBFBF0947D3B28DDEE05022DB196957"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_041.jpg",
+    "bytes": 168938,
+    "sha256": "4316EC10840CC4F2DFABEDA682E01B4C8BC1BE05AA64C34EC947704062218604"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_042.jpg",
+    "bytes": 170763,
+    "sha256": "485AE221DCE64A6389142C664C349DF522D10C3B8EDBE11392CCDCA1FC77F902"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_043.jpg",
+    "bytes": 170004,
+    "sha256": "34D58E518A1E74B19A1F0D0FEBDAA03DDD791ED2F3E3BFF7537EEEDE06D9966A"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_044.jpg",
+    "bytes": 170679,
+    "sha256": "6A506970FA4BFC6FA30003B82E404829CAB213923E536345EC1738FE0ABE37DF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_045.jpg",
+    "bytes": 168759,
+    "sha256": "F85F847E0A84EFA7851071AB57BD31EDE56F9140B9BEEB927154FEB7245D459B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_046.jpg",
+    "bytes": 152669,
+    "sha256": "1E868E0F4FF665098B9B09CEF1B27DC40073E981EB886A436DAE558129FA0B07"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_047.jpg",
+    "bytes": 153391,
+    "sha256": "ECDF3C0FCCB75A4FE4A6FF49213DBF94EE444DEEF7EF6D576E97454CBD6321D1"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_048.jpg",
+    "bytes": 155756,
+    "sha256": "5D69D6FB965C377D210450D45024C41D7B18742F7DBD6E3E54FDC16768DF1363"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_049.jpg",
+    "bytes": 154899,
+    "sha256": "28B320431FBA962281CD0A507813AF21A2CD4977F1DC60D7484ADB775FA7DBD9"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_050.jpg",
+    "bytes": 155508,
+    "sha256": "AB291B38FDDD05F7FB1C3BB0A84AA902BF3CAB86E076699ECE3BAAA28106EB66"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_051.jpg",
+    "bytes": 154242,
+    "sha256": "37D0C0BBD40C114417D965D6895A84675C55B5C3FEFA5688E2D794E1D0930342"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_052.jpg",
+    "bytes": 156020,
+    "sha256": "32B8BF51883490E30EF44222D38781E0980A56A0A538573E8078DEC0469B5FFA"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_053.jpg",
+    "bytes": 156091,
+    "sha256": "53EDD614B9DA05514DAE1F1B9E384E5B21F4F60F3EA6E7F080D706A343BDF201"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_054.jpg",
+    "bytes": 152375,
+    "sha256": "96A1F92F14F4A8C2B6971E7DE0F9B314DD606A332F40266A5FB7692D525F7789"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_055.jpg",
+    "bytes": 155110,
+    "sha256": "E0138ABDBCA44A52784709766F687EA2EECF1AA3E48C2805B033A21724FCD1DF"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_056.jpg",
+    "bytes": 108488,
+    "sha256": "D7F81DEAAABA8AA6D11BB191FA8D690953FBBC11D61A73E697DCC8EFF7A7499B"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_057.jpg",
+    "bytes": 109303,
+    "sha256": "9EB2A3D85BB0CBB00F08F4CBAB08C5206F5E61771CD0B80B8580A33FB2FE54DE"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_058.jpg",
+    "bytes": 112991,
+    "sha256": "09956880C65ECE98D7446657D24B430A50FBC3D0218AE47DEB27BF06D34B493C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_059.jpg",
+    "bytes": 113421,
+    "sha256": "4616595E65B06C422E25EBBEE9BB886B671A123B7CF83777C0E64A37A547963C"
+  },
+  {
+    "path": "01_器械360度高清图片帧/06_AXIOS_LAMS双喇叭口吻合支架_360度/frame_060.jpg",
+    "bytes": 114597,
+    "sha256": "23B09364FD0425A5283A34A3AB4FA255FFA42119C3C1884857CC2FE42769F13D"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_001.jpg",
+    "bytes": 194152,
+    "sha256": "AAC9E4D1D90C05522C36FCB624315EB7C398956D89DB912BB7237A6B36E60D42"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_002.jpg",
+    "bytes": 194152,
+    "sha256": "AAC9E4D1D90C05522C36FCB624315EB7C398956D89DB912BB7237A6B36E60D42"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_003.jpg",
+    "bytes": 194152,
+    "sha256": "AAC9E4D1D90C05522C36FCB624315EB7C398956D89DB912BB7237A6B36E60D42"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_004.jpg",
+    "bytes": 194152,
+    "sha256": "AAC9E4D1D90C05522C36FCB624315EB7C398956D89DB912BB7237A6B36E60D42"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_005.jpg",
+    "bytes": 194152,
+    "sha256": "AAC9E4D1D90C05522C36FCB624315EB7C398956D89DB912BB7237A6B36E60D42"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_006.jpg",
+    "bytes": 194152,
+    "sha256": "AAC9E4D1D90C05522C36FCB624315EB7C398956D89DB912BB7237A6B36E60D42"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_007.jpg",
+    "bytes": 193220,
+    "sha256": "EB0C47953B28FB8F18D0C913DADEDFBC9DB784F3A4649C4B141EC008399FA413"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_008.jpg",
+    "bytes": 190652,
+    "sha256": "1B1B182B5B7A782F3728AF0E193433CC8A0C1EED25229E18924F0173CE12D6D2"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_009.jpg",
+    "bytes": 189225,
+    "sha256": "808BFF298D717DDC8D14AB116784739289C9F21FCA8682B9BF39799E533A5675"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_010.jpg",
+    "bytes": 188410,
+    "sha256": "21D7C667F00928DF4C8FAA9DC1B4F13CCAE99715147C5C62E611466B732842A8"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_011.jpg",
+    "bytes": 187277,
+    "sha256": "EA46B0B7DBE636DB921EC3D079C81FA47CFA259DBE599A6ADFFE36C4F0C3987E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_012.jpg",
+    "bytes": 186116,
+    "sha256": "947A92E105EB733BA867BB5953BA7786F784A60C3D12844D4D0CE87C6A3D4C56"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_013.jpg",
+    "bytes": 185439,
+    "sha256": "3456896FCE084B0C37C18BB81E3AF50C66923FD8E99BDD43D97F61030A9260B5"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_014.jpg",
+    "bytes": 184614,
+    "sha256": "C6EE63C28FE9D5380F6EE6B8BE77B2F0DBD1AB5A939E25575477EB5E5BBE7D84"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_015.jpg",
+    "bytes": 183913,
+    "sha256": "E216C3AE9CDDC66AE20C22B8A221649780E2AC49D6910F6D1BB860E23787EB28"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_016.jpg",
+    "bytes": 183270,
+    "sha256": "46D6749AB7E29493FF97CE662DDE67DC016C8D1079D9990FF88DFAA72C5E52B7"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_017.jpg",
+    "bytes": 182705,
+    "sha256": "8D9319A4BF00E00CBE9E4CDF3B37AAF6825F08A1E5B0EAB0994BE750035ADE3E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_018.jpg",
+    "bytes": 182238,
+    "sha256": "913F3D505684C167FF03C43EB1D0475E25B2FD3DD49930D935784B6E17311CA6"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_019.jpg",
+    "bytes": 182359,
+    "sha256": "0D18B607F0DB04C4B31243B93F5975FE1BD709D7860846DFA509288F6CCBCF48"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_020.jpg",
+    "bytes": 181929,
+    "sha256": "D6066B04E99E3EC9B8D23B35DCDDCFD2F515FA2A86871D83816FD5F176F21A4A"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_021.jpg",
+    "bytes": 181864,
+    "sha256": "C088DBEE3142AF26B330DDDA02638C449608C49F94C26D993F0FF08176BCE5EE"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_022.jpg",
+    "bytes": 182097,
+    "sha256": "60F80A0233BC4B270DEE6A0F86BE7EC065B7A3922CA98CC6DE119ED717A762CF"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_023.jpg",
+    "bytes": 182319,
+    "sha256": "7EF8BB98912062690D9A91AEB4CD0E30AB85D09D7928601E417449785AFF3CA8"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_024.jpg",
+    "bytes": 182740,
+    "sha256": "76F2497450C48A12595E65A359E653885275CFFB5119688224BA944344802B89"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_025.jpg",
+    "bytes": 183265,
+    "sha256": "901243B6927F3F9CA46E0A038BB7DBF3EF517D03D143033E8F9D6782A087DC94"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_026.jpg",
+    "bytes": 183735,
+    "sha256": "62D62BF43183ADC644EDCB9ED577CC6D1D57FCB2450142CCB0514EF65D3AAA7C"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_027.jpg",
+    "bytes": 184580,
+    "sha256": "E3A0B22B2B1E17E0F91412322E8A90C5DCBCFC42F67EDEADBD106824FD1E5495"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_028.jpg",
+    "bytes": 185350,
+    "sha256": "78BB38F16780A6843FACB954DEAE244DE72EBB95C5B66FF5A141C4591D72F947"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_029.jpg",
+    "bytes": 185971,
+    "sha256": "4A6976D76E036DD429E23601DB30CC62A0EA622ADC755494D9A07574596730FE"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_030.jpg",
+    "bytes": 186975,
+    "sha256": "8413ADBEF8C72F7AB9DC97ADE5CEF0CDF825BAC7A386702E0F419217164D6770"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_031.jpg",
+    "bytes": 189075,
+    "sha256": "F030883960F559AEFD341929B07AAD13B116C1F408D8F575CFDBF230A854DC62"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_032.jpg",
+    "bytes": 189865,
+    "sha256": "326F3EC9EF4668020FF82658746A496F61BDC0A374D0392C2B541887FA3A8D6B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_033.jpg",
+    "bytes": 189865,
+    "sha256": "326F3EC9EF4668020FF82658746A496F61BDC0A374D0392C2B541887FA3A8D6B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_034.jpg",
+    "bytes": 189865,
+    "sha256": "326F3EC9EF4668020FF82658746A496F61BDC0A374D0392C2B541887FA3A8D6B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_035.jpg",
+    "bytes": 189865,
+    "sha256": "326F3EC9EF4668020FF82658746A496F61BDC0A374D0392C2B541887FA3A8D6B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_036.jpg",
+    "bytes": 188964,
+    "sha256": "90324B6D572183D2C99A0FE5A2ED3735013E2927AD476A7A158B642A7E384485"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_037.jpg",
+    "bytes": 187614,
+    "sha256": "31F07AB80B184F5DC6C2123045804F57EB3B79BAFAFB9C03E9C2B4029FE29063"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_038.jpg",
+    "bytes": 186595,
+    "sha256": "5BBD108FAF787506A813A8E3DE069E6404CC8765E8467911D61D1A794537F070"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_039.jpg",
+    "bytes": 185743,
+    "sha256": "A54C8A4FEDB0E20246E0B2CE09829B10EEC3C1BF5E5CC1EF1301E7C5AFAF0EED"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_040.jpg",
+    "bytes": 184934,
+    "sha256": "C5AABDC14DC7B472AE95D30253F724B6BE3A3356D02671E32E6BDFDC7296808A"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_041.jpg",
+    "bytes": 184449,
+    "sha256": "C298E0444EE76FA82279689E851E5B62EA964C87CD4BA01797654CBE0DDF990A"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_042.jpg",
+    "bytes": 183782,
+    "sha256": "10307575FEBD72A2564A29B27A02283A515784B0CA32FC0DE490B06E30534F78"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_043.jpg",
+    "bytes": 183199,
+    "sha256": "83CC39A8B2C9556CC96BAED55726A668BE23B2DBBA01A952C1C5C8A383071D30"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_044.jpg",
+    "bytes": 183017,
+    "sha256": "BB7C22EECE90805DC4C5116317BFEDE65D1D86968B2EBD25CBCC722D23D6478F"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_045.jpg",
+    "bytes": 182640,
+    "sha256": "6CF3E8E391135948E45BD0F608A61FF1BE246FCDB40D0ADE8D9D86C7B1CFAD46"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_046.jpg",
+    "bytes": 182390,
+    "sha256": "0993F5067E53E40448383FB258AE50536F466552A55BFFCD705C07315C64D801"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_047.jpg",
+    "bytes": 182324,
+    "sha256": "B8CEA78AA7021E4AE93D5DA9330AF77C50A790C6A8F347A7C6BFBFAF1A1D9491"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_048.jpg",
+    "bytes": 182557,
+    "sha256": "865147777870B39885A18570C3A643F98EE7C07D146D2CD1E243389B19FD250F"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_049.jpg",
+    "bytes": 182405,
+    "sha256": "42B22B5DE2C478068548D8B7CCA7BA79237943413B9D30F62A2F6A9342CE4EE2"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_050.jpg",
+    "bytes": 182610,
+    "sha256": "0A2697A3C815A68C5D5D33BA07697FD313A8FA75532BD82BE737C09BC1AC1866"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_051.jpg",
+    "bytes": 182923,
+    "sha256": "66449C5B05903CC21F37E6DDB2730106C622C09E82E6B854C565D2B4D054C04E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_052.jpg",
+    "bytes": 183530,
+    "sha256": "353CC0D084DC6D7AC9B52AC5CB8292DBE6334933F105E13FD9C59AE1F4CB73ED"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_053.jpg",
+    "bytes": 183964,
+    "sha256": "2DDDFFB65C644589E29A10BD33B282C20E93D04C1A0F3ABD16A9785E3A87FE86"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_054.jpg",
+    "bytes": 184626,
+    "sha256": "7B14C98F14D82B38A236734AA58087ACB5AE069B4D4C8C1E92484AC710FA7207"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_055.jpg",
+    "bytes": 185572,
+    "sha256": "66CC9324DC52B72E0FD506FD8E334FD72D37AE96EF61D91936D6020C881F403E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_056.jpg",
+    "bytes": 186322,
+    "sha256": "B76DEA73A91D228227974EFE458D84C053A4438D409788689EA93DA14045C7A4"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_057.jpg",
+    "bytes": 187387,
+    "sha256": "AE8324C595211A3EF542D243ECE02BB4DE0E22968F5BE2DD8DAF1800D932FBF0"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_058.jpg",
+    "bytes": 188300,
+    "sha256": "8FF8B9250AEE85952CCF186CE25C425F95290808BE70A608359EA943636BAE68"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_059.jpg",
+    "bytes": 189572,
+    "sha256": "2EB61D89B6649946F542B675CDF6BA47904EA65A6EDBDC8880055AC997527081"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_060.jpg",
+    "bytes": 191182,
+    "sha256": "0B7BE84AC667C53993CFFC9C12BE7289748D49787B427C753B0F425D26D00E15"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_061.jpg",
+    "bytes": 192821,
+    "sha256": "A230F129A0572D1CE687C23CE50C6A141718280E32BA2CE66CF47BD0BFA9A884"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_062.jpg",
+    "bytes": 192821,
+    "sha256": "A230F129A0572D1CE687C23CE50C6A141718280E32BA2CE66CF47BD0BFA9A884"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_063.jpg",
+    "bytes": 192821,
+    "sha256": "A230F129A0572D1CE687C23CE50C6A141718280E32BA2CE66CF47BD0BFA9A884"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_064.jpg",
+    "bytes": 192821,
+    "sha256": "A230F129A0572D1CE687C23CE50C6A141718280E32BA2CE66CF47BD0BFA9A884"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_065.jpg",
+    "bytes": 191949,
+    "sha256": "8815C702E26050170022711FA21B0414425909BD5204FA5AB901897C207B015F"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_066.jpg",
+    "bytes": 190321,
+    "sha256": "C6A091A2046BCBC0077AA5E6594A814F5303E9D14AB37174924F9C2529DD02D1"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_067.jpg",
+    "bytes": 188806,
+    "sha256": "331156DB651D345554F9C4B9A2B028205652375E43CE2BDB7EB96146FD77B51B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_068.jpg",
+    "bytes": 187726,
+    "sha256": "E0373B4CEB98AF8123D8F433823C8B01B027AE3E80D80B9636849AD1DB3F6361"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_069.jpg",
+    "bytes": 186426,
+    "sha256": "06DA0CADBD1717213C04B6CBCCA72FD5301AE269CBAA3B934E3909EA865BAB82"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_070.jpg",
+    "bytes": 185536,
+    "sha256": "97976545B1DEF3349A3991D4F944963A4EF167BACC36D6AA8826B4B935B1C894"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_071.jpg",
+    "bytes": 184512,
+    "sha256": "70CE2841BAD7A211BF6CD385F9913B51325824C3CE84831FCB098BBF13771A5D"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_072.jpg",
+    "bytes": 183827,
+    "sha256": "AB4ECD230B3F7162DA69BE5470FAA86D26AEB0A2C915EB1236A5B51ED2763A16"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_073.jpg",
+    "bytes": 183269,
+    "sha256": "D64B939E84005364567C7CC7ADC23C3819333F1D9B3085900DAABBB2C0CECB6E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_074.jpg",
+    "bytes": 182376,
+    "sha256": "8FBF983881AD5F1984529CFB2BB2D0F74C2B86C651AE709D24B00ADC240D310A"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_075.jpg",
+    "bytes": 181907,
+    "sha256": "B2C2645FE3416422EA7249FA3E1F835FB6662D40D4E46140BB1831C56BEBC78E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_076.jpg",
+    "bytes": 181680,
+    "sha256": "A57020FB3E24B2FCDC767CF69032E911E0424B67AA82D91F71241AB419AACE32"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_077.jpg",
+    "bytes": 181747,
+    "sha256": "AEFDED2BA38A65577B33FD0554683F4874995B10FA76FCCA7C57B3138A1E7C52"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_078.jpg",
+    "bytes": 181381,
+    "sha256": "F3681FE5EA075B592F353533377563BDDE6F8D4E0D8CF8078677CA1DA663400E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_079.jpg",
+    "bytes": 181366,
+    "sha256": "F906B9F66FDD9BD8406A325FEBA66D08C9345B0954F229A1B74F72854DA827DB"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_080.jpg",
+    "bytes": 181404,
+    "sha256": "E05F49ECBFBF305D65AC1BE46E20BAD0CC2B54CF3B6D2BF94A8AA3765ECDA7A4"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_081.jpg",
+    "bytes": 181636,
+    "sha256": "867C87C285FDC47691D64DE87E8575E551622EE27FB4B23B69C27DE7F22C6B14"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_082.jpg",
+    "bytes": 181783,
+    "sha256": "9772923A28164875BD0FC307C1745731B5521E5EBFE7CC189DFDBCEC8737ABDF"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_083.jpg",
+    "bytes": 182215,
+    "sha256": "2F0108B8383A7579CB5CF7531B589B07B3C3623FB88BD1129FEB1A3EF2A3890A"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_084.jpg",
+    "bytes": 182899,
+    "sha256": "F2BEA4EEBCB17B330B3FB44BA0102FB380889CD9F35F05BD667884B919EBFDBD"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_085.jpg",
+    "bytes": 183416,
+    "sha256": "15819982788C4EF925B8331E931A73015E2C833C464AC5CDAC2BAF6148572104"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_086.jpg",
+    "bytes": 184211,
+    "sha256": "4C58095B7B11B417FA8F691009EF1183E44C6C6BE8D3948EA43D20380E78A83E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_087.jpg",
+    "bytes": 184936,
+    "sha256": "4351A4AD681E15068FCF6C56E9054150D087E9DEF5B051711041827CE976D43D"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_088.jpg",
+    "bytes": 186148,
+    "sha256": "ADA3D09E7C132423B53D9C9B1D7E28C6A5C432612A611D6F480692A4649DF45B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_089.jpg",
+    "bytes": 187615,
+    "sha256": "B144E15A71B07B05263093C4604CAA084476FCBD4D22497BD476D9B6D6876E2C"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_090.jpg",
+    "bytes": 188373,
+    "sha256": "364E0F361092327987A4F2BCF36993FDD90068996B98C58C9A7748424FC4C4E9"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_091.jpg",
+    "bytes": 188373,
+    "sha256": "364E0F361092327987A4F2BCF36993FDD90068996B98C58C9A7748424FC4C4E9"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_092.jpg",
+    "bytes": 188373,
+    "sha256": "364E0F361092327987A4F2BCF36993FDD90068996B98C58C9A7748424FC4C4E9"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_093.jpg",
+    "bytes": 188373,
+    "sha256": "364E0F361092327987A4F2BCF36993FDD90068996B98C58C9A7748424FC4C4E9"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_094.jpg",
+    "bytes": 186326,
+    "sha256": "F5B60C9F29DCEDD88561FA514994213946F99B5E0B0D23B4BA6066750A0C78D4"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_095.jpg",
+    "bytes": 184159,
+    "sha256": "E015CC8E9292B2BE836FD76A2F7C0A183C254842E15052A664B84BF67B3FEF78"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_096.jpg",
+    "bytes": 182836,
+    "sha256": "35264216F25AF02BF76E05FD030A2D61099BEB908FD64861D6D98F049BE90749"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_097.jpg",
+    "bytes": 181979,
+    "sha256": "5523D319678703DBAD80285A0D6FEA28EF1DD88FA8C550561E580AEFA828B8D2"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_098.jpg",
+    "bytes": 180973,
+    "sha256": "79C0EF3C19A1E212901549088C748ACDA303CC8F9232BAF6B39E3AC009B786D9"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_099.jpg",
+    "bytes": 180357,
+    "sha256": "EB646BC9DFF661F1404FCAEF7E5DF4B08FC971A8F3E7BA3F98715B9807791420"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_100.jpg",
+    "bytes": 179774,
+    "sha256": "2D9AE6B886C38FB9AC60A1CA66FEC8F19149DB13234ED4C7D5843FF9D2E6B64D"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_101.jpg",
+    "bytes": 179130,
+    "sha256": "CBBD913BB311D21EC8128956DBB8D3696F3AD18733CF2CFEEE08A334F212724C"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_102.jpg",
+    "bytes": 178847,
+    "sha256": "B4697848A35D9FFB6ADF325435A9D504997D9EEC25E8B7CFF64F5C5D0F0A9A03"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_103.jpg",
+    "bytes": 178468,
+    "sha256": "9016AF9DA865EB5E07E4A9EC62DD6B5ED0B4369BDFA0DF28D3369607CF015338"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_104.jpg",
+    "bytes": 178466,
+    "sha256": "C56D4DBB18F94719E187C004AB272D4D1260664E74068AC45CAB6897A304582E"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_105.jpg",
+    "bytes": 178466,
+    "sha256": "D589A252A89BAE3ED09B766F9996A4497B36753F9A2C56CAAD86727001F2775D"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_106.jpg",
+    "bytes": 178698,
+    "sha256": "C0F709C0141A9663E2825826BE1E9BF8CF404A2911788B5593704EAE999D97DC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_107.jpg",
+    "bytes": 178781,
+    "sha256": "DD922069AC05BB81BFFF6ADE5EBA321FEFBC79A2CAEB139C1FE6213F0247833D"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_108.jpg",
+    "bytes": 179302,
+    "sha256": "5A92E6DB85D0333DD99DCCE88ABBBBEEE774C85CF1E67E59BA7CE21B5A4FAFCC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_109.jpg",
+    "bytes": 179714,
+    "sha256": "E985F8A3D13998C6F51B06B4A869DC9A622B33C52831C2808687A336150A7E2B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_110.jpg",
+    "bytes": 180357,
+    "sha256": "F69772C1D4A9EC66D45D2CF2477971A4017AE87849403F08AF4DB7E51F7CFC90"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_111.jpg",
+    "bytes": 181049,
+    "sha256": "5B8AF0AC95EF7624C502D2CA442BB46CC65C78BD2D3FBDFB43E67CC27269010B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_112.jpg",
+    "bytes": 181973,
+    "sha256": "83D6E0F46E5A9E22BB5F5E2E4D85A93969FB8888231F6FA0F80ABF4C777F933B"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_113.jpg",
+    "bytes": 182936,
+    "sha256": "8FCF3EFAD5F72B5083E0006EF13A8970C57F103514627568292E468B1D241704"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_114.jpg",
+    "bytes": 183836,
+    "sha256": "F677FF19CD017703957EC54DC0031EFE37DE681C3F0026C851441F2B18575DB6"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_115.jpg",
+    "bytes": 185231,
+    "sha256": "8133CD65BD931821E118D4D653A61C414F687BFA157683FF0418BCC65C266D1D"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_116.jpg",
+    "bytes": 186463,
+    "sha256": "D49E541893D71FA08D6F197FBE54E032A01598B6371538D3E462A402D7CF3244"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_117.jpg",
+    "bytes": 188358,
+    "sha256": "29A55B1A07FB8D582B9A92DBF0918F2798948E3DFA64CE0719609E7BC9E401D0"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_118.jpg",
+    "bytes": 191274,
+    "sha256": "F792E94C65247194710E458E15B391CA56E6336D0E9B5B388C1932D47D6914EF"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_119.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_120.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_121.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_122.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_123.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_124.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_125.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_126.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_127.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "02_手术推演连贯高清图片帧/00_AI纯净全流程定格帧/frame_128.jpg",
+    "bytes": 194280,
+    "sha256": "2364C164665C9B2FE3C786358B1DD90D3AE8B4D3FEB97D8D7F82AE2BC380E6BC"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/00_EUSGE全套解剖组合模型_Complete_Upper_GI_Vascular.obj",
+    "bytes": 8076838,
+    "sha256": "BF96DCE07693DA199E40A10F4F2E4159C79F0F245AB19625E5725A7ABFA2D80B"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/01_胃_Stomach.obj",
+    "bytes": 92709,
+    "sha256": "7992EC9A5CE82E278B14B7018DFDD2D33C6EEAA9731011B0952563A156607660"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/02_十二指肠_Duodenum.obj",
+    "bytes": 94313,
+    "sha256": "9D222E589768912006C0A9B87FDAD74263A1C4731B96268E80A7ED1F67E69ECB"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/03_空肠全段_Jejunum_All.obj",
+    "bytes": 370346,
+    "sha256": "C7F314985ED72A2F22A7E23CAD327DB6E7626180D02A98194E65D83EF57DB233"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/04_胰腺与胰管_Pancreas.obj",
+    "bytes": 687972,
+    "sha256": "C00CAEAAB2E14234FC331FA2EEA8213B3CE98F0B31C71877C567E6B8D96A070D"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/05_肝脏与胆道系统_Liver_and_Biliary.obj",
+    "bytes": 4607648,
+    "sha256": "E7DC964543CFB2A22137299BC2DD2FC171B4FDECCB92876F1B14856269B90D89"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/06_脾脏_Spleen.obj",
+    "bytes": 66885,
+    "sha256": "F42EE000816E06610FEDB35831D43FB31D5B7A00BFB809BC4B3C66FE623D4537"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/07_后腹膜与消化道门静脉网_Portal_Vein_System.obj",
+    "bytes": 1729197,
+    "sha256": "D73BE41F390B9585EFB5032BE9311C5D1FB3161D08FC4A15AC5A384B27B453C7"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/08_腹腔干与上消化道动脉网_Celiac_Artery_System.obj",
+    "bytes": 1102876,
+    "sha256": "6F97A495C3483A401F74BA15B79FF2F11D9344D199D436703BC49A96A47A7A03"
+  },
+  {
+    "path": "03_开源BodyParts3D提取模型/开源模型3D提取预览.html",
+    "bytes": 4716941,
+    "sha256": "F04172217A8DDE850E9ED795240C505D1169F141FAFD74BD431AA3034CF77F16"
+  },
+  {
+    "path": "8K_3D医学解剖切面渲染图.jpg",
+    "bytes": 610303,
+    "sha256": "917973CFC5493E3B0191A6695A776371418F9D1CA1243A9BC3F53FD236F630A2"
+  },
+  {
+    "path": "试用包说明.md",
+    "bytes": 978,
+    "sha256": "E6CA9066E7CE5DD54DF0EC53E6F02B4C2FCB757C950E5837C9A35C8A3798C47F"
+  },
+  {
+    "path": "医学内容依据与修订记录.md",
+    "bytes": 3757,
+    "sha256": "1053969AD7DA88B1C43B7918C993DD077762939D8DD41FA218567164FB010E75"
+  },
+  {
+    "path": "医学审核追溯台账.md",
+    "bytes": 3906,
+    "sha256": "A094E603F5E11258491D2A2B3E6C28768684C1D417E33A5E0ECD33C724070817"
+  },
+  {
+    "path": "资料/22ce45d811588ca248d46d9500ca7af5.jpg",
+    "bytes": 113693,
+    "sha256": "047A1BB54147A54805FFB2DF9B526F316850C9586FC1A93391E4AD6078F87977"
+  },
+  {
+    "path": "资料/3f1efee42a6e53d003013abdfe00e00b.jpg",
+    "bytes": 37299,
+    "sha256": "F12847D3DDC8777935338D9D73964AD5E728DC1C98D2FE84929B2BFA88575316"
+  },
+  {
+    "path": "资料/4f87da46188feb0f0df17df636e4289d.jpg",
+    "bytes": 102322,
+    "sha256": "A572D2984DF02C4BB5AF57C844ED6D60BE69E2FF7BFFF8A748A4CC121C78D4CB"
+  },
+  {
+    "path": "资料/925022c2fbdfa66259df549baa08e1f9.png",
+    "bytes": 129357,
+    "sha256": "743AB0B4EA0F1E5D24B6EE987EC90E59EC44A72D2621078B52908E2215C1454F"
+  },
+  {
+    "path": "资料/超声内镜引导下胃肠吻合术进展.pdf",
+    "bytes": 1045224,
+    "sha256": "252540986B32E1986C98833BFBCF41CEE132C7A1574E96B510DCB74B2DEF1328"
+  },
+  {
+    "path": "资料/穿墙引线.txt",
+    "bytes": 3109,
+    "sha256": "403EA4D29C29202CADE71DBFB4B3833F4129CA13045A986A4DD2E909AA40E3D2"
+  },
+  {
+    "path": "资料/特发性急性胰腺炎.txt",
+    "bytes": 8587,
+    "sha256": "7767C4C6E5182F52DE4951093C4B38BBB4129E75A79FF8867D1B1A2474C0000B"
+  },
+  {
+    "path": "资料/消化内科手术科普.doc",
+    "bytes": 30720,
+    "sha256": "46A81EAD0BA9C6BB4F8F39B117A1F5CF565E2A47F3211C970EBE0B2A37AF6465"
+  },
+  {
+    "path": "资料/eusge.txt",
+    "bytes": 776,
+    "sha256": "BD20E3721A4AC6258B0E841AC4C89E04DA8CF1CC7EB79D3DB8C1645BFBB80C91"
+  },
+  {
+    "path": "资料/onepage EUS GE-new(1).pdf",
+    "bytes": 1589430,
+    "sha256": "2A5177239EDB1437159D6FA024BDCD7545F3D32CA037A6BD68B21D84DF603304"
+  },
+  {
+    "path": "align_organs_to_ref2.py",
+    "bytes": 18320,
+    "sha256": "2FFEB93886D554F64D833D12BDC8E4A8D2E7641DCB5D47F60E86A81478D741C5"
+  },
+  {
+    "path": "assemble_perfect_matched_anatomy.py",
+    "bytes": 15272,
+    "sha256": "B8C38F4D2C140A11298001E16C7CB28A57A969657104CC64B3273D49FCD5239C"
+  },
+  {
+    "path": "assemble_real_glb_models.py",
+    "bytes": 17186,
+    "sha256": "6CB2A80404FEB8E60C50D940813AE1CCBD79538D7AA7C70723B093A0A8AA54B8"
+  },
+  {
+    "path": "bake_all_real_meshes.py",
+    "bytes": 15980,
+    "sha256": "2B00AFCC02594819BD78EE7ED4018253183CE9D4EA06332B44151417B60CF350"
+  },
+  {
+    "path": "build_desktop_app.ps1",
+    "bytes": 2844,
+    "sha256": "15B0B50EDC24DBFFF805375D3D29CE5B15A84194337617F8FAFB7155122BC8F6"
+  },
+  {
+    "path": "build_installer.ps1",
+    "bytes": 2066,
+    "sha256": "AB0DA0B2AEEDF04F2589B4E2C8CFA91631FD6760B980F4BDEF5960C915E41EAD"
+  },
+  {
+    "path": "desktop_app.py",
+    "bytes": 2193,
+    "sha256": "C3C0DC4A5C7E151E9817879A866476DAE0E2163A3F307972B1A9E11BF9AF8D99"
+  },
+  {
+    "path": "ESD_医学依据与验收记录.md",
+    "bytes": 5810,
+    "sha256": "D98367E27246444ADC694697ECC96A9AB8500E8E6D6A470F1872133F13654778"
+  },
+  {
+    "path": "esd_interaction.css",
+    "bytes": 6124,
+    "sha256": "0EE0A679C296F7E8CB475B665DF8F7F45CC44CED13A3A38DBC93E831182B1F4E"
+  },
+  {
+    "path": "esd_interaction.js",
+    "bytes": 28154,
+    "sha256": "89FC814FFDBD65380815FE816C8AD3C0B523A225397596447C3D1C44A40899EB"
+  },
+  {
+    "path": "EUS_3D标本架与原版染色全景概念图.jpg",
+    "bytes": 595455,
+    "sha256": "0402778AAF379FCB00A9EEBC293C6BD10CC6E351929F47CCF66CDC33E176760C"
+  },
+  {
+    "path": "EUS_手术解说工具/06_前端项目/public/models/digestive_system.glb",
+    "bytes": 30255504,
+    "sha256": "E5698C3A727FD78A93562AB589999E6159323EB02723309CBD8992E12B742B40"
+  },
+  {
+    "path": "EUS_GBD_医学依据与验收记录.md",
+    "bytes": 5033,
+    "sha256": "76A292F00F905911075655A8797AA86ABCB318F55968FA76DDB2E1ACC31B24E1"
+  },
+  {
+    "path": "EUS_PFC_医学依据与验收记录.md",
+    "bytes": 5292,
+    "sha256": "F86620DC5EA08750F4D1F220E329F08DB7ADD9CD3ED73998E0F41D4E60DD97A2"
+  },
+  {
+    "path": "extract_natural_anatomy.py",
+    "bytes": 11835,
+    "sha256": "56079B189D91A106787A0DF93FF29A01AA598F751D16A77B5A6B36839909AC2E"
+  },
+  {
+    "path": "index.html",
+    "bytes": 43736332,
+    "sha256": "3B5DF98F341E0E6C9C4A6A2DB31BD768A9E0E8490972053FF3B3B7AACD10841D"
+  },
+  {
+    "path": "inject_stopmotion_optimizer.ps1",
+    "bytes": 1079,
+    "sha256": "D8B9DBFB182E90AB595189A33CB8EC10E1572080F042E21EF9F2748C237C9858"
+  },
+  {
+    "path": "inject_twod_workspace.ps1",
+    "bytes": 1533,
+    "sha256": "A9C8A102CE5AC7D388BCDE40AB996306DCA580A82831C24C0754E9B9A365501C"
+  },
+  {
+    "path": "inspect_glbs.py",
+    "bytes": 817,
+    "sha256": "005AD0B6E117BDFBD008D8550239FDFAE3FFE5529C3C2BC3104175A9F24CF360"
+  },
+  {
+    "path": "installer_bootstrap.py",
+    "bytes": 11101,
+    "sha256": "77AC6179D7028806AE5790515F06DDFFBBFB35714CA0D242267D86EF9281171C"
+  },
+  {
+    "path": "media/frames/inst1_00.jpg",
+    "bytes": 37166,
+    "sha256": "CE2062A71C46C99E4DE5F2454255662D104C88A83CD2A5E1404439B2449D494C"
+  },
+  {
+    "path": "media/frames/inst1_01.jpg",
+    "bytes": 43419,
+    "sha256": "AC4435C5B12B002EEEB2E0506E6251DF6EDE6838D77719CC749E2A94933E7A4D"
+  },
+  {
+    "path": "media/frames/inst1_02.jpg",
+    "bytes": 43217,
+    "sha256": "E73B3C2E69B7D4FA06B7139EC4CCD9B15F33D8B97651DD0AE76CEAC5C0FCE6A2"
+  },
+  {
+    "path": "media/frames/inst1_03.jpg",
+    "bytes": 42206,
+    "sha256": "9D20915FEC5508EA7F92D41A597D626D57AB23B932243881E01FD6D8EBB3E735"
+  },
+  {
+    "path": "media/frames/inst1_04.jpg",
+    "bytes": 41822,
+    "sha256": "BC1ECFC1A0C9FBC701682F9A100C4261017E3D31C085C047F64B4DE5C451807C"
+  },
+  {
+    "path": "media/frames/inst1_05.jpg",
+    "bytes": 41957,
+    "sha256": "54CB513206CFF9949CF8150D16F7530ED8C3E580B5AA30DD8EDD8CB4CDCAD9EC"
+  },
+  {
+    "path": "media/frames/inst1_06.jpg",
+    "bytes": 41373,
+    "sha256": "6E30B80F8A0C1ACAE837E8B51CFAC54C35C6948C075C76ABF2CAF0765769C11D"
+  },
+  {
+    "path": "media/frames/inst1_07.jpg",
+    "bytes": 41853,
+    "sha256": "0436EECC2B7BB8B9C8A40FB5AA08DE32276628DDADF48CB087655CD701DBA8BF"
+  },
+  {
+    "path": "media/frames/inst1_08.jpg",
+    "bytes": 42135,
+    "sha256": "FD80ED5FB62479DD18814968D19657A1A3AE17F5A971EF1C35E6C3DDBDBF4294"
+  },
+  {
+    "path": "media/frames/inst1_09.jpg",
+    "bytes": 42457,
+    "sha256": "FB31DE242BF884F1B830337F74B6B3B781CDB71A837953238CE1671E845E1EF0"
+  },
+  {
+    "path": "media/frames/inst1_10.jpg",
+    "bytes": 32655,
+    "sha256": "C2ADAC3CB994A59B288FCAFDB6F2D53FA904EBEC022B154E22992783C1DBDE8A"
+  },
+  {
+    "path": "media/frames/inst1_11.jpg",
+    "bytes": 39444,
+    "sha256": "6B708464590F1554A6637F8DFA4441329A2BE0D3F30E58A004E217B0EDED84DB"
+  },
+  {
+    "path": "media/frames/inst1_12.jpg",
+    "bytes": 39921,
+    "sha256": "B417D137D7912F0A4CA4A65732527BEE0B1B05039975820D3BF41D90236CD13B"
+  },
+  {
+    "path": "media/frames/inst1_13.jpg",
+    "bytes": 40009,
+    "sha256": "6A7152637634058EECE9825DB07392D361B5E10F4D4D2BB2D5B22CEC7B93F5F6"
+  },
+  {
+    "path": "media/frames/inst1_14.jpg",
+    "bytes": 40296,
+    "sha256": "9A9FFBFF9DF2D48192EF4DD391AC8EC01E77E5E26F35F7726BC2A9C1DD567D4D"
+  },
+  {
+    "path": "media/frames/inst1_15.jpg",
+    "bytes": 40662,
+    "sha256": "25568E6E9A68D71FCFAEE5CCC1B2BF1F00CC3492C3A72B308253194D2CE1EE34"
+  },
+  {
+    "path": "media/frames/inst2_00.jpg",
+    "bytes": 40916,
+    "sha256": "29E4F970B554F7D17025980F89EF6449C67BFCC2E2E4BE4948103C4B86011481"
+  },
+  {
+    "path": "media/frames/inst2_01.jpg",
+    "bytes": 41511,
+    "sha256": "270ABC87F744A3ED76948DB242C666106D994144319C7B5BB687E209450D9E49"
+  },
+  {
+    "path": "media/frames/inst2_02.jpg",
+    "bytes": 41875,
+    "sha256": "CF95E99C0B0F4BCDF46C71541005A162169AAB215982DDC764FF5F6D45AF9D5D"
+  },
+  {
+    "path": "media/frames/inst2_03.jpg",
+    "bytes": 41751,
+    "sha256": "5A0DD668D4E86523EEE15DBEB97C8895E9BA6A87887569D555507A2056A44453"
+  },
+  {
+    "path": "media/frames/inst2_04.jpg",
+    "bytes": 42296,
+    "sha256": "FCD22D0443EBD344B0171B9589F9F8A2BCD4E5416D14DE21725E8C66DCFC9ACF"
+  },
+  {
+    "path": "media/frames/inst2_05.jpg",
+    "bytes": 42078,
+    "sha256": "14C3474C03898471EBDAB46DA53A1883DF75F12964DE7D6CBDAC97519AD558FA"
+  },
+  {
+    "path": "media/frames/inst2_06.jpg",
+    "bytes": 42125,
+    "sha256": "A49A0315AF5435A8FB268F5CF17DECCD18B69AFE2FD5ED1460BD12706DEDE1D5"
+  },
+  {
+    "path": "media/frames/inst2_07.jpg",
+    "bytes": 43241,
+    "sha256": "149908944A07DF70DC89460B894AEDCE86884A174099917F74605F1F9F51B72F"
+  },
+  {
+    "path": "media/frames/inst2_08.jpg",
+    "bytes": 43376,
+    "sha256": "0C6776E820A914B30E10B25EA348A9C4BD35E55B91139486BD3BFEB712FDF1E3"
+  },
+  {
+    "path": "media/frames/inst2_09.jpg",
+    "bytes": 35873,
+    "sha256": "0EBE936AC9EE59111C9E68D200FE2A7D8E8E2A150DFFFF102C898801CD23C9CB"
+  },
+  {
+    "path": "media/frames/inst2_10.jpg",
+    "bytes": 36079,
+    "sha256": "90331643BDBCEED4FCD7D13E842DAF9BB261B8BBC4BA3AD558C218CE71767AA5"
+  },
+  {
+    "path": "media/frames/inst2_11.jpg",
+    "bytes": 35984,
+    "sha256": "DCD96456AD2F86590F4247397D2D0CF56D63370C8F9F7BC73A4A2DFF6911D381"
+  },
+  {
+    "path": "media/frames/inst2_12.jpg",
+    "bytes": 36205,
+    "sha256": "BD3C543071BC15EF29BA4F20258A69058CAC66D39C1E9F89E7AB77290D389F01"
+  },
+  {
+    "path": "media/frames/inst2_13.jpg",
+    "bytes": 35879,
+    "sha256": "305586CEBE78A4BC209216346C08143A454F7B441CF8975941E955BB1716EBCE"
+  },
+  {
+    "path": "media/frames/inst2_14.jpg",
+    "bytes": 36343,
+    "sha256": "C61FD79F945B6CD82FFE7A1333F589D21B8C3277A8A0185DC3260944E19F9722"
+  },
+  {
+    "path": "media/frames/inst2_15.jpg",
+    "bytes": 34558,
+    "sha256": "CF369315347A6A0FF68AF842000ECB411BBB0ED7680ECAC3F8165BEDFEA87B50"
+  },
+  {
+    "path": "media/frames/inst3_00.jpg",
+    "bytes": 35304,
+    "sha256": "4ED02780948E5DEDC0634188690DAF6A33C3CE9D2005210D0D0FF94C7EA56C2A"
+  },
+  {
+    "path": "media/frames/inst3_01.jpg",
+    "bytes": 35753,
+    "sha256": "EAA5525AEDA81280814D78FDEAB50BF584E8EBB8D338F946AD504F208C586951"
+  },
+  {
+    "path": "media/frames/inst3_02.jpg",
+    "bytes": 35775,
+    "sha256": "EED8195127D1249A8CA5775A148A32396532C451C49F418ECAD3BCAFCB1061CD"
+  },
+  {
+    "path": "media/frames/inst3_03.jpg",
+    "bytes": 35815,
+    "sha256": "BC702C1AD80988BA9C5BC28AAC51664736C8A1F6B628D13E6A4773AA48E49454"
+  },
+  {
+    "path": "media/frames/inst3_04.jpg",
+    "bytes": 36031,
+    "sha256": "4602BEB08087B13CD90D6B4ED0301F44AD0BEC8982D3014545342663C8FD5ED7"
+  },
+  {
+    "path": "media/frames/inst3_05.jpg",
+    "bytes": 36298,
+    "sha256": "28B2B01B46A42537E785670D3DE32E453460AAC8710C75A37778E084291729E4"
+  },
+  {
+    "path": "media/frames/inst3_06.jpg",
+    "bytes": 42057,
+    "sha256": "084758924C7735FCDC327C9607674B22FA506E18E2C448DAA2E2986118EA1836"
+  },
+  {
+    "path": "media/frames/inst3_07.jpg",
+    "bytes": 42260,
+    "sha256": "0C59129248AD72445FFDB2EADFA3FC2F8E325A5DF1BC28EA8355D10CF160E9B2"
+  },
+  {
+    "path": "media/frames/inst3_08.jpg",
+    "bytes": 42109,
+    "sha256": "7DE9B5F766C02ED5C61CF5EF4F88049ABC7A33EF095CE63D678F820076F14268"
+  },
+  {
+    "path": "media/frames/inst3_09.jpg",
+    "bytes": 42669,
+    "sha256": "90A8449B3F11B85A3E4279C998FE438DFA45C5A6702C3397A9709E8B21025815"
+  },
+  {
+    "path": "media/frames/inst3_10.jpg",
+    "bytes": 43174,
+    "sha256": "53E368F9A40DDE2E678BA47C2593FE8105EA736B2A53949DBD6E3CFF31F05379"
+  },
+  {
+    "path": "media/frames/inst3_11.jpg",
+    "bytes": 43592,
+    "sha256": "47FD9879C08AF5DEEEC657D394D050148E4020ACD5F326BF6D5F5CA81C0C47E3"
+  },
+  {
+    "path": "media/frames/inst3_12.jpg",
+    "bytes": 43669,
+    "sha256": "A5E11F92F8699704D9A5BC406C0FA48EFC5C13BBA3D827ABD87F4D15866BE21C"
+  },
+  {
+    "path": "media/frames/inst3_13.jpg",
+    "bytes": 44054,
+    "sha256": "7913DFD594F02C55FD4AAE4FB4BEB015227CB3519A32C7EB7B47F2FB5687071F"
+  },
+  {
+    "path": "media/frames/inst3_14.jpg",
+    "bytes": 43957,
+    "sha256": "A4ED5A9BCB32129A7A70A387707886A7A00261A8CD7889F4769B085325755E95"
+  },
+  {
+    "path": "media/frames/inst3_15.jpg",
+    "bytes": 44180,
+    "sha256": "AEDCD9288C168EAE1F0E6FA6067D7C350CB32AA81ED7DE0D02655841068F9D08"
+  },
+  {
+    "path": "media/frames/inst4_00.jpg",
+    "bytes": 39075,
+    "sha256": "6FA6D1ABB732508D04F8CCDA378ECEB21DF1D8A826982259603C9920207A78EF"
+  },
+  {
+    "path": "media/frames/inst4_01.jpg",
+    "bytes": 39516,
+    "sha256": "81CAFA15B56CC2DEEF634434AC9EEEF6A8A3EA72F73471CB78FD9048833B30C6"
+  },
+  {
+    "path": "media/frames/inst4_02.jpg",
+    "bytes": 39496,
+    "sha256": "5EECEDF8409FD970FC552C2720EFBDAD3420FAEB410AF8584FD9E2618D46622B"
+  },
+  {
+    "path": "media/frames/inst4_03.jpg",
+    "bytes": 40009,
+    "sha256": "EACA0A7775B1839DE9FAE8134E825562C36E98E72F5F26DA8CA32F91D5587894"
+  },
+  {
+    "path": "media/frames/inst4_04.jpg",
+    "bytes": 40002,
+    "sha256": "105B90705C1BABE6284C301A34445283F3280CD2A6C7E39B8682E5C5D78B354C"
+  },
+  {
+    "path": "media/frames/inst4_05.jpg",
+    "bytes": 40249,
+    "sha256": "DFBBCDBD7D109AB563E8DDB1581AA8FA71E37BF6916E1540062AD103648A20DE"
+  },
+  {
+    "path": "media/frames/inst4_06.jpg",
+    "bytes": 40245,
+    "sha256": "C8042579906D7D683A46569E62D911459342B1C6B901B918D0183722C70F2ABC"
+  },
+  {
+    "path": "media/frames/inst4_07.jpg",
+    "bytes": 40645,
+    "sha256": "3F8A2BF4261CA93BEDB1529106388688F61EC0CB03F931EDD243C9D69D7A6539"
+  },
+  {
+    "path": "media/frames/inst4_08.jpg",
+    "bytes": 40580,
+    "sha256": "2A2F141ADFB3DBC4CF9A7406630F760AD5F6997968C6DFB77702D8569A61A3B6"
+  },
+  {
+    "path": "media/frames/inst4_09.jpg",
+    "bytes": 41371,
+    "sha256": "E859BC62B78FCA6C74BDDD6C65B8D36B57642D9519D1BD290940F4007E211DD0"
+  },
+  {
+    "path": "media/frames/inst4_10.jpg",
+    "bytes": 40679,
+    "sha256": "5EDCF87D4BCCB770EB603E33404DC1DD587E95FFC4687B93177AEC9CF114A85C"
+  },
+  {
+    "path": "media/frames/inst4_11.jpg",
+    "bytes": 40816,
+    "sha256": "6328883C09ECE70BDD845444E1A318DC18060B287E25E0B49557589E0FE0B3E7"
+  },
+  {
+    "path": "media/frames/inst4_12.jpg",
+    "bytes": 41040,
+    "sha256": "C224BD23437814211BC828A4295E14F5964978C483AE538338B223B2914DAF4A"
+  },
+  {
+    "path": "media/frames/inst4_13.jpg",
+    "bytes": 35287,
+    "sha256": "6D34E35B796F913EDE2AD56ABE40D5577D44A2F37047304E5D992AF89510C0CC"
+  },
+  {
+    "path": "media/frames/inst4_14.jpg",
+    "bytes": 35019,
+    "sha256": "0321CE4AB76DB1E52B1DA7D920B8CAA7B2ACBF0A426761E94092B63A594C13BD"
+  },
+  {
+    "path": "media/frames/inst4_15.jpg",
+    "bytes": 35335,
+    "sha256": "848A7BFAE6389E968510CBCAC3259C825EC916B41EE4F80651C307C8BF21F2BB"
+  },
+  {
+    "path": "media/frames/inst5_00.jpg",
+    "bytes": 29727,
+    "sha256": "7D6936FDD609A7B315306A5A9A7DF3A848E0D0E3DD4638EFCA31F1909F883F31"
+  },
+  {
+    "path": "media/frames/inst5_01.jpg",
+    "bytes": 30576,
+    "sha256": "04CEFEE9CEA6A7627B2167A4DA98F36A1F5C958352CC888386B4081EA47342E5"
+  },
+  {
+    "path": "media/frames/inst5_02.jpg",
+    "bytes": 30446,
+    "sha256": "6A968323C5BB202F4723F1DCB4995A46533D311B432AAE0FFE24A3634C42B6CD"
+  },
+  {
+    "path": "media/frames/inst5_03.jpg",
+    "bytes": 30739,
+    "sha256": "C437CA61FADA0F68EF16B9256A450466BBA031F938C55A5F199C438A01CB5F1D"
+  },
+  {
+    "path": "media/frames/inst5_04.jpg",
+    "bytes": 30638,
+    "sha256": "0F48D721AE87875D1CF5D5BFE0F4BABDB001544ECEE9AA50A7CA50945697B809"
+  },
+  {
+    "path": "media/frames/inst5_05.jpg",
+    "bytes": 30927,
+    "sha256": "A2EDE2CFB852AB2F120922B29DC0C65ECC16687AD09BE98EE1D2EEA3D744B9F8"
+  },
+  {
+    "path": "media/frames/inst5_06.jpg",
+    "bytes": 30897,
+    "sha256": "16213E39BB4B0A329D8C2EF88DE11AF0E574064FCF2B7EB4B8ECBC90CF0A5CA5"
+  },
+  {
+    "path": "media/frames/inst5_07.jpg",
+    "bytes": 36962,
+    "sha256": "1D675EF0AF393123D0783ABC9DA96140C4E1BA8A88EE7A5C6DB361C923ECCB9F"
+  },
+  {
+    "path": "media/frames/inst5_08.jpg",
+    "bytes": 36962,
+    "sha256": "1D675EF0AF393123D0783ABC9DA96140C4E1BA8A88EE7A5C6DB361C923ECCB9F"
+  },
+  {
+    "path": "media/frames/inst5_09.jpg",
+    "bytes": 37128,
+    "sha256": "584A1D74D02E52C2F99D6C3A7E2C5FA42C4A1B49161C2EE726E4EEA254F8028E"
+  },
+  {
+    "path": "media/frames/inst5_10.jpg",
+    "bytes": 37087,
+    "sha256": "BE7B2643A782593638DC9AA208ECFD1A154841B290D7EF06C8844690CE72B18D"
+  },
+  {
+    "path": "media/frames/inst5_11.jpg",
+    "bytes": 37279,
+    "sha256": "411E1A46B6C1F94A54EA07A1FBE02FF7A411BE9AE0F897F2D17495F33977D752"
+  },
+  {
+    "path": "media/frames/inst5_12.jpg",
+    "bytes": 37232,
+    "sha256": "6DD499A0955CA91219C9EC1DED5134A7DED7B98E924A9EB407551793B99F4D7F"
+  },
+  {
+    "path": "media/frames/inst5_13.jpg",
+    "bytes": 37299,
+    "sha256": "194E5171BE96DC8661EA49A1C339FB1A63C8B0D1679C262FFF3B96E45CD29107"
+  },
+  {
+    "path": "media/frames/inst5_14.jpg",
+    "bytes": 37335,
+    "sha256": "DFBC75371D5CBD1426F77BAD4D49769BD7ADBF75FB15A2AB9871795CB9B19986"
+  },
+  {
+    "path": "media/frames/inst5_15.jpg",
+    "bytes": 37804,
+    "sha256": "A41B94B7B0CFF9F57845141FBAFD53791D0FA5C4C93D9D0801E7E150B165C10D"
+  },
+  {
+    "path": "media/frames/inst6_00.jpg",
+    "bytes": 50747,
+    "sha256": "FB5534722AD79C524F2CA74B5AFB9058D3C9A99322323D3EB7AEEEEA9614292C"
+  },
+  {
+    "path": "media/frames/inst6_01.jpg",
+    "bytes": 51732,
+    "sha256": "96631719DB0642FCB9B4FF67CED4432A987DE8D39000A98BCE81098EAFDF58A9"
+  },
+  {
+    "path": "media/frames/inst6_02.jpg",
+    "bytes": 51702,
+    "sha256": "D588B3F14783D3E1B7C4F1EEB30DB270E2291E989DB2403A86DD8E543781A266"
+  },
+  {
+    "path": "media/frames/inst6_03.jpg",
+    "bytes": 52706,
+    "sha256": "51B92798E25EA27E1BECC892DACB16EB4CD5F8529ADA181E80DE3AF1DDA9BBB7"
+  },
+  {
+    "path": "media/frames/inst6_04.jpg",
+    "bytes": 52661,
+    "sha256": "1A513976C8BCAFA6B13A6A2E00F31211941CFF21F0C8BC7D625322E3E874D856"
+  },
+  {
+    "path": "media/frames/inst6_05.jpg",
+    "bytes": 53291,
+    "sha256": "789F0ADF8A11F7FCEBDAE3E379589278EB14283F967CCFE0D62E99984DD4F932"
+  },
+  {
+    "path": "media/frames/inst6_06.jpg",
+    "bytes": 53573,
+    "sha256": "5248EB098149F99EAF4E886118337AE87D351F71BCE5972DC4932C77322202FD"
+  },
+  {
+    "path": "media/frames/inst6_07.jpg",
+    "bytes": 53659,
+    "sha256": "17811D5789A09FAC85F5C65A207424FFAAF7EEE2304B2B6B382E083C25E46562"
+  },
+  {
+    "path": "media/frames/inst6_08.jpg",
+    "bytes": 53910,
+    "sha256": "D076D7A10837775B1AA864C44A2FD555C51CFC83B086D936305E8C27DCF34903"
+  },
+  {
+    "path": "media/frames/inst6_09.jpg",
+    "bytes": 54132,
+    "sha256": "A30C3A4054D72D565201C2B24218924280E91A42CAECD6B854B63D2106113AD2"
+  },
+  {
+    "path": "media/frames/inst6_10.jpg",
+    "bytes": 54319,
+    "sha256": "39DF623F5FF0002B50474BB93B3E7EB652038B116CB317FD38F553A067185CEA"
+  },
+  {
+    "path": "media/frames/inst6_11.jpg",
+    "bytes": 54479,
+    "sha256": "B3AB3CA9C95BD50A6723CCD5D7DE36C143E118F2CAE16547C243DB8A229917C5"
+  },
+  {
+    "path": "media/frames/inst6_12.jpg",
+    "bytes": 54452,
+    "sha256": "0994017E088D36ED309DD546349D6194D1554145A416CFA158426B3DC11D4BFA"
+  },
+  {
+    "path": "media/frames/inst6_13.jpg",
+    "bytes": 54580,
+    "sha256": "C17D9FE78F0ECDBE5FFB7E59DA49ACE91285655A777F26B394E9C0EF385CAC48"
+  },
+  {
+    "path": "media/frames/inst6_14.jpg",
+    "bytes": 54502,
+    "sha256": "0463DE0BC4C260DDC18F932121D5E6B8B032266B967E4E84FC74538937A10F92"
+  },
+  {
+    "path": "media/frames/inst6_15.jpg",
+    "bytes": 54482,
+    "sha256": "EAC74178FF1E1FB4E0BF1FB629BCA81F1C254EE11575A3EC6D045D59E137B2FA"
+  },
+  {
+    "path": "media/frames/step0_00.jpg",
+    "bytes": 51186,
+    "sha256": "D7BDC4BF5AEEE908AD3C7F7F475862F36071793EEB42F7FB944E92E0B1B7819B"
+  },
+  {
+    "path": "media/frames/step0_01.jpg",
+    "bytes": 46905,
+    "sha256": "C165EEF077926DA5305413170367D64FB20087A40B5BB3DF470E36BAE6A05EC9"
+  },
+  {
+    "path": "media/frames/step0_02.jpg",
+    "bytes": 46969,
+    "sha256": "A0660EC0209507CB0383AAECEEF9949E1C9DA7F7B420498922440642E2D306D6"
+  },
+  {
+    "path": "media/frames/step0_03.jpg",
+    "bytes": 51267,
+    "sha256": "4D29287FAB795D601BA756404080289115AE69973363F66BC4D31BA7E1C56BD8"
+  },
+  {
+    "path": "media/frames/step0_04.jpg",
+    "bytes": 51529,
+    "sha256": "D11DBF56BD15D732E0E898FABF4FFA907FD12A9D598F0BB8B1E0F9DEB05CD61C"
+  },
+  {
+    "path": "media/frames/step0_05.jpg",
+    "bytes": 51432,
+    "sha256": "659007AAF890BC20ABFDE84A46CBA8EF217637EAC0758BC9AD519409A8D2D5D7"
+  },
+  {
+    "path": "media/frames/step0_06.jpg",
+    "bytes": 51321,
+    "sha256": "6B6F542FB31CC40BA047449EF37275C2107E0A46F118925E01491BA571DC50E3"
+  },
+  {
+    "path": "media/frames/step0_07.jpg",
+    "bytes": 51576,
+    "sha256": "0099FB4F110BAD1D0DDC95143782C57F703DB7D3EBF319A273AD54FE825EE1D3"
+  },
+  {
+    "path": "media/frames/step0_08.jpg",
+    "bytes": 51391,
+    "sha256": "5AB963837AA3AFAFA01374B036BA0A2188DE4D391897BE2F96A693D200F57BF5"
+  },
+  {
+    "path": "media/frames/step0_09.jpg",
+    "bytes": 51790,
+    "sha256": "4CF8128A32AFD042836E736D179293887841200A5F44B8684C8158BFEECF44C2"
+  },
+  {
+    "path": "media/frames/step0_10.jpg",
+    "bytes": 51707,
+    "sha256": "AEDEFE54F6469F8574C765FBC39E9DB35CE30A1C14C54FD4A1B4C42606F42DF5"
+  },
+  {
+    "path": "media/frames/step0_11.jpg",
+    "bytes": 51825,
+    "sha256": "6D81B1A0024A49B55F222E010463006D9FC4E38FB72D9692AE77A188C0BF8722"
+  },
+  {
+    "path": "media/frames/step0_12.jpg",
+    "bytes": 52060,
+    "sha256": "F613B12E51863EC40F3192196F91BE50D613FAAD64BD519088F1739AFC2D294E"
+  },
+  {
+    "path": "media/frames/step0_13.jpg",
+    "bytes": 51716,
+    "sha256": "C9C021315E2814B1ECC8C989F6943E5A553261A85C539B1F1EFE34A4AE3012FF"
+  },
+  {
+    "path": "media/frames/step0_14.jpg",
+    "bytes": 52001,
+    "sha256": "6530430B3F94A50F0119EEF7336774BC8856A5E17100AB00ADBCB4D5991E0685"
+  },
+  {
+    "path": "media/frames/step1_00.jpg",
+    "bytes": 33800,
+    "sha256": "65982023C0F8113A1AC3804AD4AE0A58692ADD18306C0EF0DDFF7321FA19CC0E"
+  },
+  {
+    "path": "media/frames/step1_01.jpg",
+    "bytes": 37480,
+    "sha256": "BF4062E1D0513DE04FE29211FCCF2B073A6DA5E39A8DC4116C529CB8F97A2D17"
+  },
+  {
+    "path": "media/frames/step1_02.jpg",
+    "bytes": 38595,
+    "sha256": "236678DF54959D2CC3DA9F3DC003BD2389866B2E5B710070D68F682B8B24BFD9"
+  },
+  {
+    "path": "media/frames/step1_03.jpg",
+    "bytes": 44121,
+    "sha256": "DD025290787ACF2B23D78CE7D9F0A411B32802DF5612BE81426AA616BBD55C51"
+  },
+  {
+    "path": "media/frames/step1_04.jpg",
+    "bytes": 44694,
+    "sha256": "9B1A16A9EE012AA695092BEFC39D56F62997C67B8E1D4E9F15AB4FAC18087500"
+  },
+  {
+    "path": "media/frames/step1_05.jpg",
+    "bytes": 46176,
+    "sha256": "2AF60C1FDEC576759BD74F8A9CCB543370912A0CF0508161EE27D16143AB3BCB"
+  },
+  {
+    "path": "media/frames/step1_06.jpg",
+    "bytes": 47744,
+    "sha256": "D4694F2D1F51CA85A11F4EC5AF73316992069447C081C71B4BE5F7AF2C1A9907"
+  },
+  {
+    "path": "media/frames/step1_07.jpg",
+    "bytes": 45096,
+    "sha256": "7E3AB761C2A722ACC3A8E573CAB6366ADAA4F730F2BCAE4FE8DF4A712ECB0E14"
+  },
+  {
+    "path": "media/frames/step1_08.jpg",
+    "bytes": 48810,
+    "sha256": "DFFB8227EABFF7E73A849E5F65A9B718312895C5F96851E05AC30E2F4D5C19F8"
+  },
+  {
+    "path": "media/frames/step1_09.jpg",
+    "bytes": 45617,
+    "sha256": "250AC15B88F30717FF7654CA186F50A692699BC3F96CB0CF46E3589554824797"
+  },
+  {
+    "path": "media/frames/step1_10.jpg",
+    "bytes": 56836,
+    "sha256": "0E084DA16D982217D7096F299250D8EF149BAAE6622701972A0A77EE7F756585"
+  },
+  {
+    "path": "media/frames/step1_11.jpg",
+    "bytes": 58444,
+    "sha256": "69B0312BE0B6A21E45449034CB91E9B34FB8134F496171B4C6A961BCDB34A999"
+  },
+  {
+    "path": "media/frames/step1_12.jpg",
+    "bytes": 58391,
+    "sha256": "4F26280163F16BE8A3152C4C7C9AB8FBF43732128BB533C0EB0B10DD71F66E6C"
+  },
+  {
+    "path": "media/frames/step1_13.jpg",
+    "bytes": 58779,
+    "sha256": "F3C40E9BFF1D12B3150291B69BC5232EAFED71F3B32C1FDC5AE1B9F467996FF9"
+  },
+  {
+    "path": "media/frames/step1_14.jpg",
+    "bytes": 61382,
+    "sha256": "5D17ECB19D29740070507E947F1C655702346065F49AB0132FC9FCD6DD206836"
+  },
+  {
+    "path": "media/frames/step1_15.jpg",
+    "bytes": 59634,
+    "sha256": "7C2A57D72D713C179F09D0F95ED4F7BD6FD3B2E7CB70874A6606737B2B421067"
+  },
+  {
+    "path": "media/frames/step1_16.jpg",
+    "bytes": 59622,
+    "sha256": "B71D95045016B673F5DA1A33B0A4F87A96F93424148114B51785E2DF8FADB474"
+  },
+  {
+    "path": "media/frames/step1_17.jpg",
+    "bytes": 53664,
+    "sha256": "F50F8281C5DC4C922C52D357A82997847838104BC218951189C226C65F1BC899"
+  },
+  {
+    "path": "media/frames/step1_18.jpg",
+    "bytes": 58029,
+    "sha256": "DAC515100F1EBC350DD4B4FA44DE366825C51485C2042692D81F1B88C6711FA9"
+  },
+  {
+    "path": "media/frames/step1_19.jpg",
+    "bytes": 58211,
+    "sha256": "C521695AEA9E6010D05A8060880101228813E31E38B2A8CE85FADDB9039CF6BE"
+  },
+  {
+    "path": "media/frames/step2_00.jpg",
+    "bytes": 62489,
+    "sha256": "7ECD8EC0C937E7D111B8AFD25768C484BE07CB0CC80699B4DF9290FFED0E0BD5"
+  },
+  {
+    "path": "media/frames/step2_01.jpg",
+    "bytes": 64010,
+    "sha256": "77B455702B06881F053D2C730CF040DCEDA6D554D6694D848121555743A17E83"
+  },
+  {
+    "path": "media/frames/step2_02.jpg",
+    "bytes": 65418,
+    "sha256": "8B818A7227F0DA370C3E85F5413605CDEE3796F73AF8BEC786BB00712FBA0EB7"
+  },
+  {
+    "path": "media/frames/step2_03.jpg",
+    "bytes": 66239,
+    "sha256": "2FCE29F00CAA757FF51B4DF90928076B52ACE27B5F203B42E1C36BE011EA7BEA"
+  },
+  {
+    "path": "media/frames/step2_04.jpg",
+    "bytes": 66698,
+    "sha256": "E3EB2EAC5C1107741C0BBD7F769139FCB2634F759DA9EDC575F84ECD2BF978D4"
+  },
+  {
+    "path": "media/frames/step2_05.jpg",
+    "bytes": 66941,
+    "sha256": "D779253F3A8DB6420D2AF09A5EBE9779AE55D5D592D7F0B1326B8ABC0EBAA83B"
+  },
+  {
+    "path": "media/frames/step2_06.jpg",
+    "bytes": 66994,
+    "sha256": "5E1DF12851CECC7C5CB4A443E3C67E65E6F8D9CB7389D0FE40C18E5AE7C2229A"
+  },
+  {
+    "path": "media/frames/step2_07.jpg",
+    "bytes": 67162,
+    "sha256": "F90EED5B461533986BD314FB1AD94F202303B828C777F73105F6FE2103276027"
+  },
+  {
+    "path": "media/frames/step2_08.jpg",
+    "bytes": 67322,
+    "sha256": "F19A176182632A4CF193D42E5A855F77758D97CEDE34595B4144236460642634"
+  },
+  {
+    "path": "media/frames/step2_09.jpg",
+    "bytes": 67425,
+    "sha256": "5C2DA5A2BEF822D4C582FF14738C118AEDCD696FB2FA13370E90C55821F7AF60"
+  },
+  {
+    "path": "media/frames/step2_10.jpg",
+    "bytes": 67622,
+    "sha256": "3BE7ADEFD82B6EA4FC0027857BE12184441CCFC5308282BFC095624AFE592A9A"
+  },
+  {
+    "path": "media/frames/step2_11.jpg",
+    "bytes": 67991,
+    "sha256": "8625359585D9E1CF80CF7920D5AD828D31FE171B13A7E3AD7A2EAE1EBEC41F8A"
+  },
+  {
+    "path": "media/frames/step2_12.jpg",
+    "bytes": 68086,
+    "sha256": "41272CB08D79A933D3125906ECAA59E49074390AF2EDB6E8BE725B1909A0B18B"
+  },
+  {
+    "path": "media/frames/step2_13.jpg",
+    "bytes": 67825,
+    "sha256": "67E990E2641AEE274FE237395BFED615F72471E7684A1DA3F390F6E3FF01E97A"
+  },
+  {
+    "path": "media/frames/step2_14.jpg",
+    "bytes": 63387,
+    "sha256": "D9CF77FA5A1F12B14B2A67146D8E37CA4CA442942D6BCD72F63522745FAFC84C"
+  },
+  {
+    "path": "media/frames/step3_00.jpg",
+    "bytes": 65100,
+    "sha256": "BDFE713B779123B9533511BCCF05B3391A14ECAE2567F0E85BF73406140BDEA5"
+  },
+  {
+    "path": "media/frames/step3_01.jpg",
+    "bytes": 65272,
+    "sha256": "7EA6D50AF501046077FB3B2626894482C52B33F702A33191016AA5B58D2C0C89"
+  },
+  {
+    "path": "media/frames/step3_02.jpg",
+    "bytes": 65319,
+    "sha256": "7D4CC106FA1E13BF1918AE2755B5B02E2D0E85BB18EC522C21406E3507E4BD1E"
+  },
+  {
+    "path": "media/frames/step3_03.jpg",
+    "bytes": 65913,
+    "sha256": "4789DE91D7D036A910545C541C04476383676D5AE0536E6B931DB20681598519"
+  },
+  {
+    "path": "media/frames/step3_04.jpg",
+    "bytes": 63182,
+    "sha256": "4C1B0B9563F2194C778A697698ACE7BCFE8EC850A02A642F8539960DF85F0C5B"
+  },
+  {
+    "path": "media/frames/step3_05.jpg",
+    "bytes": 63166,
+    "sha256": "93CB4388A597D4EB9FB217F31040B989034D4630C0ECC9E13FFF5FAB9E47FA3E"
+  },
+  {
+    "path": "media/frames/step3_06.jpg",
+    "bytes": 63889,
+    "sha256": "9E04C3F981227D398C4F102F32DE076A156B48DDF8E161FDB2038512BDEC1102"
+  },
+  {
+    "path": "media/frames/step3_07.jpg",
+    "bytes": 64813,
+    "sha256": "EA5655586D5F938B4ACE2246D2A945DEA03F2047A3C3F32C4C9D76742D23F1F7"
+  },
+  {
+    "path": "media/frames/step3_08.jpg",
+    "bytes": 69104,
+    "sha256": "0A3D04510852EAD7C150BD5B068D7F30DC309A8B65B512B5506D0D9B30653117"
+  },
+  {
+    "path": "media/frames/step3_09.jpg",
+    "bytes": 68766,
+    "sha256": "597473A85DD6551A323D99303E66939EC93A3BF6A6CAD189CA981AEC141B1D90"
+  },
+  {
+    "path": "media/frames/step3_10.jpg",
+    "bytes": 68696,
+    "sha256": "C1727E8AADF41D341459F952B4EB94FF08EEDDBADB3A7293EF132EDBB845930A"
+  },
+  {
+    "path": "media/frames/step3_11.jpg",
+    "bytes": 68696,
+    "sha256": "A00AB7403B8154084D72273E56F7FD1838AB2F9A6CD704AD7A9F7E4DD8D732E7"
+  },
+  {
+    "path": "media/frames/step3_12.jpg",
+    "bytes": 68766,
+    "sha256": "40A1531905F7113375CA9E3A512720796726D28B71CB05FAECA5BE4FE60AB539"
+  },
+  {
+    "path": "media/frames/step3_13.jpg",
+    "bytes": 68921,
+    "sha256": "CC5DF34D3541AD4176EB67E2734233D5671BD9DC914C6FE55BDD26AEC4928FFF"
+  },
+  {
+    "path": "media/frames/step3_14.jpg",
+    "bytes": 69062,
+    "sha256": "C7618731CB78707E1030789C8B265D19107EB15BC0106BE85B1E41D20C327DEC"
+  },
+  {
+    "path": "media/frames/step4_00.jpg",
+    "bytes": 82142,
+    "sha256": "CAF7E6552E1C4B8CB6FD6B2A49A7FDC6CC31EAF2D16801AFBC253435E92C5A7C"
+  },
+  {
+    "path": "media/frames/step4_01.jpg",
+    "bytes": 83872,
+    "sha256": "5815EFCB3666F0D989122379F3D46CFA80E2987E2BE6D2417D9266F871549617"
+  },
+  {
+    "path": "media/frames/step4_02.jpg",
+    "bytes": 83953,
+    "sha256": "5B35A8E1B7E0F26007D5EBD7BFEB3762C7C9DD2E2816C156EECFDD94B9468477"
+  },
+  {
+    "path": "media/frames/step4_03.jpg",
+    "bytes": 84053,
+    "sha256": "7F7A94FEE76B2158A2F9AE8FACD33C8C089E4BB95EC0E11C804B4C2FE59B30E6"
+  },
+  {
+    "path": "media/frames/step4_04.jpg",
+    "bytes": 84215,
+    "sha256": "A7F5B7F4A1C868CE756CA0CD47846BC2DF579945612C7A73CF0DD5E521D364CD"
+  },
+  {
+    "path": "media/frames/step4_05.jpg",
+    "bytes": 84149,
+    "sha256": "B5F8DD5433953A83896F6082B41A578C147606FC7153C1FA63756CA52FAECDD8"
+  },
+  {
+    "path": "media/frames/step4_06.jpg",
+    "bytes": 84397,
+    "sha256": "4345489A3DBEBC914C34FA18C83B08A3DFD97143D7CE70CD12E2F7C3A99B5C63"
+  },
+  {
+    "path": "media/frames/step4_07.jpg",
+    "bytes": 78170,
+    "sha256": "1B23EDB6F70AC82B7FB4EF85819576EAB37AD33817D047DE4F8079699A277850"
+  },
+  {
+    "path": "media/frames/step4_08.jpg",
+    "bytes": 84980,
+    "sha256": "F679123132A3D61871658FBDCD440A522FC3548D04162263CBBA4F0E9722D0F1"
+  },
+  {
+    "path": "media/frames/step4_09.jpg",
+    "bytes": 85686,
+    "sha256": "8DE177816A974CB1D0228FA79A52A2C9C92E249A3911BF40F297B7FF69C8F5F8"
+  },
+  {
+    "path": "media/frames/step4_10.jpg",
+    "bytes": 85281,
+    "sha256": "A0AC92CA360466A086D4C53929338FC3715FA11B12117A473100D4FDAD1571EB"
+  },
+  {
+    "path": "media/frames/step4_11.jpg",
+    "bytes": 86384,
+    "sha256": "B6F786B0E75F9B0ECFCEFCD2AD716EEA0294C511A9F1083E5E848AA0246A67D4"
+  },
+  {
+    "path": "media/frames/step4_12.jpg",
+    "bytes": 85871,
+    "sha256": "F5FB78D28B5BF994BDAD5523E52E1EA5BF7D47D5C994EEAE0A290F5D641A890E"
+  },
+  {
+    "path": "media/frames/step4_13.jpg",
+    "bytes": 87502,
+    "sha256": "EB0E5FC7581F928DD0605090E630A8DD8F2EB04978113609EEDB9A30AB409BDA"
+  },
+  {
+    "path": "media/frames/step4_14.jpg",
+    "bytes": 86024,
+    "sha256": "2E7529BFFE7C90459F8AE248BFE58FB71D924AEC184839D7B830A454CA7F75C1"
+  },
+  {
+    "path": "media/frames/step4_15.jpg",
+    "bytes": 86422,
+    "sha256": "0EEE8F7B5BB2D5C1ACE0AF2A0F5B8DA348F9E64CDA29AD5BFDA9D267820B777E"
+  },
+  {
+    "path": "media/frames/step4_16.jpg",
+    "bytes": 82074,
+    "sha256": "CE49FB47886A73F610351691E8B84AC943A40D1F6B316B14D45A30D88939CF5B"
+  },
+  {
+    "path": "media/frames/step4_17.jpg",
+    "bytes": 81043,
+    "sha256": "4435DBE28284B223373DA8333EFBB6861FC9E79034A00E6C6FCE90822EE65F87"
+  },
+  {
+    "path": "media/frames/step4_18.jpg",
+    "bytes": 79883,
+    "sha256": "9E040FD1C96F65EBC7507A4143F0458EFD6BDFEE407BD1A507B215996175D4BF"
+  },
+  {
+    "path": "media/frames/step4_19.jpg",
+    "bytes": 77233,
+    "sha256": "437A5D0B846D520B3FEF2EF705680F109DD609835D3FF547CBB7D90871CF88D1"
+  },
+  {
+    "path": "media/frames/step5_00.jpg",
+    "bytes": 53528,
+    "sha256": "F31706260309F443041F61075F94095AA4E78CBDD56FC3736816342D44BB3DA0"
+  },
+  {
+    "path": "media/frames/step5_01.jpg",
+    "bytes": 56406,
+    "sha256": "655AF670DCA44616C0F69CEBC55E14CC6509550320A5F920A3D1E9227244DBBE"
+  },
+  {
+    "path": "media/frames/step5_02.jpg",
+    "bytes": 57625,
+    "sha256": "52FE2EA08A2039DD3EED13FF99EF197D8433A020AD5B95937FCD8A214CD03C4E"
+  },
+  {
+    "path": "media/frames/step5_03.jpg",
+    "bytes": 57807,
+    "sha256": "95346FDB15A38FB884F233077C26B276D3E6C85C9080D3E695BF4D5D2DF3EDBF"
+  },
+  {
+    "path": "media/frames/step5_04.jpg",
+    "bytes": 57863,
+    "sha256": "B0092ADEE003DBC2E33C4DEC5D6F8E4BBA5302515FF809319F3D929B9CAF2849"
+  },
+  {
+    "path": "media/frames/step5_05.jpg",
+    "bytes": 57756,
+    "sha256": "B79E0A879A78FA809B393A52281B535FB8B7DB4C29C56FB1F8663B8A54631BAC"
+  },
+  {
+    "path": "media/frames/step5_06.jpg",
+    "bytes": 57818,
+    "sha256": "38ECA9BBE068ACC08666F1A8A81C30616DC37A7CB644A5839BAF60C9BDFCC15A"
+  },
+  {
+    "path": "media/frames/step5_07.jpg",
+    "bytes": 56389,
+    "sha256": "D1E9B33336542425A93EDD864258386EBB48F3FA76EDBAE778BCF8D53526D5B0"
+  },
+  {
+    "path": "media/frames/step5_08.jpg",
+    "bytes": 57861,
+    "sha256": "027D172A63B29BAAFAE85B4180AC2B12E81BE6CF8C8184DC6B9640F549856B5A"
+  },
+  {
+    "path": "media/frames/step5_09.jpg",
+    "bytes": 59296,
+    "sha256": "43B5AB91DE607801B092A379DDA3023192F2E46B323DBD4675E3FD3B2F6C25EF"
+  },
+  {
+    "path": "media/frames/step5_10.jpg",
+    "bytes": 60610,
+    "sha256": "90C094AFE838FC0587E3DC4FE388AD83411E58A55112E24547028A28234C8229"
+  },
+  {
+    "path": "media/frames/step5_11.jpg",
+    "bytes": 62293,
+    "sha256": "9007FF1785D8D3A4C83FA9DA4F948F65CBCAE9FF7A84EE94F6205446D0BA6AA3"
+  },
+  {
+    "path": "media/frames/step5_12.jpg",
+    "bytes": 62095,
+    "sha256": "0DE57EB0792043C7F56AABABAA199A4E52ED175137147471EE988E4254D2194C"
+  },
+  {
+    "path": "media/frames/step5_13.jpg",
+    "bytes": 61291,
+    "sha256": "D6D545066798E56A14BC4FC6AD0C2A80BE77A7A0927FEF78CCB1F977CD2A206E"
+  },
+  {
+    "path": "media/frames/step5_14.jpg",
+    "bytes": 63499,
+    "sha256": "AFF31E00CFF8D514BA02D46166139AA8991DC3D53F26B03A73CA031BA290843E"
+  },
+  {
+    "path": "media/inst_1_eus_scope.mp4",
+    "bytes": 841750,
+    "sha256": "28CBCAE88949EFFE7E1CC4C6F2813743A77E88D8CA018D0BE801A64D4343583C"
+  },
+  {
+    "path": "media/inst_2_hot_axios.mp4",
+    "bytes": 263057,
+    "sha256": "88BDD1884302D4F268151A4FDE867F38BD64C7998FB771573AEFBE5495CE8FAE"
+  },
+  {
+    "path": "media/inst_3_guidewire.mp4",
+    "bytes": 321159,
+    "sha256": "9FF7E6D629D0203120C799EECA028647B98C05863061427B1F5D096558813E65"
+  },
+  {
+    "path": "media/inst_4_catheter.mp4",
+    "bytes": 225312,
+    "sha256": "FDAD634434E45E4B3EA5711309A966C7C0D855E20734053FAEE2058A55E547AE"
+  },
+  {
+    "path": "media/inst_5_epass_balloon.mp4",
+    "bytes": 221814,
+    "sha256": "9F574040F062849A8C505BBED41C1A8B528F192B4152ACB78837D4BDC556553E"
+  },
+  {
+    "path": "media/inst_6_lams_stent.mp4",
+    "bytes": 370049,
+    "sha256": "18F6F81897580CBD5ED7FC618B171A0C07E4F6A7DE85639C031953990FF4E43D"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_01.jpg",
+    "bytes": 91206,
+    "sha256": "797CFBCD7E6B088D034374FEF18DAC387B3ADA2113950782538DDC5CBC4E5150"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_02.jpg",
+    "bytes": 90961,
+    "sha256": "401A51BEF5564C0127249CA649A71776CD09CBDD6E4265B49FC7C2FA45FA41D0"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_03.jpg",
+    "bytes": 90194,
+    "sha256": "B6733B0FBC3A2AE5297156AA57A967D9AA03B59B3394E10E28BC802225220FD3"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_04.jpg",
+    "bytes": 86560,
+    "sha256": "E57964CF4809F7B913998CC2F11DE3F5D0220C4D728DBCDF0D69B65DE97895CA"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_05.jpg",
+    "bytes": 82266,
+    "sha256": "FEFD7CE53642D4FFA965E07A08E84AF15C68A6AD0B797D77FEAAF6C71DBE2A7F"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_06.jpg",
+    "bytes": 77141,
+    "sha256": "694B7A7E14E2309EFF660F1B3B6D8B641521B30F29E3CD5BB17F99111EC9BE7E"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_07.jpg",
+    "bytes": 73987,
+    "sha256": "EAC113F1D60028883EF36A1FF4E06F1FA6EBF0BA82C304DA978114FE5C3C293B"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_08.jpg",
+    "bytes": 72356,
+    "sha256": "FA174CC9426AFE166182E0F2FD3337E4B37F81F3B805A7AFD526822BAA6C256C"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_09.jpg",
+    "bytes": 72458,
+    "sha256": "B854990F42FA602C60A66C877899971A4836264CB22B720ADCC3445C7F7784C3"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_10.jpg",
+    "bytes": 72137,
+    "sha256": "3859A1AEB3020DF12173F52F334412E6DBBDA33CE7B0D340466DE5759BBE198F"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_11.jpg",
+    "bytes": 72951,
+    "sha256": "6D0768F199DA59904749D8D79B84C76B8DDDC678CDEFCFB9CB83048077A1D99E"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_12.jpg",
+    "bytes": 72694,
+    "sha256": "32F7688CB409E90C779861F942D6A12ACED1EA1A60707F8D217750584E0D769B"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_13.jpg",
+    "bytes": 74263,
+    "sha256": "268A8EDAA6924CF084100176DEE260EBE4FCA21035CC37891CBCD5D533C59447"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_14.jpg",
+    "bytes": 73239,
+    "sha256": "CF544E55BA3F7F012628E9133497508890E0EF0306140E945E8AC684E8724A8B"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_15.jpg",
+    "bytes": 71532,
+    "sha256": "987C740BE0FB01D3BCA1697589F6450CBF789D419E3A21DC34AF0E619D211A29"
+  },
+  {
+    "path": "media/inst_sequences/dilation_catheter/frame_16.jpg",
+    "bytes": 67394,
+    "sha256": "8E56677120A299282E6035B87C3B0AD38DA2B45824D5FC78BDDEFB631B6C4E10"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_01.jpg",
+    "bytes": 140769,
+    "sha256": "E2A93C49C7871DA9D30C5EA9785B76F4B174F8BE895703806C1B8AC765018314"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_02.jpg",
+    "bytes": 124154,
+    "sha256": "478540BA94B2D90B33F62656AB7FB0063F909EF1BBC63588067952B6C03692A8"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_03.jpg",
+    "bytes": 261876,
+    "sha256": "FA00D7D1DCF6E61B1C400B6DF0747D3F1F4862B1C7102E3F6E0EC6FCD878CC13"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_04.jpg",
+    "bytes": 242250,
+    "sha256": "BF43D021E0804E3BF0B878AEA474A75D63EB61DC31252658DFFD85D3B4B64755"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_05.jpg",
+    "bytes": 200138,
+    "sha256": "8F4234675D92C5CDCB3E7D5471F71F18AF0818C15D7D7430320C240B3473A80A"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_06.jpg",
+    "bytes": 131759,
+    "sha256": "8B7212A7C832916F98E584D45753E801224A052DBCA8420BC606AA76F4DF1D82"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_07.jpg",
+    "bytes": 123827,
+    "sha256": "00E8096CD5DF0C5053DCCCA73C1C9552037E438C4ED055D448B15C7114FB8ECC"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_08.jpg",
+    "bytes": 117935,
+    "sha256": "E9ACBFA57B22ECA496B4F0E44FAA263143F04CC12CB26164ED436FF82B1BA878"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_09.jpg",
+    "bytes": 100787,
+    "sha256": "EA91365B90BD655F88C31B9795DEB05B821D05C3F37A754D706455857CB3253D"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_10.jpg",
+    "bytes": 140605,
+    "sha256": "D8DA3C6F76164694EA31D647A1F0EC611D3D0263245D463D239C6028244102DB"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_11.jpg",
+    "bytes": 118081,
+    "sha256": "B9CDD2718DD259321C37A17E7933FB715C1CB513D26AE9C0F2F51D7F4ABD4F61"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_12.jpg",
+    "bytes": 182081,
+    "sha256": "D1265EC8EC2CAE34C5F036996EA3A23406F9551A481FCAE591161AF9DEF97446"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_13.jpg",
+    "bytes": 222039,
+    "sha256": "73EDFC433BC194CC206AA111B20AFAB9E8A89709BF0D656F3A88A0A1324636D5"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_14.jpg",
+    "bytes": 134745,
+    "sha256": "C5135B583EB6D9A18C7772CA3D36AD5A9D2C1E75E406ADC2EAC15E1575FB6C0D"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_15.jpg",
+    "bytes": 217290,
+    "sha256": "F7AB183EAE6EA1A079A6B6AA2C13D00859699CD0430A82E5D1A6B334BCF6D258"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_16.jpg",
+    "bytes": 277962,
+    "sha256": "2171E7583EA3E59DF7ACA19274CC8146C0D8CC882A7E294D45C9C1CC951B12F2"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_17.jpg",
+    "bytes": 147070,
+    "sha256": "97FA4C0436FF5CFE93982A0B73C1F328C51CDE639FA0897FCC3E6D7257B03AF5"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_18.jpg",
+    "bytes": 153607,
+    "sha256": "5DED0D0114CE3FE36E3F6C6D4C43433A7343700B8AC8C21138A814B5F8A25412"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_19.jpg",
+    "bytes": 72431,
+    "sha256": "2EF9C72E02BBDD781BA39A2E7DF48651B399B6C4830A5362305497963D0D4959"
+  },
+  {
+    "path": "media/inst_sequences/echoendoscope/frame_20.jpg",
+    "bytes": 140769,
+    "sha256": "E2A93C49C7871DA9D30C5EA9785B76F4B174F8BE895703806C1B8AC765018314"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_01.jpg",
+    "bytes": 76986,
+    "sha256": "1B792E921245062DB6A5D3CE59CFF1A3AE30F008E357E118D70EFF35408BA8C7"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_02.jpg",
+    "bytes": 77319,
+    "sha256": "48CC2D32105D369DCA588458502BA28886F7EFFD7D84BA8BC37256ACAFAF0EE6"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_03.jpg",
+    "bytes": 78012,
+    "sha256": "D5B2A4D3742263B15330194F817FB9EC6B88CE0FA8AD7EC40B9DC8FF1D8F8973"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_04.jpg",
+    "bytes": 74489,
+    "sha256": "AC6479D4EAFCF72CABF89C025FA81719C941DD829D8FE9AAF82438C4F6D9C41A"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_05.jpg",
+    "bytes": 69460,
+    "sha256": "919608A200074CB6DA542C8A0E33B6F72D4723F57C6AA6BBDAA958FC8FBA2CBF"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_06.jpg",
+    "bytes": 63908,
+    "sha256": "8675FA85523646C1E565AD32392DB8AA23F71378F367E0AFFFA08C1BE6AC77FB"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_07.jpg",
+    "bytes": 62988,
+    "sha256": "5176B889368A36849D4AE433F9704461A94D22549C7982A00B681C64F8516785"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_08.jpg",
+    "bytes": 62287,
+    "sha256": "1935D322FB59457C64CB2537F1BD4A34A30A0954FB40BF1C738329041EF2FCB5"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_09.jpg",
+    "bytes": 62496,
+    "sha256": "121BE5317153EE6AD8205B1B6C4D4D4BE10D1FCD3C516F99C63A74C7EF9C5B0F"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_10.jpg",
+    "bytes": 61881,
+    "sha256": "EAB27B4CCB82C8370488D7809C7BB9BDAA696C16EFF3B6D47B9C9118646E4C98"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_11.jpg",
+    "bytes": 62231,
+    "sha256": "F0B607520C7C8CE58E57A493FC5A9F2A93A98231FD405619876E30376DFA115E"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_12.jpg",
+    "bytes": 61166,
+    "sha256": "20AD55A17DAA6948D3BBAE6696AF7D510B4DD0FF5BE9DE5B67FF3B6BEBA0D763"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_13.jpg",
+    "bytes": 61033,
+    "sha256": "0F0787E26D6BD9BDD8309FD568F84CFA002ED3C4F9BBDE24F1A6C4E0C14EE1F5"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_14.jpg",
+    "bytes": 59412,
+    "sha256": "DB833A38F20B6B90B52B95D61E1E76C0CD5142BD491A7868DCAEEECB8F29FC35"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_15.jpg",
+    "bytes": 59384,
+    "sha256": "918CCD80E65E5E8B71B7AA90321DC1CEA4D8CAB38DDCF13E43E5716319B7D14A"
+  },
+  {
+    "path": "media/inst_sequences/epass/frame_16.jpg",
+    "bytes": 56198,
+    "sha256": "A8BE80490E70A267DF0AB05C97267B7607F0DC4579DFDD03B25D6E262F180E2C"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_01.jpg",
+    "bytes": 252950,
+    "sha256": "657CCFBC2B3053E957BE9FF9DE6A531FB6DB1953DB7617C443C1BFDEBDB37176"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_02.jpg",
+    "bytes": 303740,
+    "sha256": "FE9B56FE2D93C5A405AEC11F9ED28A767178363326FCD2C25B1F90690CD7A554"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_03.jpg",
+    "bytes": 251978,
+    "sha256": "E9AEBFC741E0A482A624263A8FF1BF3D589AF304AD21EB8E927C18E36FFBC840"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_04.jpg",
+    "bytes": 162961,
+    "sha256": "6891C0E74B547FBE0DF41CC24E4B5D6FB883159979FA50930BF04A0974A9F751"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_05.jpg",
+    "bytes": 151338,
+    "sha256": "9EB019B1F77668BA554A8A0048911E24D8D7CF671119A8ABBB64AE3D70B7CF82"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_06.jpg",
+    "bytes": 139880,
+    "sha256": "19988A63E1955100C7017BE85C3DEB42A6B2F58AA3DD932D142F6239DBF7E562"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_07.jpg",
+    "bytes": 147414,
+    "sha256": "05998378883BBF76F6E42EE1AEB439383B97921D155A2222BB5BC1C82667F62C"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_08.jpg",
+    "bytes": 164632,
+    "sha256": "B421EE74EE39FC8447833BBCEF270ABCC3B4239092F6A134134109BC256F4BCC"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_09.jpg",
+    "bytes": 139928,
+    "sha256": "172B7400C8829AC60165EC455CAC9D31C1CF3F4572135356D79B5D2FCD34EFFB"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_10.jpg",
+    "bytes": 188691,
+    "sha256": "8DEDA8DF142BBA7A8322F017A3A1E7AB997EF8A5B0E9286C7FA8C56142D155C6"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_11.jpg",
+    "bytes": 207251,
+    "sha256": "EE0DB3189F0B90A184B5FEFCBC0178E25176FB27D08568E5DBD3EA018AF06DC6"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_12.jpg",
+    "bytes": 130407,
+    "sha256": "ECD91009753DCC214653B6696778CB01D72622ED9B4BEACF809ED0DE8A19693B"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_13.jpg",
+    "bytes": 152397,
+    "sha256": "B73A8E673A55A3D628EFF7310D6D6D10054650100EF56749BEE302D6FACB4BC0"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_14.jpg",
+    "bytes": 139234,
+    "sha256": "F0B16426134E6489B8583F7BCE7BF65E92AD4C6EE9A10030AD31E0074E908EE5"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_15.jpg",
+    "bytes": 231408,
+    "sha256": "CB52511FABA625D4AFB27FF512DC98116E1F6A4D898414498A32C44092C46201"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_16.jpg",
+    "bytes": 151770,
+    "sha256": "11F64C9FD18E648B056AD3EE8CEA575A0A213D2E49A72704025AD25CF72254EC"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_17.jpg",
+    "bytes": 127150,
+    "sha256": "02C6240A7BF0883559900381882B725B4380D7FDD08A6A4216EC45A5E2C23892"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_18.jpg",
+    "bytes": 118297,
+    "sha256": "BD34B0E168F9F21BA7C70E0C50256BFAF7496B8DEBAE7B04E7A99C9BE362F664"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_19.jpg",
+    "bytes": 143421,
+    "sha256": "76D8D3A243EEC5BCEC6BF1B3097052160E3202DD5514630B588B0B8B5B866D54"
+  },
+  {
+    "path": "media/inst_sequences/guidewire/frame_20.jpg",
+    "bytes": 252950,
+    "sha256": "657CCFBC2B3053E957BE9FF9DE6A531FB6DB1953DB7617C443C1BFDEBDB37176"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_01.jpg",
+    "bytes": 116771,
+    "sha256": "23449B0DA6474761565B686CC73F481D5E6AF523CCE42D45AE0FBE6575178978"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_02.jpg",
+    "bytes": 117682,
+    "sha256": "274FAFFD8FC6C666ACC3F3DC50DF07F235BE3F79BDB38FD54F901CC0CA8D2040"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_03.jpg",
+    "bytes": 112252,
+    "sha256": "8021BF3B4016D7A53B566E0925A2F1A24DE5CAAF421356A9BEB61CD0254BAC96"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_04.jpg",
+    "bytes": 124962,
+    "sha256": "3229EFD14D010DEC82FC1BC795DE3567BB6604DD46A4BE070FF03D016D547BA0"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_05.jpg",
+    "bytes": 120379,
+    "sha256": "2A94595B68C86F0E4C07F32CC12D548750B6C94472458CF3B5E4D79E1EDA1F86"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_06.jpg",
+    "bytes": 167651,
+    "sha256": "72763E544297FC17FD3F48E301D9985F49FDF9BACF6B505B4FBC3CD1A6B71FAC"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_07.jpg",
+    "bytes": 145338,
+    "sha256": "A0DC1BE073B95973FC6504E224E98C8B7526A779AEEB4A8815CD1FD6D92A9555"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_08.jpg",
+    "bytes": 145874,
+    "sha256": "941110E54AC583EBC1889C41FE3490EE2F39B3907547430638AFE7ABF4234544"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_09.jpg",
+    "bytes": 158284,
+    "sha256": "9D11AC8A8B79A3F6089D46A8A1D46A4B7B8221B16A86D386EFF3604A673BFF7B"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_10.jpg",
+    "bytes": 160624,
+    "sha256": "942A61511C32F58A1B67DE48F2410BEE2B15DF3A943FF32502F15C143F33BA64"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_11.jpg",
+    "bytes": 129371,
+    "sha256": "CE5164DC98F1A7262B329A3E3C4909AA4283AB904E0C7BB114EC05988EE7611D"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_12.jpg",
+    "bytes": 147529,
+    "sha256": "9F53AEFC7014F8472888F09410FD3A4D827E52C6D29276C5DA221DD7080EEEDF"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_13.jpg",
+    "bytes": 104405,
+    "sha256": "8F091C49343DEE900059FEDC258A0F0C174A81603FA4B210A3A26639B2D32C66"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_14.jpg",
+    "bytes": 146364,
+    "sha256": "C640C4E89A44BE9BA432449FB4A50C01523DBCDAABC4B991F8902DB0416DCA5D"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_15.jpg",
+    "bytes": 133224,
+    "sha256": "071ABBD5C71690998CB4495CEE1A774EA98E0484976C35646097DC886B5F7C7F"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_16.jpg",
+    "bytes": 133778,
+    "sha256": "AECAB4B5ADE0E1E4D8BD4339236BDED2C14D52002D99E449F6C8329831D74EBB"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_17.jpg",
+    "bytes": 169296,
+    "sha256": "E5C8198B63EB18ED419C7D7FD0A00381A295C0064A2A6E94BAF3A861CBDD7823"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_18.jpg",
+    "bytes": 150418,
+    "sha256": "8AD5BAE87276A70BDA7037430501048096FAFECDB5BEABA5034E0130E238CEE6"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_19.jpg",
+    "bytes": 145821,
+    "sha256": "3B1E43DFDCB8A9663191295D7BA45E61CCD6251CF969D027598DE8F05DDA3441"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_20.jpg",
+    "bytes": 127259,
+    "sha256": "0D0E274BB380A5F3F98F5B9341D0EC9ED07CE52A05C797821BB3C6B62675262F"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_21.jpg",
+    "bytes": 104674,
+    "sha256": "D85DBDF660D40F2FC13BF0F189E470C8D4BA7A42EE8A1D90985A512893DA80A4"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_22.jpg",
+    "bytes": 155002,
+    "sha256": "1648ECCD00AA868F61C2C61813A7022BA9D365D69E340BEEF4DC9C3DC049B3C1"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_23.jpg",
+    "bytes": 95303,
+    "sha256": "2E0DEF18C4BB1008169CD8AAECA3A8D8088A0C6CFB6414A1AC70812066022BA5"
+  },
+  {
+    "path": "media/inst_sequences/hotaxios/frame_24.jpg",
+    "bytes": 116771,
+    "sha256": "23449B0DA6474761565B686CC73F481D5E6AF523CCE42D45AE0FBE6575178978"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_01.jpg",
+    "bytes": 256141,
+    "sha256": "3FA98B039EB0E34090CA4FAD1C7682055783A76345DCB85F2E3C8830E23B946C"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_02.jpg",
+    "bytes": 217005,
+    "sha256": "DEF7DCCBAA4F8605DED66ACEA4549571AACAD21C3EF1F590D9249950128A0E39"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_03.jpg",
+    "bytes": 132234,
+    "sha256": "771C34C53DEC2B82F9D37E1AF0AEB42C4F8C219F511573E08BA6006F88B545FE"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_04.jpg",
+    "bytes": 243428,
+    "sha256": "46B94EC35AB21DB7E432DC9F6AF3ECAA06C110235185E9DE5860A1E58335FDED"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_05.jpg",
+    "bytes": 198129,
+    "sha256": "E66B76CFC43398AB9215DA7069346AFAB94852D6DB456EE4699F1DFB9D763A0C"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_06.jpg",
+    "bytes": 127143,
+    "sha256": "5AD4377B7B64524239541F1B7461C15B6C4D11593437E9C95BF6E0D3A2B9FC3E"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_07.jpg",
+    "bytes": 196761,
+    "sha256": "76F7514AB5AE61010C5BEB6E118D4E1C50F550F5B6F6C74F55ACA5084A6CDB9C"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_08.jpg",
+    "bytes": 213392,
+    "sha256": "30F4E4826238A22AD53A22E99E34CFFEC0AB23286737BBB36B2C40443B419C7A"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_09.jpg",
+    "bytes": 283623,
+    "sha256": "281C817EDC02C21BE10605AF5E80EB7066724CD8C4899D97580ABD964B50E3BC"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_10.jpg",
+    "bytes": 285042,
+    "sha256": "BDF034AF17D4C1710B0E114A4E0FD01B877EE57846E2C33E2BA2AD7A990A7512"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_11.jpg",
+    "bytes": 255720,
+    "sha256": "1B7BA83BE35265F8D0D0226B8A256C4553794680F0DF4AB07401525AC2D41E06"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_12.jpg",
+    "bytes": 148873,
+    "sha256": "86DA66CA07D7E414DE64028288007B1044B28AB29737724B2B39AED12B28A61D"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_13.jpg",
+    "bytes": 215598,
+    "sha256": "118446B2C5E99660E53875421C96C04291F7C882CA89FDC8A7B8C6B23E2D68ED"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_14.jpg",
+    "bytes": 256141,
+    "sha256": "3FA98B039EB0E34090CA4FAD1C7682055783A76345DCB85F2E3C8830E23B946C"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_15.jpg",
+    "bytes": 213870,
+    "sha256": "E4D64388B43B9E6565872C43648EEDE71B06C2ECFAA77385082DE59657022B1C"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_16.jpg",
+    "bytes": 191811,
+    "sha256": "0DB6C179A46B6AED7D5FA8C8A096484C83E05E5C378A9F272EE634A123E2F019"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_17.jpg",
+    "bytes": 159553,
+    "sha256": "BAD188B73777B25E7CF4ACD8FFBCDD3A69549E63AE8B66F70AE279891202EC2E"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_18.jpg",
+    "bytes": 178833,
+    "sha256": "9B6D03AFF56BF3B62EC2F610ACFB177932E252560528F2C3AAC8E70677D6E0C3"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_19.jpg",
+    "bytes": 173792,
+    "sha256": "BBEA1B165A096DFDBD6B7AE958C21E779AABE7E2693284A36AED5AC017DD9641"
+  },
+  {
+    "path": "media/inst_sequences/lams/frame_20.jpg",
+    "bytes": 256141,
+    "sha256": "3FA98B039EB0E34090CA4FAD1C7682055783A76345DCB85F2E3C8830E23B946C"
+  },
+  {
+    "path": "media/models/cecum_appendix/cecum_appendix.blend",
+    "bytes": 906008,
+    "sha256": "529E120D1E4100C238637D8D5FE4C83944ECFED027F396A0585AF64E91995AE2"
+  },
+  {
+    "path": "media/models/cecum_appendix/cecum_appendix.data.js",
+    "bytes": 1223929,
+    "sha256": "BC9B802D337CBE5320990D77E424F5F8F1F46C0212D4394D4DE38CB9913C97FF"
+  },
+  {
+    "path": "media/models/cecum_appendix/cecum_appendix.glb",
+    "bytes": 917792,
+    "sha256": "A4887217EE7F1F4899EE49F5C339615BF1F9DE2BB94B598A39C2B6BC2A304AD1"
+  },
+  {
+    "path": "media/models/cecum_appendix/LICENSE.txt",
+    "bytes": 20559,
+    "sha256": "5E7DD512C01CFB822E3253F8F8DF923103A64E269DEB9BB5303F23B2376CAD46"
+  },
+  {
+    "path": "media/models/cecum_appendix/preview.png",
+    "bytes": 53657,
+    "sha256": "FADF37F387EA756532F672DAA287B6852047916C5632C07B4C1D2CDCDC618F68"
+  },
+  {
+    "path": "media/models/cecum_appendix/provenance.json",
+    "bytes": 1452,
+    "sha256": "D40B6AE241961E03310CEF73B43C721280A7F0406C26315F1E1F27FFBC3277B4"
+  },
+  {
+    "path": "media/models/cecum_appendix/SOURCE.md",
+    "bytes": 1652,
+    "sha256": "A955824C460AC95197351AB91369423EDFD8E311A39CD63D1E48F6D2E3CF1492"
+  },
+  {
+    "path": "media/official_photos/01_hot_axios_angle1_full.jpg",
+    "bytes": 372723,
+    "sha256": "170230C45EAC70F7F95B332CE7B387BB5C96471B1B5A2A68BD803D520E234878"
+  },
+  {
+    "path": "media/official_photos/01_hot_axios_angle2_tip.jpg",
+    "bytes": 385280,
+    "sha256": "0C411FDD69C4AA74523FF6729BE370EBF2EA164E59D1057BF95E09D996CCC394"
+  },
+  {
+    "path": "media/official_photos/01_hot_axios_angle3_handle.jpg",
+    "bytes": 490884,
+    "sha256": "B1A0A35BB1ED3D31FA3D296BA95FCE4152A62120176CCD88DD932583D5885574"
+  },
+  {
+    "path": "media/official_photos/01_hot_axios_angle4_top.jpg",
+    "bytes": 495089,
+    "sha256": "F1842970A9EE18C14D4AC4F50A8A56F867E20EA47CFBF542DB8A68D53D504F85"
+  },
+  {
+    "path": "media/official_photos/02_eus_scope_angle1_full.jpg",
+    "bytes": 435661,
+    "sha256": "281C9BED415A342691F208535047406B51CBF0DDBFA36B3DE412C78679763FAB"
+  },
+  {
+    "path": "media/official_photos/02_eus_scope_angle2_transducer.jpg",
+    "bytes": 573976,
+    "sha256": "6EDCA18B57311D5C67FA5717282227F5D2D4BE7FBC7D2928D19C0ECAF220B8F2"
+  },
+  {
+    "path": "media/official_photos/03_zebra_guidewire_full.jpg",
+    "bytes": 643983,
+    "sha256": "5E0AE548C614B45B50489273AEB8F19368101A009E63A9A1E90D5F26EC39ED17"
+  },
+  {
+    "path": "media/official_photos/03_zebra_guidewire_jtip.jpg",
+    "bytes": 474603,
+    "sha256": "9D34278B7220F3666472E3173F9EA95709FA162D8AFCB39B276789F9A7C8141A"
+  },
+  {
+    "path": "media/official_photos/04_lams_stent_macro_axial.jpg",
+    "bytes": 538626,
+    "sha256": "567C9CCDCFB4B5D57F18A8F9050E4286CE2A6F48D1DF2A015A60411E4BAD48BF"
+  },
+  {
+    "path": "media/official_photos/04_lams_stent_macro_side.jpg",
+    "bytes": 561376,
+    "sha256": "6250FBFE6A256D2AEA21E6271171852B355DDA5A426A536661B7AD4FA01B5938"
+  },
+  {
+    "path": "media/official_photos/05_contrast_catheter_macro.jpg",
+    "bytes": 422196,
+    "sha256": "3A3B48E47641940C0700E79F0FE05E4B5730A8549FAAF79B8BBDF669A74F43EB"
+  },
+  {
+    "path": "media/official_photos/06_epass_double_balloon_macro.jpg",
+    "bytes": 359786,
+    "sha256": "C6701DD713A04D06C96026AB733F7C4898D4E03E8AB2E202E9A063EC9F42013D"
+  },
+  {
+    "path": "media/official_photos/biliary_biopsy_cholangioscope_teaching_v1.png",
+    "bytes": 1526359,
+    "sha256": "C4788AAF8431477AFCC1AC37DB215277CF2881CA5ADC453A249B645266D6BDE8"
+  },
+  {
+    "path": "media/official_photos/biliary_biopsy_duodenoscope_teaching_v1.png",
+    "bytes": 1718125,
+    "sha256": "C3A848C5BBFC3AFB8CA1746DD40E134E588071320B1E4197C7DC005CAF0D401D"
+  },
+  {
+    "path": "media/official_photos/biliary_biopsy_forceps_teaching_v1.png",
+    "bytes": 1464753,
+    "sha256": "FD8D9CE22A390B74765D4FC2B735F532ED6B1D734F5D1BD0A6485DD6DFBEB82B"
+  },
+  {
+    "path": "media/official_photos/edat_appendicoscope_teaching_v1.png",
+    "bytes": 1615720,
+    "sha256": "D7AEDA892D5FEFBD2B4BB14FEB0176DD67017C009993D558555091269AE44C38"
+  },
+  {
+    "path": "media/official_photos/edat_colonoscope_teaching_v1.png",
+    "bytes": 1695171,
+    "sha256": "ABC694B8D4E9ADF5A238B2CC7B78D6FCDB846F92C432BE855E3AB6156BC36316"
+  },
+  {
+    "path": "media/official_photos/edat_plastic_pigtail_stent_reference_v1.png",
+    "bytes": 402979,
+    "sha256": "92304742E5264320D7D94170CAE75B0A173C20705549064B6C4D303B5A3EEE31"
+  },
+  {
+    "path": "media/official_photos/edat_plastic_pigtail_stent_teaching_v1.png",
+    "bytes": 1440171,
+    "sha256": "1467DE10687A87D3DB929F3137D75C534DDD7248CBC8474CCCFCD77CED5EFB32"
+  },
+  {
+    "path": "media/official_photos/edat_retrieval_basket_teaching_v1.png",
+    "bytes": 1516234,
+    "sha256": "AB482F6E9BE34E071CBF3AFEF0A3C1A803CF4DA69165BEA5D7707510938071A6"
+  },
+  {
+    "path": "media/official_photos/edat_zebra_guidewire_teaching_v1.png",
+    "bytes": 1482406,
+    "sha256": "97120F96F821140BEE026187ACC28B8A6D22F79ACCEA7B58D3008641C185FE31"
+  },
+  {
+    "path": "media/official_photos/ercp_direct_cholangioscope_teaching_v1.png",
+    "bytes": 1399590,
+    "sha256": "2CF436E19219DB90E591BA600C1854A78E36F5C1A8A367155D955BD1F511D5D2"
+  },
+  {
+    "path": "media/official_photos/ercp_duodenoscope_teaching_v1.png",
+    "bytes": 1402703,
+    "sha256": "925FF339821528714C5AEE01844E372FA75F10441F9A0587EB94BE4D4543505F"
+  },
+  {
+    "path": "media/official_photos/ercp_lithotripsy_fiber_teaching_v1.png",
+    "bytes": 1563207,
+    "sha256": "32DE48601B113E939802A090D86B5F15A69F32809E7616F24C8A04389172C2B6"
+  },
+  {
+    "path": "media/official_photos/ercp_stone_basket_teaching_v1.png",
+    "bytes": 1241272,
+    "sha256": "0621DD8CD30EE9E8A4A507BE063728DDBB1ECE4752F28640B34643E7926D5805"
+  },
+  {
+    "path": "media/official_photos/eus_cds_fully_covered_stent_v1.png",
+    "bytes": 1388585,
+    "sha256": "B0C889A9773419E591E4536D015AC76E46856967896D4E51440518A0E4E543B9"
+  },
+  {
+    "path": "media/official_photos/eus_cpn_22g_injection_needle_v1.png",
+    "bytes": 1315172,
+    "sha256": "0188ACF494F8CA06269178E17D8EA7CB4D6E86EDC50E7FDDABE833E1CB9AC053"
+  },
+  {
+    "path": "media/official_photos/eus_fnb_22g_endcutting_needle_v1.png",
+    "bytes": 787027,
+    "sha256": "4ED1D5D5E7D959D63C8A07A113EB4B0F4F829B9B01B9E802DC8DE2AFE5572F2D"
+  },
+  {
+    "path": "media/official_photos/eus_hgs_partially_covered_stent_v1.png",
+    "bytes": 1765989,
+    "sha256": "F08B3AD63CEC90EAD8DD6C321BAA08EEBBC75C75560559385288BED39484B963"
+  },
+  {
+    "path": "media/official_photos/eus_pd_19g_needle_v1.png",
+    "bytes": 418500,
+    "sha256": "B66615BA474F23048D64BDFB8512DBF0567CCBABF6A69294C6649DDE76D50443"
+  },
+  {
+    "path": "media/official_photos/eus_pd_devices_sheet_v1.png",
+    "bytes": 979712,
+    "sha256": "B172E09169DD99CDB835B0B680D3EC44FC38A0C1432FD298BB66C688F77E2BE9"
+  },
+  {
+    "path": "media/official_photos/eus_pd_double_pigtail_stent_v1.png",
+    "bytes": 402979,
+    "sha256": "92304742E5264320D7D94170CAE75B0A173C20705549064B6C4D303B5A3EEE31"
+  },
+  {
+    "path": "media/official_photos/official_1_eus_scope.png",
+    "bytes": 533631,
+    "sha256": "EEE8D6E558AEE8ED15AD244360DBA514127016D5AD178D3510958BEF156C906E"
+  },
+  {
+    "path": "media/official_photos/official_2_hot_axios.png",
+    "bytes": 432207,
+    "sha256": "0A244CD66C1FE6BDBC718777D1FD8385CAA6E0A2971AEBE43FEFF8268A2A53F0"
+  },
+  {
+    "path": "media/official_photos/official_3_guidewire.png",
+    "bytes": 506869,
+    "sha256": "8EC9CC91C465FF7E9F3FF91C4DFC4F9D1FF957A1AB59E6C9B3DC84603E4075CB"
+  },
+  {
+    "path": "media/official_photos/official_4_catheter.png",
+    "bytes": 488668,
+    "sha256": "02DA6A24FECDB47B2D876687FD2E502FF12AD4364115ECC487FCA4FA230F68EF"
+  },
+  {
+    "path": "media/official_photos/official_5_epass_balloon.png",
+    "bytes": 451833,
+    "sha256": "6415CB1F9F32ACF04448B4A6972FAD5C1878EF51AF562D8B11DD676A02506376"
+  },
+  {
+    "path": "media/official_photos/poem_clip_teaching_v1.png",
+    "bytes": 1713541,
+    "sha256": "70FE418CDBCEF0424EDE33C4B21BE841CF61D9EFA931F1F80BC966758546B52D"
+  },
+  {
+    "path": "media/official_photos/poem_gastroscope_teaching_v1.png",
+    "bytes": 1715101,
+    "sha256": "5BD01F705081B86BC82A2D73CE66A3DFE389192D293A64467A879676EA5D0E2B"
+  },
+  {
+    "path": "media/official_photos/poem_injection_needle_teaching_v1.png",
+    "bytes": 1796065,
+    "sha256": "0F648E2A8D1DDD730A34C756B1C7313365BDD6B6E18A31A59640F0BD1BEB2801"
+  },
+  {
+    "path": "media/official_photos/poem_knife_teaching_v1.png",
+    "bytes": 1568490,
+    "sha256": "7C826C912BF07B39F3C60F82239CECED78DCC550B5CC6217C5838F66DE1FF2C9"
+  },
+  {
+    "path": "media/step_0_pathology.mp4",
+    "bytes": 1219338,
+    "sha256": "83FC0B23DCD63F7BDA77EA65570AAB11B738AD02F5575D5C9ED56C36EA8ED041"
+  },
+  {
+    "path": "media/step_1_distension.mp4",
+    "bytes": 3667721,
+    "sha256": "EBAC9BFD1080E9F45B95C448213E3D3FC80EB826FA2D3461A6A523879DDEB6FF"
+  },
+  {
+    "path": "media/step_2_targeting.mp4",
+    "bytes": 492387,
+    "sha256": "24F1D81B6FD500209C126253A7FD137AB86B497D6AA10623AF82B46A3B64811A"
+  },
+  {
+    "path": "media/step_3_puncture.mp4",
+    "bytes": 920885,
+    "sha256": "6A74BB6065687D86A6FDD6F8404A99BE10DFADDF4F0C3C15E667DA6775C3F65F"
+  },
+  {
+    "path": "media/step_4_deployment.mp4",
+    "bytes": 3468126,
+    "sha256": "6285CE3F16C16DC43759521C5529F4C00FAF0AC5A8348E710310C95CB11D389B"
+  },
+  {
+    "path": "media/step_5_bypass_flow.mp4",
+    "bytes": 1347042,
+    "sha256": "045B5F9EC5D28FEC83A7FAA79C76B359A8DAEA91F3A6359FB9A762711924C10F"
+  },
+  {
+    "path": "media/two_d_surgery/01_eus_localization_v1.png",
+    "bytes": 1676625,
+    "sha256": "9F5F310DA79B2F729037320868E00C5B0FE561585E0CAF60590F820B6872647E"
+  },
+  {
+    "path": "media/two_d_surgery/02_contrast_filling_v1.png",
+    "bytes": 1745483,
+    "sha256": "4F50FA4115F6ECC7B90E1EF5B3FDDED2CA29818B6D87E569E16AFC61D4A5BD95"
+  },
+  {
+    "path": "media/two_d_surgery/03_epass_balloon_v1.png",
+    "bytes": 1768997,
+    "sha256": "C0B9C1E608D7A22020F2C03121818FEAE5D8C946E3CD145A9F7C364EC39F4557"
+  },
+  {
+    "path": "media/two_d_surgery/04_hotaxios_puncture_v1.png",
+    "bytes": 1721527,
+    "sha256": "E83C105750E7125274797C26782391D90E6172BBE000FB8F9482ABEA3863E96E"
+  },
+  {
+    "path": "media/two_d_surgery/05_guidewire_v1.png",
+    "bytes": 1709354,
+    "sha256": "B56A1A14F3066D00E5D47183648236DFACCCB54D65AA51252896BDCF61A7E674"
+  },
+  {
+    "path": "media/two_d_surgery/06_lams_deployed_v1.png",
+    "bytes": 1868597,
+    "sha256": "E7D39B0DF26AB2D50BE4D3BE6F08D0EF947FD97C99222FD9CADFE1E7374BABE6"
+  },
+  {
+    "path": "media/two_d_surgery/biliary_biopsy_00_stricture_v1.png",
+    "bytes": 2454893,
+    "sha256": "8AAD582CB19E813C62B9BBCA34AE40CFE0DB361F1035BA438868251B8945E4F2"
+  },
+  {
+    "path": "media/two_d_surgery/biliary_biopsy_01_ercp_access_v1.png",
+    "bytes": 2355657,
+    "sha256": "E5F45771222D662FE53239C4D9C4D5FF8749AA6D5EA9DFA2DDEBCD681685A6AB"
+  },
+  {
+    "path": "media/two_d_surgery/biliary_biopsy_02_direct_visualization_v1.png",
+    "bytes": 2378266,
+    "sha256": "9E9A7D65A00F3A347CC60041A60FCB0BA3E67B6A9A543B7AC7471F194D806B1A"
+  },
+  {
+    "path": "media/two_d_surgery/biliary_biopsy_03_targeted_forceps_v1.png",
+    "bytes": 2278795,
+    "sha256": "F15B83450BEC5A7CD84E123E336DC270D76CB37B0F4BCF47C11D5A1B8EDCFD65"
+  },
+  {
+    "path": "media/two_d_surgery/biliary_biopsy_04_sampled_v1.png",
+    "bytes": 2288280,
+    "sha256": "FF78E628355B234EC7C0F428D46CBABC91D55DF17EF10D773BA3A8E67486AD1C"
+  },
+  {
+    "path": "media/two_d_surgery/compare_postop_bypass_v2.png",
+    "bytes": 1873780,
+    "sha256": "FD2418FBBF832098B8D9FFCFF860E1C15AFE5B34103E59EFECE2C1060036747E"
+  },
+  {
+    "path": "media/two_d_surgery/compare_preop_blocked_v2.png",
+    "bytes": 1771503,
+    "sha256": "22288D724495EB3864D323DFB83D790C2CCAA47A30053B52A1584CEDAE5DF8EB"
+  },
+  {
+    "path": "media/two_d_surgery/edat_00_appendicolith_v1.png",
+    "bytes": 2120825,
+    "sha256": "363672752FB714775EAB18669946C1E5BAA03C95B4273C58E12985B2102BA2C8"
+  },
+  {
+    "path": "media/two_d_surgery/edat_01_colonoscope_orifice_v1.png",
+    "bytes": 2114398,
+    "sha256": "81CF33A058EE7090247765D8AC0422CC5A9982D7915961CBD14068E4B192BC76"
+  },
+  {
+    "path": "media/two_d_surgery/edat_02_guidewire_v1.png",
+    "bytes": 2126429,
+    "sha256": "FE0696CEBA02D23F6BDC9F871B5AA94A0012B4E9AFE67548934B45A69364BE69"
+  },
+  {
+    "path": "media/two_d_surgery/edat_03_appendicoscope_v1.png",
+    "bytes": 2130127,
+    "sha256": "1968E2990785AEF063BEF2E24A6461CB0066B6BCE4C4E6DA657C948DAE68F4BB"
+  },
+  {
+    "path": "media/two_d_surgery/edat_04_basket_retrieval_v1.png",
+    "bytes": 2138752,
+    "sha256": "F6513ECDFCD0C5E4C2D1B68A4DF87F464CF7F88C9453CFD1CD49AEC01D580F91"
+  },
+  {
+    "path": "media/two_d_surgery/edat_05_drainage_stent_v1.png",
+    "bytes": 2090488,
+    "sha256": "F617E85C7851CA5E6F17C0DDB8A4422EACF5DEF3A15819AB1552F928D0774AA6"
+  },
+  {
+    "path": "media/two_d_surgery/ercp_eye_00_stone_obstruction_v1.png",
+    "bytes": 2220895,
+    "sha256": "661B716F8202FA78658645A392C7B23CA2D53F65DBEA2C9867DA652033B7D828"
+  },
+  {
+    "path": "media/two_d_surgery/ercp_eye_01_papilla_cannulation_v1.png",
+    "bytes": 2128099,
+    "sha256": "268983D32E4BFA48FA002E6B38947017E3DB0BC40BF75ACC15EF89E0B87E7B5C"
+  },
+  {
+    "path": "media/two_d_surgery/ercp_eye_02_cholangioscopy_v1.png",
+    "bytes": 2115068,
+    "sha256": "B00B3CC967A4BAA3D2084777B4AF39CD329B49A028D968A97D810E5DDE8A5DFB"
+  },
+  {
+    "path": "media/two_d_surgery/ercp_eye_03_lithotripsy_v1.png",
+    "bytes": 2104496,
+    "sha256": "69C6E854278DADD1EBF7F23DA8B774B3F8D2487FE7AB42E86A48B5AF57CA670E"
+  },
+  {
+    "path": "media/two_d_surgery/ercp_eye_04_basket_retrieval_v1.png",
+    "bytes": 2083430,
+    "sha256": "3787123C28C6FDFCA49D77FB2597E8DE05217FC370BE07B23F025216F82E8294"
+  },
+  {
+    "path": "media/two_d_surgery/ercp_eye_05_patent_duct_v1.png",
+    "bytes": 2139950,
+    "sha256": "5F2BF1681A43A03CCA0508688AF79F9A8608C3D4F77920064849A7F0A690283D"
+  },
+  {
+    "path": "media/two_d_surgery/esd_00_gastric_section_v2.png",
+    "bytes": 2269061,
+    "sha256": "B2EE1CA501E11266DAA476AA0706BC0D3FC1BFBA32267C9FAD0842A5752EBFED"
+  },
+  {
+    "path": "media/two_d_surgery/esd_00_lesion_v1.png",
+    "bytes": 2263990,
+    "sha256": "EFB86634E70933BFD59D6EC0AD100C556C058053A2604610D62E2830C14D8F22"
+  },
+  {
+    "path": "media/two_d_surgery/esd_01_gastric_resection_bed_v2.png",
+    "bytes": 2227914,
+    "sha256": "DAF8D1CD62C8F8BEB5D23E423FFA7BF434EAE026B43C63BA73CB4512D3C7DC3D"
+  },
+  {
+    "path": "media/two_d_surgery/esd_01_resection_bed_v1.png",
+    "bytes": 2187750,
+    "sha256": "538AB9531CFB96871625D6FE035A47BFB53A3D8B21971ECBEFDC893A30ED3D4D"
+  },
+  {
+    "path": "media/two_d_surgery/esd_02_knife_contact_v3.png",
+    "bytes": 2195285,
+    "sha256": "1F42A403CA1424451D566EC17E7CE379717CC92A015FDF1845E2DDB73913A830"
+  },
+  {
+    "path": "media/two_d_surgery/esd_03_injector_contact_v3.png",
+    "bytes": 2234759,
+    "sha256": "58AB4FEB1877C4A21A485043F4DC713BF96D70AE6425A0C57E5533AF8BA35AC7"
+  },
+  {
+    "path": "media/two_d_surgery/esd_04_hemostasis_contact_v3.png",
+    "bytes": 2179554,
+    "sha256": "9656AA3AD75B21594E6B99DDE33B72D98F201198B370EC549A921C6CD099735D"
+  },
+  {
+    "path": "media/two_d_surgery/esd_05_retrieval_contact_v3.png",
+    "bytes": 2285715,
+    "sha256": "50C52F2361B377A5D0CF4891BB27E6CC09E0A2AE1B420E05AA81543E92BF77F2"
+  },
+  {
+    "path": "media/two_d_surgery/esd_instrument_hemostasis_v2.png",
+    "bytes": 1552228,
+    "sha256": "4F7A0D5BD0FFF28A7E39AD7CA0E91037FBF12BD531584EDE778A8C78A73C9F2D"
+  },
+  {
+    "path": "media/two_d_surgery/esd_instrument_injector_v2.png",
+    "bytes": 1521135,
+    "sha256": "BC87DE7F1033B010DD68156EBFF1BAFFCCB281CF8BBC6B6BBB68669A8EEC1E09"
+  },
+  {
+    "path": "media/two_d_surgery/esd_instrument_knife_v2.png",
+    "bytes": 1704811,
+    "sha256": "0E455EFB3EDE79BBA7264C82B05F7A72A6856EB680495BFD46CC6BB17F6F2409"
+  },
+  {
+    "path": "media/two_d_surgery/esd_instrument_retrieval_v2.png",
+    "bytes": 1665925,
+    "sha256": "2EB06CB948B7982AD05E89AC10177728663A4BD4FB190EE42F57C8B3FEDE9DBA"
+  },
+  {
+    "path": "media/two_d_surgery/esd-assets-prompts.md",
+    "bytes": 9395,
+    "sha256": "E7515CA960D58489AF7ADCE77AD3DAACC42007270FB2B0D98A05176CCDF79046"
+  },
+  {
+    "path": "media/two_d_surgery/eus_ag_00_pathology_v1.png",
+    "bytes": 2151552,
+    "sha256": "9A070C60164C361E8B3DDD0DEED818A1322630172F20F1EDCED171628A4D268F"
+  },
+  {
+    "path": "media/two_d_surgery/eus_ag_01_eus_localization_v1.png",
+    "bytes": 2083286,
+    "sha256": "FA5667FA43D6A80F6309AA1B1A203668F887E7B08B1F79041F93C3E2A9911483"
+  },
+  {
+    "path": "media/two_d_surgery/eus_ag_02_needle_cholangiogram_v1.png",
+    "bytes": 2057461,
+    "sha256": "5D6D611AA3C1E754C66C5847314B2A3A6AFD295D3805FE78920666BDC21EC1AB"
+  },
+  {
+    "path": "media/two_d_surgery/eus_ag_03_antegrade_wire_v1.png",
+    "bytes": 2080396,
+    "sha256": "0CD00A0F08CB9AC113DC277FEE7BED4BE945D19D32EEAEBD361A3B103CA71A00"
+  },
+  {
+    "path": "media/two_d_surgery/eus_ag_04_antegrade_stent_v1.png",
+    "bytes": 2135960,
+    "sha256": "A957FB37FCE2EE12C91E9E5F38EB44EBBD0268D39EC09F2A3D2451D6AFE23438"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cds_00_pathology_v1.png",
+    "bytes": 1512001,
+    "sha256": "4A55CC5C278C2841388941A8B8E286BB5EC3FB1A5E98249FB779E0B8155A627C"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cds_01_eus_localization_v1.png",
+    "bytes": 1503274,
+    "sha256": "29DC2338BCFEA9861CAF03CD37817F71DA613CF14A0B6B3B5EA295080F646246"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cds_02_needle_contrast_v1.png",
+    "bytes": 1507128,
+    "sha256": "78BB3BED82F63823B22A2DB9B833C1D33ED5EC663DAEB6748500913E30D3BC4D"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cds_03_guidewire_v1.png",
+    "bytes": 1500161,
+    "sha256": "50D7AB83FFBCDD222A52515716A29F6C62C3B338017A3B0D7E6C35F4471395AC"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cds_04_tract_dilation_v1.png",
+    "bytes": 1495312,
+    "sha256": "086D514612DCC5814300EB427AF436BB07FE8815A27EA772EC7CC4D9DE8CA148"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cds_05_stent_drainage_v1.png",
+    "bytes": 1539440,
+    "sha256": "412A58B339FC573F0D47B398C17C85F03E120BDD55E5A131C3034CD6842A68C2"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cds_storyboard_v1.png",
+    "bytes": 2820255,
+    "sha256": "8922364C2D67E3A966AEA3E9A555A0A64D8CB90121B09BFF7519AEF5099F2C72"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cpn_00_pain_v1.png",
+    "bytes": 2246897,
+    "sha256": "90D872A8321AA097E6283D4B715B2AF8D0EAF649C0A36474FF5F57E18ADD3A13"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cpn_01_localization_v1.png",
+    "bytes": 2245110,
+    "sha256": "F30DDD81EE29AB9BBA34A833F2E0076E588E63AC4CE51A7FA37DCBD7A38E6DB9"
+  },
+  {
+    "path": "media/two_d_surgery/eus_cpn_02_neurolysis_v1.png",
+    "bytes": 2799414,
+    "sha256": "76D93430803590642E709520769DB8A87472A8E78F7597866B3554669F178F13"
+  },
+  {
+    "path": "media/two_d_surgery/eus_fnb_00_mass_v1.png",
+    "bytes": 2396868,
+    "sha256": "764CE2FE15B450990E8BA5BD022BF26EB7BB1D29F9A7BD22CCAC1D3B8E0BDE0C"
+  },
+  {
+    "path": "media/two_d_surgery/eus_fnb_01_eus_localization_v1.png",
+    "bytes": 2655728,
+    "sha256": "1FAF46DB419BFDCDCA95FA6A1850AA2F6B52635ED8BFE15B86A03A5ECCC1B303"
+  },
+  {
+    "path": "media/two_d_surgery/eus_fnb_02_fnb_sampling_v1.png",
+    "bytes": 2742210,
+    "sha256": "D491F9CA721C1332833B778779C43F1F118BF639D467F7097EC8C71DF8115502"
+  },
+  {
+    "path": "media/two_d_surgery/eus_fnb_03_specimen_v1.png",
+    "bytes": 2601908,
+    "sha256": "F343E78BE25CA46F94E9F9422CCB25153A4045115DB1A38720CA86F5739EF575"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_00_pathology_v1.png",
+    "bytes": 2581549,
+    "sha256": "EA89BE3F1B827AFAB452B9DA8034C1D5635417AB162284F1AE614219477929D7"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_00_pathology_v2.png",
+    "bytes": 2680482,
+    "sha256": "15906C693F185483C676B891FC7E76468407DABA2C293EA5E4C4464806D20693"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_01_eus_localization_v1.png",
+    "bytes": 2713531,
+    "sha256": "7C98506339EA879BBA45623D1AEFDA8771CEA8606A74A56B6563385A103A6EAE"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_01_eus_localization_v2.png",
+    "bytes": 2540457,
+    "sha256": "2BD66227227D624C928D48FB4150E2DB04ABFE3E3402358509885CA8C65BCC13"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_02_needle_confirm_v1.png",
+    "bytes": 2495875,
+    "sha256": "69551F5C8DD385B316ABD38B0A4071DCEC270077EAB598EE98D21672845638B7"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_02_needle_confirm_v2.png",
+    "bytes": 2467571,
+    "sha256": "FF84211E35CA992074340DD7A08AD528496EA89CEA7B564E74035BD452D8BFC4"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_03_guidewire_v1.png",
+    "bytes": 2617016,
+    "sha256": "1137CBE965FD932296A82F10A684E633D1778681B9C32BF3858B8CDDABC7E56C"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_03_guidewire_v2.png",
+    "bytes": 2432257,
+    "sha256": "EB055F22EAADFDC5FE2B65429A451225661FED20C85600B7E58508FC7AC90B55"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_04_direct_ec_lams_v2.png",
+    "bytes": 2492186,
+    "sha256": "7853A7BB2D9F76A8B0DA3C0852020FA755C75A01F094A13BAA1F01293019EF49"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_04_lams_drainage_v1.png",
+    "bytes": 2454866,
+    "sha256": "2A512560166D7591E0E1509C0E8F53FD31448E30D7EA6127588EF98640C0BD64"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_04_lams_drainage_v2.png",
+    "bytes": 2419014,
+    "sha256": "FDE68F7C91C3783BA54286E156B896EAB2486269F75B48ADE563A641972145B0"
+  },
+  {
+    "path": "media/two_d_surgery/eus_gbd_05_decompressed_v2.png",
+    "bytes": 2386473,
+    "sha256": "743B4EC1B42BE441730518EB719382F1F7C3E82EDCDF13B8E77CEB98E144A69B"
+  },
+  {
+    "path": "media/two_d_surgery/eus_ge_obstruction_base_v1.png",
+    "bytes": 1564169,
+    "sha256": "A4419AB37365FF7367CB238BC0EA1E1B68C3AE391369F30C17D55BB1EF74FCBA"
+  },
+  {
+    "path": "media/two_d_surgery/eus_hgs_00_pathology_v1.png",
+    "bytes": 1221496,
+    "sha256": "9348363E95801D09F999111EAA18C896253084A162EADF8B73D41AC147DA356F"
+  },
+  {
+    "path": "media/two_d_surgery/eus_hgs_01_eus_localization_v1.png",
+    "bytes": 1220576,
+    "sha256": "19DE143679C159B5B1FC81FFF57740A2F50E1A94ABECF99E68B1686982F0681F"
+  },
+  {
+    "path": "media/two_d_surgery/eus_hgs_02_needle_contrast_v1.png",
+    "bytes": 1216467,
+    "sha256": "BE9B3CCD7565D013F7048D6593D3116A20F25083B29066438F0251568672EA61"
+  },
+  {
+    "path": "media/two_d_surgery/eus_hgs_03_guidewire_v1.png",
+    "bytes": 1213259,
+    "sha256": "769FA068301C3CD90D65E1503C5AC4CB30B564DC547113138FED1CBD96ED0515"
+  },
+  {
+    "path": "media/two_d_surgery/eus_hgs_04_tract_dilation_v1.png",
+    "bytes": 1207421,
+    "sha256": "14940A9D29F5E468D1DD2B711664EBFDA7D9008DF95AD2D12BE8375E6100C7C7"
+  },
+  {
+    "path": "media/two_d_surgery/eus_hgs_05_stent_drainage_v1.png",
+    "bytes": 1207537,
+    "sha256": "0E6D704EE546B154D8204F3F5E5A50BC99599B24170F08D3F696F2140A310565"
+  },
+  {
+    "path": "media/two_d_surgery/eus_hgs_storyboard_v1.png",
+    "bytes": 2530666,
+    "sha256": "229D54C78041895E1F5C7FC5E2922E7C5E99AB80A68CEB557D390EF54192EB81"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_00_pathology_v1.png",
+    "bytes": 684169,
+    "sha256": "11249C42BD22D2645CAB8EFE6096407C9577D7AF3DFC4C9E322C74A70F1441C3"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_00_pathology_v2.png",
+    "bytes": 903782,
+    "sha256": "5EE0C666D9B6844FFF2A9996733D41DDA6607356B44A217F0E22A450AE58C756"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_01_eus_localization_v1.png",
+    "bytes": 697885,
+    "sha256": "64A229269A79F93501FFCBE352B7606E11F96B2297244EE1992F94565C2F307B"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_01_eus_localization_v2.png",
+    "bytes": 919620,
+    "sha256": "6EC2015E04A916EBC3B3CB0E50B6457FB8FF4195308A0A9E91DC4DF4662DD22C"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_02_needle_puncture_v1.png",
+    "bytes": 697621,
+    "sha256": "15A0EDBD37BD89A22BD670804CAA74381E87C043A558571BBD4431A9BCE448D1"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_02_needle_puncture_v2.png",
+    "bytes": 913753,
+    "sha256": "0FE3AFA0FDFFCAE0D403F727AD5346CEE495420668307B0AFF865B995CDCAA85"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_03_guidewire_v1.png",
+    "bytes": 707265,
+    "sha256": "09AD906503C9334024BBFEAED22C757E5A568EC230F76D30E8A87E519B8C3587"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_03_guidewire_v2.png",
+    "bytes": 914184,
+    "sha256": "736D7BAA88880DB947A9D6784B8973F0CFAF5696BF9424EEF3FF775E32BA2FC2"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_04_tract_dilation_v1.png",
+    "bytes": 692467,
+    "sha256": "71320273AF22F481F20315321FF4756A4563F5F890D32F7844ADA13856A81C30"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_04_tract_dilation_v2.png",
+    "bytes": 918878,
+    "sha256": "9149B7B1BC51E18A2419B1B7E8E697601DB5ED2A241806396886227A465B2EF1"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_05_stent_drainage_v1.png",
+    "bytes": 682416,
+    "sha256": "776801A05F0534420EF97429D4BD9B0472F6547749E5E01225AB19ABD52E368A"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_05_stent_drainage_v2.png",
+    "bytes": 910621,
+    "sha256": "637D872121F3CAE7BF0D8EB807E60A3FE81C64490F4678FDFA46B5A4E16EC050"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_storyboard_v1.png",
+    "bytes": 2690887,
+    "sha256": "696678013962E9718D5547BD279955C43503D267184DF71FCF090457CFB87CD0"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pd_storyboard_v2.png",
+    "bytes": 2256042,
+    "sha256": "2457671F9C53C1A78108793361CF46A50424798170DD451D6627EC33E03ED362"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pfc_00_pathology_v1.png",
+    "bytes": 2195074,
+    "sha256": "02809F867A113C5FD331BBB1D3093A74FB70D1F512E8556AE454B1F14B26898D"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pfc_01_eus_localization_v1.png",
+    "bytes": 2211014,
+    "sha256": "B8E4A5D153C2531DAEC538BD66AF45EA7D1B2B9E74127BE4F9D57653BE4C70F5"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pfc_02_needle_puncture_v1.png",
+    "bytes": 2179924,
+    "sha256": "C9865C5D8E3CE2D563F6B646962C2E5CF0A04FBC93FEDC6372F2F1F0C5EB7571"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pfc_03_guidewire_v1.png",
+    "bytes": 2171570,
+    "sha256": "C3B91F74BD414774CDCA1394CC58CCE06A9F2C2E1F057C310F60467CD2FF1751"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pfc_04_direct_ec_lams_v1.png",
+    "bytes": 2205661,
+    "sha256": "2E9E3C57D56FF055A83C6C2036E2EBE36A48E0DD4A7CCBBCD0371F26F3791ECA"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pfc_04_lams_drainage_v1.png",
+    "bytes": 2225968,
+    "sha256": "E570C6A69EC65CDCAB64FAA71580F9198C125EA3730C37F17B645CAEC3B51A06"
+  },
+  {
+    "path": "media/two_d_surgery/eus_pfc_05_reduced_v1.png",
+    "bytes": 2210017,
+    "sha256": "C6AAA80E24B4112D3C92D5C457744E9B070A9EFC174630DABA0E8019D56B7B9E"
+  },
+  {
+    "path": "media/two_d_surgery/eus_rv_00_pathology_v1.png",
+    "bytes": 2537359,
+    "sha256": "7D29B76B11280F89FD129DDD3C20029A3A7C9ACEAC71F00B315B8DD42AEEFDB0"
+  },
+  {
+    "path": "media/two_d_surgery/eus_rv_01_eus_localization_v1.png",
+    "bytes": 2497376,
+    "sha256": "2A7AC77F3C7A4D9DE502E5F99F22D52CEF37F68250307C7F7DA9DE7080233F59"
+  },
+  {
+    "path": "media/two_d_surgery/eus_rv_02_needle_cholangiogram_v1.png",
+    "bytes": 2392502,
+    "sha256": "B319026E601D6349A8A155BA4638B7A4E1766DBB149A3996689698C9421CE773"
+  },
+  {
+    "path": "media/two_d_surgery/eus_rv_03_wire_rendezvous_v1.svg",
+    "bytes": 617,
+    "sha256": "2A6F3F9573B7F7ACD645C8F8E05ED00409C75ABDD80FE6562F20DE0B9A0395C8"
+  },
+  {
+    "path": "media/two_d_surgery/eus_rv_03_wire_rendezvous_v2.png",
+    "bytes": 2341219,
+    "sha256": "3FB5AF25B6C908F972BBC179B8ADE341CA16650D1C3CD63A6D4CDC67206632AC"
+  },
+  {
+    "path": "media/two_d_surgery/eus_rv_04_ercp_capture_v1.png",
+    "bytes": 2341308,
+    "sha256": "CFBE836B8BC88B193667A68DE65159AF8DBF37C29494D31B744078F2D366168D"
+  },
+  {
+    "path": "media/two_d_surgery/poem_00_achalasia_v1.png",
+    "bytes": 2018544,
+    "sha256": "ED1A90A1D9289C1B208FD37D703A4DB2B675256F6B341EE57DBD39B7F56A31AA"
+  },
+  {
+    "path": "media/two_d_surgery/poem_01_endoscope_position_v1.png",
+    "bytes": 1959569,
+    "sha256": "4D15C48C0AF60664E92F4569858304963A38DB4F6C0CB924DAEA1F9F1523E802"
+  },
+  {
+    "path": "media/two_d_surgery/poem_02_submucosal_lift_v1.png",
+    "bytes": 1971167,
+    "sha256": "17447ED25405CB554C906D2C17E50EB41229F0F7548E5DD62E5F9D3FFAF44BD1"
+  },
+  {
+    "path": "media/two_d_surgery/poem_03_tunnel_myotomy_v1.png",
+    "bytes": 2015785,
+    "sha256": "87C2C8EFA181A63964364BDB49E2FE5D70D03BFBA68FB1857059CAB930381D82"
+  },
+  {
+    "path": "media/two_d_surgery/poem_04_entry_closure_v1.png",
+    "bytes": 1914402,
+    "sha256": "5C98801D4061731AC3C564C88BDEE3948823DC2FCBBF12E37285A46747906AF7"
+  },
+  {
+    "path": "medical_review_registry.js",
+    "bytes": 13366,
+    "sha256": "93958FA4FBFB1C830D151A6C16A6FBB9E9A230913C934F69EE5BD998FC170829"
+  },
+  {
+    "path": "rebuild_perfect_organs.py",
+    "bytes": 22854,
+    "sha256": "6C77C3ACDCE6569199D4C9A93FD8A0031EE586BFE1B396AB29A862F96C6C8324"
+  },
+  {
+    "path": "scripts/extract_cecum_appendix.py",
+    "bytes": 6393,
+    "sha256": "131D9DBD1C5F202DDE94D14AA8439E904E9D16B1D287E83C635ACFDBA63DBC71"
+  },
+  {
+    "path": "scripts/inspect_appendix_sources.py",
+    "bytes": 1371,
+    "sha256": "AAA4AB8784458FBD5BA7D3203E2DCDE3A45216B187A2A7A0350B0C822CFFB471"
+  },
+  {
+    "path": "scripts/inspect-esd-videos.cjs",
+    "bytes": 2063,
+    "sha256": "4A8790175D891630677F6FDAC7DAACE4FC0A2D80F91DB4890D5AA7F4CBC379EC"
+  },
+  {
+    "path": "scripts/package_latest_source.ps1",
+    "bytes": 3200,
+    "sha256": "A26A9344CE294DF872BD5AF7BF39E75DEF4D7C4566C921A395C1D0552B1897FF"
+  },
+  {
+    "path": "stopmotion_optimizer.css",
+    "bytes": 22483,
+    "sha256": "B5649B4DD79AAFD4F1D157BED590827709CD1BA0D984C9D2230FF4C2DD0690DA"
+  },
+  {
+    "path": "stopmotion_optimizer.js",
+    "bytes": 42799,
+    "sha256": "4809B2D229D8D8994E0341034BE748727D82C09C69A257ED374B74A5CCF0A313"
+  },
+  {
+    "path": "tests/advisory-order-ui.cjs",
+    "bytes": 4046,
+    "sha256": "69A19FBA85754AE2FC25C98F6C3BF80B57EA93F4D89112DC272039FE11C2036B"
+  },
+  {
+    "path": "tests/appendix-model.cjs",
+    "bytes": 5602,
+    "sha256": "58121B5343489F66835DBDB6A4F487B5C049022794CE87CE8675B9D35FD1423C"
+  },
+  {
+    "path": "tests/biliary-biopsy-interaction.cjs",
+    "bytes": 4458,
+    "sha256": "96C73A8AE8E606A4875B404A1C7CB9583F5FA5CC836ECAF9F5F16D69B3CAB86B"
+  },
+  {
+    "path": "tests/desktop-assets.cjs",
+    "bytes": 1222,
+    "sha256": "A862EE9D84E87C3D112478CEA1714AE68D7CD25B55D9BC585D1336C3993572D9"
+  },
+  {
+    "path": "tests/edat-interaction.cjs",
+    "bytes": 4956,
+    "sha256": "0655887E79CF3AB8E6D1807D69BAEBE74B357D326ECFC8F41503D0B2824247F3"
+  },
+  {
+    "path": "tests/ercp-eye-interaction.cjs",
+    "bytes": 3787,
+    "sha256": "6FAFCA9F4B834A1A98DF6055CE2604E4D174D1EE25579CE608020F619A8FF56A"
+  },
+  {
+    "path": "tests/esd-interaction.cjs",
+    "bytes": 5487,
+    "sha256": "190F19A1B52D4CB3F6FE492979573C630F1529C562CAB46F14469BD972D4F3F6"
+  },
+  {
+    "path": "tests/gbd-branch-interaction.cjs",
+    "bytes": 6111,
+    "sha256": "9D940CD5B02F0472ECC2090FBEB88AAA6DA482915575D52906E3DC3B531CDF74"
+  },
+  {
+    "path": "tests/installer-layout.py",
+    "bytes": 1294,
+    "sha256": "D680F114C862077B99F0CF585EFF164D9670D7E2F78D8F64A5A2664902AF2C6F"
+  },
+  {
+    "path": "tests/medical-review-ledger.cjs",
+    "bytes": 3189,
+    "sha256": "11F1CB45B6D5BC2F81CAC4AB20CFFD6BB535A714A8637AB7A8268A6E105B8AE2"
+  },
+  {
+    "path": "tests/package-smoke.cjs",
+    "bytes": 5420,
+    "sha256": "0F3420E366001BB67B3C8D9B1621CDF42DC7EFD183D863EFA460E6098F844D61"
+  },
+  {
+    "path": "tests/pfc-branch-interaction.cjs",
+    "bytes": 5737,
+    "sha256": "0426F4A4B4649F33BD37C9D55A54A5E1FE977AF68C5C4FE9C9393618C9E5DE6A"
+  },
+  {
+    "path": "tests/poem-interaction.cjs",
+    "bytes": 4180,
+    "sha256": "2A2C491BA105371B34484DB84AFBAADB4E2A42A8FEE13FD0C18A3364E772BADF"
+  },
+  {
+    "path": "tests/point-navigation.cjs",
+    "bytes": 7625,
+    "sha256": "737A0BCD9939BE20C3745FA82CA21C3CE05CDB3CEA523FA1F586C3806614C02B"
+  },
+  {
+    "path": "two_d_workspace.css",
+    "bytes": 64235,
+    "sha256": "7B392C9E9AE55B44F059D1E1634C209541C2C07EB97EB54C3843B91DEBDF5515"
+  },
+  {
+    "path": "two_d_workspace.js",
+    "bytes": 221540,
+    "sha256": "27E30E13C2E773745B97A743D791C24595209C5116C7A22256FF557C7C5FE374"
+  },
+  {
+    "path": "uninstall.ps1",
+    "bytes": 1507,
+    "sha256": "789ECDB702A1D0CB0E9E33F0D06F80E80483329A5B630FD75A6B558B6302A603"
+  }
+]
